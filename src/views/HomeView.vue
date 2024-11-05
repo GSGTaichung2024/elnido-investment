@@ -71,7 +71,7 @@ export default {
               alt=""
               class="star3 keyframe5"
             />
-            <p class="text-anim">
+            <p class="text-anim" style="background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 5px;">
               愛尼島擁有絕美的自然景觀和豐富的生態資源，正在快速發展的旅遊業和不斷完善的基礎設施，
               為投資者提供了獨特的投資機會。無論您是尋找度假屋投資還是商業發展機會，愛尼島都能滿足您的需求。
             </p>
@@ -128,16 +128,16 @@ export default {
             </div>
           </div>
         </div>
-        <div class="col-lg-10 m-auto">
-          <div class="header-images text-center">
-            <div class="img1" data-aos="fade-down" data-aos-duration="1200">
-              <img src="/assets/img/all-images/header-img1.png" alt="愛尼島全景" />
+        <div class="col-lg-10 ms-auto">
+          <div class="header-images text-end">
+            <div class="img1 aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200">
+              <img src="@/assets/img/home-feature-image.webp" alt="愛尼島全景" />
             </div>
             <p class="aniamtion-key-1">
               <img src="/assets/img/icons/logo-icon.svg" alt="" />探索愛尼島的無限可能
             </p>
 
-            <div class="circle-area">
+            <!-- <div class="circle-area">
               <a href="#investment">
                 <img
                   src="/assets/img/elements/circle.png"
@@ -145,7 +145,7 @@ export default {
                   class="keyframe5 circle" />
                 <img src="/assets/img/icons/arrow2.svg" alt="" class="arrow2"
               /></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

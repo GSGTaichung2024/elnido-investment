@@ -288,6 +288,45 @@ export default {
       } else if (!urlLocale && storedLocale) {
         locale.value = storedLocale;
       }
+
+      // Add scroll progress functionality
+      const progressPath = document.querySelector(".progress-wrap path");
+      const pathLength = 1080;
+      progressPath.style.transition = progressPath.style.WebkitTransition = "none";
+      progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+      progressPath.style.strokeDashoffset = pathLength;
+      progressPath.getBoundingClientRect();
+      progressPath.style.transition = progressPath.style.WebkitTransition = "stroke-dashoffset 10ms linear";
+
+      const updateProgress = () => {
+        const scroll = window.scrollY;
+        const height = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = pathLength - (scroll * pathLength) / height;
+        progressPath.style.strokeDashoffset = progress;
+      };
+
+      updateProgress();
+      window.addEventListener('scroll', updateProgress);
+
+      const offset = 50;
+      const duration = 550;
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > offset) {
+          document.querySelector(".progress-wrap").classList.add("active-progress");
+        } else {
+          document.querySelector(".progress-wrap").classList.remove("active-progress");
+        }
+      });
+
+      document.querySelector(".progress-wrap").addEventListener('click', (event) => {
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+          duration: duration
+        });
+      });
     });
 
     return {
