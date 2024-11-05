@@ -1,0 +1,228 @@
+{
+  "header": {
+    "index": "Home",
+    "companyIntro": "Company Introduction",
+    "product": "Products",
+    "productSpec": "Product Specifications",
+    "techEquipment": "Technology & Equipment",
+    "news": "News",
+    "sustainability": "Sustainability",
+    "contact": "Contact Us",
+    "recruitment": "Recruitment",
+    "tradeService": "Trade Services",
+    "askingPrice": "Inquiry"
+  },
+  "footer": {
+    "address": "No. 28, Daye S. Rd., Xiaogang Dist., Kaohsiung City 812, Taiwan (R.O.C.)",
+    "phone": "+886-7-975-7988",
+    "fax": "+886-7-975-7986",
+    "email": "{'sales@ylss.com.tw'}",
+    "company": "Yuan Long Stainless Steel Corp.",
+    "intro": "Yuan Long Stainless Steel Corp."
+  },
+  "index": {
+    "intro": "<span class='h5'>Yuan Long Stainless Steel</span> Corporation, established in 2005, is a subsidiary of the Far Eastern Group. As a cold-rolled stainless steel supplier with an annual production capacity of 130,000 tons, our products are sold to over 40 countries worldwide.<br> ➤ With Taiwan as its base, Yuan Long demonstrates impressive strength in the global metal processing industry market.<br>➤ Yuan Long fully implements a quality management system, embodying the spirit of continuous improvement, constantly enhancing quality and productivity. Our products have earned the trust and recognition of customers.<br> ➤ Yuan Long aims to achieve net-zero emissions by 2050. Through various energy management measures, we take practical actions to conserve energy and reduce carbon emissions, contributing to the sustainability of our planet.",
+    "feature1": "Value Inheritance",
+    "feature1_subtitle": "Value inheritance",
+    "feature2": "Occupational Safety and Health",
+    "feature2_subtitle": "Occupational <br/> safety and health",
+    "feature3": "Manufacturing Excellence",
+    "feature3_subtitle": "Manufacturing <br/> excellence",
+    "feature4": "Green Mission",
+    "feature4_subtitle": "Energy and <br/>  environmental protection",
+    "feature5": {
+      "title": "Yuan Long Cares About Green Mission",
+      "content_1": "Yuan Long is committed to building a green constitution from the inside out",
+      "content_2": "Adopting ISO 50001 energy management system and EU-certified renewable energy",
+      "content_3": "Prioritizing the procurement of green eco-labeled raw materials and using recycled materials for packaging",
+      "content_4": "Aiming to achieve net-zero emissions by 2050, realizing the vision of sustainable corporate development"
+    },
+    "feature6": {
+      "title": "ISO 9001, JIS mark and IATF 16949 Quality Policy",
+      "content_1": "We fully implement the relevant operational standards of ISO 9001, JIS Q1001, and IATF 16949 to structure our quality management system, enhancing our professional capabilities in stainless steel and service quality. We embody the spirit of continuous improvement to enhance quality and productivity, achieving customer satisfaction. We commit to establishing quality objectives based on our quality policy and, while meeting customer and legal requirements, implementing various improvement measures to continuously enhance our quality management system.",
+      "btn": "Learn More"
+    }
+  },
+  "product":{
+    "title": "Products",
+    "addAskPrice": "Add to Inquiry List",
+    "removeAskPrice": "Remove from Inquiry List"
+  },
+  "spec": {
+    "title": "Product Specifications"
+  },
+  "tech":{
+    "title": "Professional Technology",
+    "phase1": "Yuan Long possesses core equipment for the cold rolling process of stainless steel, as well as professional capabilities in rewinding, slitting, cutting, and inspection. We also have slitting machines to meet customer orders for different widths.",
+    "phase2": "/assets/img/tech_content.webp"
+  },
+  "equip":{
+    "title": "Core Equipment",
+    "zm1": {
+      "title": "20-High Cold Rolling Mill",
+      "phase1": "20-High Cold Rolling Mill",
+      "phase2": "Rolls hot-rolled steel coils to a thickness of 0.25~1.5mm, improving flatness and brightness."
+    },
+    "ba": {
+      "title": "Bright Annealing Line",
+      "phase1": "Bright Annealing Line",
+      "phase2": "Anneals hardened steel coils post-rolling, growing and softening the grain for workability."
+    },
+    "spl": {
+      "title": "Skin Pass Mill",
+      "phase1": "Skin Pass Mill",
+      "phase2": "Carries out tempering to enhance the product's brightness and workability."
+    },
+    "tll": {
+      "title": "Tension Levelling Line",
+      "phase1": "Tension Levelling Line",
+      "phase2": "Levels the surface of steel sheets, achieving better flatness and mechanical properties."
+    },
+    "sl": {
+      "title": "Slitting Line",
+      "phase1": "Slitting Line",
+      "phase2": "Slits coils into narrower strips according to customer order requirements."
+    }
+  },
+  "company": {
+    "title": "About YLSS",
+    "managePolicy": {
+      "title": "Management Principles",
+      "phase1": "/assets/img/company_intro_left.webp",
+      "phase2": "/assets/img/company_intro_right.webp"
+    },
+    "companyIntro": {
+      "title": "About YLSS",
+      "phase1": "Yuan Long Stainless Steel Corp. was established in 2005, located in Kaohsiung, Taiwan. As a subsidiary of the Far Eastern Group, we are a cold-rolled stainless steel supplier with an annual production capacity of 130,000 tons, selling products to over 40 countries worldwide.<br/>Yuan Long Stainless Steel fully implements a quality management system, embodying the spirit of continuous improvement to enhance quality and productivity. Our products have gained customer trust and recognition.<br/>Yuan Long Stainless Steel aims to achieve net-zero emissions by 2050. Through various energy management measures, we take practical actions to conserve energy and reduce carbon emissions, gradually transforming into a low-carbon green enterprise and contributing to global sustainability."
+    },
+    "coreValue":{
+      "title": "Core Values",
+      "phase1": "We always adhere to our group values of \"Integrity, Diligence, Simplicity, Prudence, Innovation,\" striving tirelessly for corporate sustainability, embodying our core values of \"People-Centered, Trust, Pragmatism, Innovation.\"<br/>1. People-Centered – Focus on employee needs and development, fulfilling corporate social responsibility.<br/>2. Trust – Become a trusted partner for clients, ensuring mutual success.<br/>3. Pragmatism – Stay grounded, persevere, and focus on doing every task well.<br/>4. Innovation – Embrace cross-disciplinary learning, breakthrough challenges, continuously improve, and enhance quality."
+    },
+    "view":{
+      "title": "Mission and Vision",
+      "phase1": "<p>Mission: \"Manufacture high-quality, low-carbon cold-rolled stainless steel.\"<br/>Vision: \"To become the industry's best option, a green low-carbon cold-rolled stainless steel supplier.\"</p>"
+    },
+    "contact": {
+      "title": "Yuan Long Stainless Steel Corp.",
+      "phase1": "Business Types: OEM Manufacturer/Exporter, Agency & Wholesale, Value-Added Distributor",
+      "phase2": "Main Products: 300 and 400 series stainless steel",
+      "phase3": "ISO and/or other safety/quality certifications: ISO 9001, ISO 50001, ISO 45001, ISO 14001, ISO 14064, ISO 14067, CNS 45001, ISO/IEC 17025, IATF 16949, JQA JIS G4305, BIS IS 6911"
+    }
+  },
+  "quality":{
+    "title": "Quality Policy",
+    "cert": {
+      "title": "ISO 9001, JIS mark, and IATF 16949 Quality Policy",
+      "phase1": "Adhering to our quality policy, we fully implement the ISO 9001 Quality Management System, JIS Q1001 Conformity Assessment - Certification to Japanese Industrial Standards - General Requirements for Certification Bodies, and IATF 16949 Automotive Quality Management System standards to structure our quality management system. We aim to enhance our stainless steel expertise and service quality, and uphold the spirit of continuous improvement to enhance quality and productivity, achieving customer satisfaction. We commit to establishing quality objectives based on our quality policy and implementing various improvement measures to continuously enhance our quality management system while meeting customer and legal requirements."
+    },
+    "policy": {
+      "title": "ISO 9001 Quality Management System/IATF 16949 International Standard for Automotive Quality Management Systems",
+      "phase1": "/assets/img/quality_left.webp",
+      "phase2": "/assets/img/quality_right.webp"
+    },
+    "lab": {
+      "title": "Laboratory Quality Policy",
+      "phase1": "Following the guideline of our quality policy, we fully implement ISO 9001 and ISO/IEC 17025 quality management systems. We aim to enhance our stainless steel expertise and service quality, and uphold the spirit of continuous improvement to enhance quality and productivity, achieving customer satisfaction. We commit to establishing quality objectives based on our quality policy and implementing various improvement measures to continuously enhance our quality management system while meeting customer and legal requirements.",
+      "phase2": "ISO/IEC 17025 YLSS Laboratory (No. 3537) Quality Policy: Providing efficient and reliable testing services under the principles of fairness, independence, and transparency."
+    }
+  },
+  "cert":{
+    "title": "Standard Certifications",
+    "heading1": "Environmental Certifications",
+    "heading2": "Occupational Safety and Health Certifications", 
+    "heading3": "Quality Certifications",
+    "heading4": "Product Certifications",
+    "heading5": "Energy Certifications",
+    "lists": {
+      "title": "International Quality Standards Certification",
+      "phase1": "YLSS demonstrates a commitment to quality by achieving international certifications such as ISO, JIS, BIS, IATF, TAF, and CNS.",
+      "iso9001": "ISO 9001 2015 version (20240426-20270425) Quality Management System",
+      "iso5001": "ISO 50001 2018 version (20201118-20231118) Energy Management System",
+      "iso45001": "ISO 45001 2018 version (20220729-20250708) Occupational Health and Safety Management System",
+      "cns45001_1": "TOSHMS CNS 45001: 2018 (1110729-1140707) Taiwan Occupational Health Management System",
+      "cns45001_2": "TOSHMS CNS 45001: 2018 (1110729-1140707) Taiwan Occupational Health Management System",
+      "iso14001": "ISO 14001 2015 version (20220729-20250721) Environmental Management System",
+      "iso14064": "ISO 14064-1 2018 version (20220810) Greenhouse Gas Verification Statement",
+      "iso14067": "ISO 14067 2018 version (20230306-20250305) Carbon Footprint Verification Statement",
+      "iso17025": "ISO/IEC 17025: 2017; CNS17025: 2018 Laboratory Accreditation Certificate",
+      "iatf16949": "IATF 16949 2016 version (20240426-20270425) Automotive Quality Management System Certification",
+      "bis-is-6911": "BIS IS 6911",
+      "cns8499": "CNS 8499",
+      "jis4305": "JQA JIS G 4305",
+      "cns17025": "ISO/IEC 17025: 2017; CNS17025: 2018 Laboratory Accreditation Certificate",
+      "iso14046_ch": "ISO 14046 (2014 version) - Chinese",
+      "iso14046_en": "ISO 14046 (2014 version) - English"
+    }
+  },
+  "recurit": {
+    "title": "Talent Recruitment",
+    "coreValues": {
+      "title": "Core Values",
+      "content": "We uphold core values of Collaboration, Integrity, Professionalism, Accountability, and are committed to providing excellent service in every aspect."
+    },
+    "teamwork": {
+      "title": "Teamwork",
+      "content": "Every member is part of the team. We encourage mutual support and communication to face challenges together."
+    },
+    "inclusiveEnvironment": {
+      "title": "Cultural diversity in the workplace",
+      "content": "We value diversity and strive to create an inclusive workplace. We welcome talents from different backgrounds and perspectives."
+    },
+    "personalGrowth": {
+      "title": "Career development",
+      "content": "We believe outstanding talents are the company's most valuable asset. We provide diverse training courses and clear promotion paths to help every member grow in their career."
+    },
+    "workLifeBalance": {
+      "title": "Work & Life Balance",
+      "content": "Flexible working hours to support balance between work and personal life."
+    },
+    "joinUs": {
+      "title": "Join Us",
+      "content": "If you want to be part of this vibrant and diverse team, apply now! Please submit your resume proactively."
+    },
+    "benefits": {
+      "title": "Employee Benefits",
+      "salary": {
+        "title": "Salary and Bonus System",
+        "content1": "Guaranteed annual salary of around 14.5 months (based on full pay): Mid-Autumn Festival bonus (half salary), Dragon Boat Festival bonus (half salary), year-end bonus plus attendance bonus (about 1.5 months).",
+        "content2": "Non-fixed bonuses: Production and sales bonus, production and sales retention bonus.",
+        "content3": "Assessment bonuses: Annual assessments with a comprehensive promotion system."
+      },
+      "welfare": {
+        "title": "Employee Welfare Committee",
+        "content1": "Voucher distribution: Festival vouchers (Chinese New Year, Labor Day, Dragon Boat Festival, Mid-Autumn Festival), birthday vouchers, annual surplus voucher distribution.",
+        "content2": "Subsidies: Wedding and funeral subsidies, children's education subsidies, travel subsidies, emergency subsidies."
+      },
+      "companyBenefits": {
+        "title": "Company Benefits:",
+        "content": "Labor and health insurance, occupational injury insurance, group insurance, labor pension contributions, employee health check-ups, employee uniforms, on-site parking for employees, family day trips, employee travel, book clubs, club activities, Christmas events (including migrant worker gatherings), year-end party, retirement farewell parties for employees."
+      },
+      "training": {
+        "title": "Training and Development",
+        "content": "New employee training, Skills training, General education, On-the-job training (OJT)."
+      }
+    },
+    "viewJobs": "Review of Human Resource Needs"
+  },
+  "contact": {
+    "heading": "Dear Customers, Should you have any inquiries or interests, please fill out the form below or call our service hotline at +886-7-757-988. We will do our best to assist you!",
+    "title": "Contact and Inquiry",
+    "name": "Name",
+    "company": "Company/Organization",
+    "phone": "Contact Number",
+    "email": "E-mail",
+    "content": "Message Content",
+    "askingPrice": "Product Inquiry",
+    "submit": "Submit",
+    "success": "Your message has been successfully sent. We will contact you as soon as possible. Thank you!",
+    "successTitle": "Message Sent Successfully",
+    "close": "Close",
+    "isSending": "Sending message",
+    "askingPriceEmpty": "You can find the products you want to inquire about on the product introduction page and add them to the inquiry form to contact us."
+  },
+  "common": {
+    "openMenu": "Open Category Menu",
+    "mainFunc": "Main Functions"
+  }
+}
