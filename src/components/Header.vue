@@ -1,15 +1,6 @@
 <template>
 <!--===== PRELOADER STARTS =======-->
 <div id="preloader">
-  <div class="home-icon">
-    <div class="roof"></div>
-    <div class="walls"></div>
-    <div class="door"></div>
-      <div class="windows">
-          <div class="window"></div>
-          <div class="window"></div>
-      </div>
-  </div>
   <div id="ctn-preloader" class="ctn-preloader">
     <div class="animation-preloader">
         <div class="txt-loading">
@@ -55,122 +46,42 @@
           <div class="col-lg-12">
             <div class="header-elements">
               <div class="site-logo">
-                <a href="index.html">
-                  <img src="/assets/img/logo/logo1.png" alt="">
+                <a href="/">
+                  <img src="/assets/img/logo/logo1.png" alt="愛尼島夢想投資">
                 </a>
               </div>
               <div class="main-menu">
                 <ul>
-                  <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                    <div class="tp-submenu">
-                      <div class="row">
-                         <div class="col-lg-12">
-                          <div class="all-images-menu">
-                            <div class="homemenu-thumb">
-                              <div class="img1">
-                              <img src="/assets/img/demo/demo-img1.png" alt="">
-                              </div>
-                               <div class="homemenu-btn">
-                                <a class="header-btn1" href="index.html">Multi Page <i class="fa-solid fa-arrow-right"></i></a>
-                                <div class="space16"></div>
-                                <a class="header-btn1" href="single-index1.html" target="_blank">One page <i class="fa-solid fa-arrow-right"></i></a>
-                               </div>
-                            </div>
-                         
-                          <div class="homemenu-thumb">
-                            <div class="img1">
-                              <img src="/assets/img/demo/demo-img2.png" alt="">
-                            </div>
-                             <div class="homemenu-btn">
-                              <a class="header-btn1" href="index2.html">Multi Page <i class="fa-solid fa-arrow-right"></i></a>
-                              <div class="space16"></div>
-                              <a class="header-btn1" href="single-index2.html" target="_blank">One page <i class="fa-solid fa-arrow-right"></i></a>                             </div>
-                          </div>
-
-
-                        <div class="homemenu-thumb">
-                          <div class="img1">
-                            <img src="/assets/img/demo/demo-img3.png" alt="">
-                          </div>
-                           <div class="homemenu-btn">
-                            <a class="header-btn1" href="index3.html">Multi Page <i class="fa-solid fa-arrow-right"></i></a>
-                            <div class="space16"></div>
-                            <a class="header-btn1" href="single-index3.html" target="_blank">One page <i class="fa-solid fa-arrow-right"></i></a>                           
-                          </div>
-                        </div>
-
-                      <div class="homemenu-thumb">
-                        <div class="img1">
-                          <img src="/assets/img/demo/demo-img4.png" alt="">
-                        </div>
-                         <div class="homemenu-btn">
-                          <a class="header-btn1" href="index4.html">Multi Page <i class="fa-solid fa-arrow-right"></i></a>
-                          <div class="space16"></div>
-                          <a class="header-btn1" href="single-index4.html" target="_blank">One page <i class="fa-solid fa-arrow-right"></i></a>                         
-                        </div>
-                      </div>
-
-                    <div class="homemenu-thumb" style="margin: 0;">
-                      <div class="img1">
-                        <img src="/assets/img/demo/demo-img5.png" alt="">
-                      </div>
-                       <div class="homemenu-btn">
-                        <a class="header-btn1" href="index5.html">Multi Page <i class="fa-solid fa-arrow-right"></i></a>
-                        <div class="space16"></div>
-                        <a class="header-btn1" href="single-index5.html" target="_blank">One page <i class="fa-solid fa-arrow-right"></i></a>                       
-                      </div>
-                    </div>
-                        </div>
-                      </div>
-                    </div>
-                   </div>
-                  </li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="#">Property <i class="fa-solid fa-angle-down"></i></a>
+                  <li><a href="/">首頁</a></li>
+                  <li><a href="/why-elnido">為什麼選擇愛尼島</a></li>
+                  <li><a href="#">投資項目 <i class="fa-solid fa-angle-down"></i></a>
                     <ul class="dropdown-padding">
-                      <li><a href="property.html">Property</a></li>
-                      <li><a href="property-location.html">Property Location</a></li>
-                      <li><a href="property-sell-rent.html">House Sale Rent </a></li>
-                      <li><a href="property-listing.html">Property Listing</a></li>
-                      <li><a href="property-listing-left.html">Property Listing Left</a></li>
-                      <li><a href="property-listing-right.html"> Property Listing Right</a></li>
-                      <li><a href="property-single.html">Property Single</a></li>
+                      <li><a href="/investment/piecelio">Piecelio</a></li>
+                      <li><a href="/investment/m-coast">暱名M海岸旅館</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Blogs <i class="fa-solid fa-angle-down"></i></a>
-                  <ul class="dropdown-padding">
-                    <li><a href="blog.html">Blog One</a></li>
-                    <li><a href="blog2.html">Blog Two</a></li>
-                    <li><a href="blog-left.html">Blog Details Left</a></li>
-                    <li><a href="blog-right.html">Blog Details Right</a></li>
-                    <li><a href="blog-single.html">Blog Single</a></li>
-                  </ul>
-                  </li>
-                  <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                  <li><a href="#">關於我們 <i class="fa-solid fa-angle-down"></i></a>
                     <ul class="dropdown-padding">
-                      <li><a href="agency.html">Our Agency</a></li>
-                      <li><a href="agency-details.html">Agency Single</a></li>
-                      <li><a href="agent.html">Our Agent</a></li>
-                      <li><a href="agent-details.html">Agent Single</a></li>
-                      <li><a href="faq.html">FAQ,S</a></li>
-                      <li><a href="404.html">404</a></li>
+                      <li><a href="/about/hhotelgroup">開發商介紹</a></li>
+                      <li><a href="/about/piece-hostel">旅館管理公司</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="/faq">常見問題</a></li>
+                  <li><a href="/contact">聯絡我們</a></li>
                 </ul>
               </div>
               <div class="btn-area">
                 <div class="search-icon header__search header-search-btn">
                   <a href="#"><img src="/assets/img/icons/search1.svg" alt=""></a>
                 </div>
-                <a href="property.html" class="header-btn1">Visit Our Property <img src="/assets/img/icons/arrow1.svg" alt=""></a>
+                <a href="/contact" class="header-btn1">立即諮詢 <img src="/assets/img/icons/arrow1.svg" alt=""></a>
               </div>
 
               <div class="header-search-form-wrapper">
                 <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
                 <div class="header-search-container">
                     <form role="search" class="search-form">
-                    <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
+                    <input type="search"  class="search-field" placeholder="搜尋 …" value="" name="s">
                     <button type="submit" class="search-submit"><img src="/assets/img/icons/search1.svg" alt=""></button>
                     </form>
                 </div>
@@ -190,7 +101,7 @@
     <div class="col-12">
       <div class="mobile-header-elements">
         <div class="mobile-logo">
-          <a href="index.html"><img src="/assets/img/logo/logo2.png" alt=""></a>
+          <a href="/"><img src="/assets/img/logo/logo2.png" alt="愛尼島夢想投資"></a>
         </div>
         <div class="mobile-nav-icon dots-menu">
           <i class="fa-solid fa-bars-staggered"></i>
@@ -203,7 +114,7 @@
 <div class="mobile-sidebar mobile-sidebar1">
   <div class="logosicon-area">
     <div class="logos">
-      <img src="/assets/img/logo/logo2.png" alt="">
+      <img src="/assets/img/logo/logo2.png" alt="愛尼島夢想投資">
     </div>
     <div class="menu-close">
       <i class="fa-solid fa-xmark"></i>
@@ -211,74 +122,34 @@
    </div>
   <div class="mobile-nav mobile-nav1">
     <ul class="mobile-nav-list nav-list1">
-      <li><a href="#" >Home </a>
+      <li><a href="/">首頁</a></li>
+      <li><a href="/why-elnido">為什麼選擇愛尼島</a></li>
+      <li><a href="#">投資項目</a>
         <ul class="sub-menu">
-          <li>
-            <a href="#">Multiple Page</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Home One</a></li>
-              <li><a href="index2.html">Home Two</a></li>
-              <li><a href="index3.html">Home Three</a></li>
-              <li><a href="index4.html">Home Four</a></li>
-              <li><a href="index5.html">Home Five</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Landing Page</a>
-            <ul class="sub-menu">
-              <li><a href="single-index1.html">Home One</a></li>
-              <li><a href="single-index2.html">Home Two</a></li>
-              <li><a href="single-index3.html">Home Three</a></li>
-              <li><a href="single-index4.html">Home Four</a></li>
-              <li><a href="single-index5.html">Home Five</a></li>
-            </ul>
-          </li>
+          <li><a href="/investment/piecelio">Piecelio</a></li>
+          <li><a href="/investment/m-coast">暱名M海岸旅館</a></li>
         </ul>
       </li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="features.html">Property</a>
+      <li><a href="#">關於我們</a>
         <ul class="sub-menu">
-          <li><a href="property.html">Property</a></li>
-          <li><a href="property-location.html">Property Location</a></li>
-          <li><a href="property-sell-rent.html">House Sale Rent </a></li>
-          <li><a href="property-listing.html">Property Listing</a></li>
-          <li><a href="property-listing-left.html">Property Listing Left</a></li>
-          <li><a href="property-listing-right.html"> Property Listing Right</a></li>
-          <li><a href="property-single.html">Property Single</a></li>
+          <li><a href="/about/hhotelgroup">開發商介紹</a></li>
+          <li><a href="/about/piece-hostel">旅館管理公司</a></li>
         </ul>
       </li>
-      <li><a href="#">Blogs</a>
-        <ul class="sub-menu">
-          <li><a href="blog.html">Blog One</a></li>
-          <li><a href="blog2.html">Blog Two</a></li>
-          <li><a href="blog-left.html">Blog Left</a></li>
-          <li><a href="blog-right.html">Blog Right</a></li>
-          <li><a href="blog-single.html">Blog Single</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Pages</a>
-        <ul class="sub-menu">
-          <li><a href="agency.html">Our Agency</a></li>
-          <li><a href="agency-details.html">Agency Single</a></li>
-          <li><a href="agent.html">Our Agent</a></li>
-          <li><a href="agent-details.html">Agent Single</a></li>
-          <li><a href="faq.html">FAQ,S</a></li>
-          <li><a href="404.html">404</a></li>
-        </ul>
-      </li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="/faq">常見問題</a></li>
+      <li><a href="/contact">聯絡我們</a></li>
     </ul>
     <div class="allmobilesection">
-      <a href="contact.html"  class="header-btn1">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+      <a href="/contact" class="header-btn1">立即諮詢 <span><i class="fa-solid fa-arrow-right"></i></span></a>
       <div class="single-footer">
-        <h3>Contact Info</h3>
+        <h3>聯絡資訊</h3>
         <div class="footer1-contact-info">
           <div class="contact-info-single">
             <div class="contact-info-icon">
               <span><i class="fa-solid fa-phone-volume"></i></span>
             </div>
             <div class="contact-info-text">
-              <a href="tel:+3(924)4596512">+3(924)4596512</a>
+              <a href="tel:+886-2-xxxx-xxxx">+886-2-xxxx-xxxx</a>
             </div>
           </div>
           <div class="contact-info-single">
@@ -286,28 +157,27 @@
               <span><i class="fa-solid fa-envelope"></i></span>
             </div>
             <div class="contact-info-text">
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="mailto:info@elnido.com">info@elnido.com</a>
             </div>
           </div>
           <div class="single-footer">
-            <h3>Our Location</h3>
+            <h3>地址</h3>
             <div class="contact-info-single">
               <div class="contact-info-icon">
                 <span><i class="fa-solid fa-location-dot"></i></span>
               </div>
               <div class="contact-info-text">
-                <a href="mailto:info@example.com" >55 East Birchwood Ave.Brooklyn, <br> New York 11201,United States</a>
+                <a href="#">台北市信義區信義路五段7號</a>
               </div>
             </div>
           </div>
           <div class="single-footer">
-            <h3>Social Links</h3> 
+            <h3>社群連結</h3> 
             <div class="social-links-mobile-menu">
               <ul>
                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-line"></i></a></li>
               </ul>
             </div>
           </div>

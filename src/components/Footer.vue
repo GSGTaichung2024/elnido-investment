@@ -7,20 +7,15 @@
           <div class="footer-logo-area">
             <img src="/assets/img/logo/logo1.png" alt="" />
             <div class="space32"></div>
-            <h4>Newsletter Subscription</h4>
+            <h4>愛尼島投資顧問</h4>
             <div class="space16"></div>
             <p>
-              At Homz, we are committed to providing exceptional service and
-              support. Whether you are looking buy, sell, or invest in real
-              estate, our team is here help.
+              專業的菲律賓房地產投資顧問，為您打造最佳海外置產方案
             </p>
-            <form>
-              <input type="text" placeholder="Enter Your Email" />
-              <button type="submit" class="header-btn1">
-                Discover More <img src="/assets/img/icons/arrow1.svg" alt="" />
-              </button>
-            </form>
             <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+              </li>
               <li>
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
@@ -28,10 +23,7 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
               </li>
             </ul>
           </div>
@@ -39,45 +31,44 @@
 
         <div class="col-lg col-md-6">
           <div class="footer-header padding-left1">
-            <h3>Quick Links</h3>
+            <h3>快速連結</h3>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="property.html">Properties</a></li>
-              <li><a href="property-listing.html">Listings</a></li>
-              <li><a href="blog.html">Blog News</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">首頁</a></li>
+              <li><a href="#">為什麼選擇愛尼島</a></li>
+              <li><a href="#">投資項目</a></li>
+              <li><a href="#">關於我們</a></li>
+              <li><a href="#">常見問題解答</a></li>
+              <li><a href="#">聯絡我們</a></li>
             </ul>
           </div>
         </div>
 
         <div class="col-lg col-md-6">
           <div class="footer-header padding-left">
-            <h3>Legal</h3>
+            <h3>投資資源</h3>
             <ul>
-              <li><a href="#">Apartment</a></li>
-              <li><a href="#">My House</a></li>
-              <li><a href="#">Interiors</a></li>
-              <li><a href="#">Square Area</a></li>
-              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">投資指南</a></li>
+              <li><a href="#">法律與政策說明</a></li>
+              <li><a href="#">預約諮詢服務</a></li>
             </ul>
           </div>
         </div>
 
         <div class="col-lg col-md-6">
           <div class="footer-header">
-            <h3>Quick Links</h3>
+            <h3>聯絡資訊</h3>
             <ul>
               <li>
                 <span><img src="/assets/img/icons/location1.svg" alt="" /></span
-                ><a href="#">570 White Mission Apt. hellerborough</a>
+                ><a href="#">愛尼島投資顧問有限公司</a>
               </li>
               <li>
                 <span><img src="/assets/img/icons/call1.svg" alt="" /></span
-                ><a href="tel:(925)683-1469">(925) 683-1469</a>
+                ><a href="tel:02-12345678">02-1234-5678</a>
               </li>
               <li>
                 <span><img src="/assets/img/icons/mail1.svg" alt="" /></span
-                ><a href="mailto:social@homz.com">social@homz.com</a>
+                ><a href="mailto:contact@elnido.com">contact@elnido.com</a>
               </li>
             </ul>
           </div>
@@ -89,11 +80,11 @@
         <div class="col-lg-12">
           <div class="copyright">
             <div class="pera">
-              <p>ⓒCopyright 2024 Homz . All rights reserved</p>
+              <p>ⓒCopyright 2024 El Nido Investment. All rights reserved</p>
             </div>
             <ul>
-              <li><a href="#">Terms & Condition |</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><a href="#">服務條款 |</a></li>
+              <li><a href="#">隱私權政策</a></li>
             </ul>
           </div>
         </div>
