@@ -46,6 +46,11 @@ export default {
                 <div class="d-table-cell">
                     <div class="container-fluid m-0 p-0">
                         <div class="row align-items-center justify-content-center">
+                          <div class="col-lg-6">
+                                <div class="banner-img">
+                                    <img src="/assets/img/banner-img.png" alt="Banner Images">
+                                </div>
+                            </div>
                             <div class="col-lg-6">
                                 <div class="banner-content">
                                     <h1>MAKE YOUR DRIVE FOR NEXT LEVEL</h1>
@@ -61,11 +66,7 @@ export default {
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
-                                <div class="banner-img">
-                                    <img src="/assets/img/banner-img.png" alt="Banner Images">
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
