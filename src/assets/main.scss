@@ -5,4 +5,12 @@
 
 .banner-img{
     text-align: right;
+    img{
+        object-fit: cover;
+        width: 100% !important;
+    }
+}
+
+.logo-img{
+    width: 150px;
 }

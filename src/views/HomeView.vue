@@ -48,20 +48,19 @@ export default {
                         <div class="row align-items-center justify-content-center">
                           <div class="col-lg-6">
                                 <div class="banner-img">
-                                    <img src="/assets/img/banner-img.png" alt="Banner Images">
+                                    <img src="/assets/img/banner-image.webp" alt="Banner Images">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="banner-content">
-                                    <h1>MAKE YOUR DRIVE FOR NEXT LEVEL</h1>
+                                    <h2>探索無限潛力的旅遊天堂</h2>
                                     <p>
-                                        The introduced now, the they expect, animals the desk, and catch temple.
-                                        More seven my couldn't it the character using recommended. Fees, more the them.
-                                        Saw and deep classes create it brief.
+                                        愛尼島是菲律賓最後一片淨土，擁有純淨的海灘、壯麗的石灰岩地形和豐富的海洋生態。
+                                        這裡不僅是度假天堂，更是充滿投資潛力的新興旅遊勝地。讓我們帶您探索愛尼島的無限可能。
                                     </p>
                                     <div class="banner-btn">
-                                        <a href="about.html" class="banner-btn1 border-radius">Explore More</a>
-                                        <a href="contact.html" class="banner-btn2 border-radius ml-20">Contact Us</a>
+                                        <a href="https://www.youtube.com/watch?v=wWgSuG3QPTo" target="_blank" class="banner-btn1 border-radius">探索愛尼島的無限可能</a>
+                                        <a href="contact.html" class="banner-btn2 border-radius ml-20">影片導覽</a>
                                     </div>
                                 </div>
                             </div>

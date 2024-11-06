@@ -7,45 +7,32 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="footer-content">
                                 <div class="footer-conten-title">
-                                    <a href="index.html"><img src="/assets/img/logo.png" alt="Logo"></a> 
+                                    <a href="/"><img src="/assets/img/elnido_logo_2_white_text.webp" alt="Logo" class="logo-img"></a>
                                     <p>
-                                        Lorem ipsum dolor sit amet, mattetur adipiscing elit, sed do eiusmod.
+                                        我們致力於在愛尼島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
                                     </p>
-                                </div>
-                                
-                                <div class="newsleter-area">
-                                    <h3>Join Newsletter</h3>
-                                    <form class="newsletter-form" data-toggle="validator">
-                                        <input type="email" class="form-control" placeholder="Email" name="EMAIL" required autocomplete="off">
-    
-                                        <button class="subscribe-btn" type="submit">
-                                            Subscribe
-                                        </button>
-    
-                                        <div id="validator-newsletter" class="form-result"></div>
-                                    </form>
                                 </div>
     
                                 <div class="footer-social">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/login/" target="_blank">
+                                            <a href="https://www.facebook.com/elnidoinvestment" target="_blank">
                                                 <i class="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/i/flow/login" target="_blank">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                            <a href="https://www.instagram.com/elnidoinvestment" target="_blank">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.google.com/" target="_blank">
-                                                <i class="fab fa-google-plus-g"></i>
+                                            <a href="https://twitter.com/elnidoinvestment" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://line.me/elnidoinvestment" target="_blank">
+                                                <i class="fab fa-line"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -56,25 +43,25 @@
     
                         <div class="col-lg-2 col-sm-6">
                             <div class="footer-list">
-                                <h3>Our Service</h3>
+                                <h3>快速連結</h3>
                                 <ul>
                                     <li>
-                                        <a href="services.html">Swimming Service</a>
+                                        <a href="/">首頁</a>
                                     </li>
                                     <li>
-                                        <a href="services.html">Diving Service</a>
+                                        <a href="/why-elnido">為什麼選擇愛尼島</a>
                                     </li>
                                     <li>
-                                        <a href="courses.html">Swimming Course</a>
+                                        <a href="/projects">投資項目</a>
                                     </li>
                                     <li>
-                                        <a href="courses.html">Diving Course</a>
+                                        <a href="/about">關於我們</a>
                                     </li>
                                     <li>
-                                        <a href="services.html">Swimming Imported</a>
+                                        <a href="/faq">常見問題解答</a>
                                     </li>
                                     <li>
-                                        <a href="shop.html">Equipments</a>
+                                        <a href="/contact">聯絡我們</a>
                                     </li>
                                 </ul>
                             </div>
@@ -82,25 +69,19 @@
     
                         <div class="col-lg-3 col-sm-6">
                             <div class="footer-list ml-50">
-                                <h3>Quick Links</h3>
+                                <h3>投資資源</h3>
                                 <ul>
                                     <li>
-                                        <a href="faq.html">FAQ</a>
+                                        <a href="/investment-guide">投資指南</a>
                                     </li>
                                     <li>
-                                        <a href="services.html">Services</a>
+                                        <a href="/legal-policy">法律與政策說明</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">Career</a>
+                                        <a href="/consultation">預約諮詢服務</a>
                                     </li>
                                     <li>
-                                        <a href="courses.html">Courses</a>
-                                    </li>
-                                    <li>
-                                        <a href="privacy-policy.html">Privacy & Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="terms-condition.html">Terms & Conditions</a>
+                                        <a href="/news">最新消息</a>
                                     </li>
                                 </ul>
                             </div>
@@ -108,35 +89,23 @@
     
                         <div class="col-lg-3 col-sm-6">
                             <div class="footer-list">
-                                <h3>Contacts</h3>
+                                <h3>聯絡資訊</h3>
                                 <ul>
                                     <li>
-                                        <a href="tel:+1123456789">
-                                            <i class="fas fa-mobile-alt"></i>
-                                            +1 123 456 789
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="tel:+1123456359">
-                                            <i class="fas fa-mobile-alt"></i>
-                                            +1 123 456 359
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:email@dobby.com">
-                                            <i class="far fa-envelope"></i>
-                                            email@dobby.com
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:hello@dobby.com">
-                                            <i class="far fa-envelope"></i>
-                                            hello@dobby.com
-                                        </a>
-                                    </li>
-                                    <li>
                                         <i class="fas fa-map-marker-alt"></i>
-                                        28/A street, New York, USA
+                                        菲律賓愛尼島
+                                    </li>
+                                    <li>
+                                        <a href="mailto:contact@elnido-investment.com">
+                                            <i class="far fa-envelope"></i>
+                                            contact@elnido-investment.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://line.me/elnidoinvestment" target="_blank">
+                                            <i class="fab fa-line"></i>
+                                            @elnido-investment
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -148,36 +117,9 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-7">
-                            <div class="bottom-list">
-                                <ul>
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="gallery.html">Gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="news.html">News</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">Shop</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="bottom-text">
-                                <p>© Dobby is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBootstrp</a></p>
+                        <div class="col-lg-12">
+                            <div class="bottom-text text-center">
+                                <p>© 2024 El Nido Investment. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>
