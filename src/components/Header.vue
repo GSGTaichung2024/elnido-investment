@@ -2,7 +2,56 @@
   <!-- Start Navbar Area -->
   <div class="navbar-area">
     <!-- Menu For Mobile Device -->
-    <div class="mobile-nav">
+    <div class="mobile-nav mean-container">
+      <div class="mean-bar">
+        <a href="#nav" class="meanmenu-reveal" style="background:;color:;right:0;left:auto;"><span><span><span></span></span></span></a>
+        <nav class="mean-nav">
+          <ul class="navbar-nav m-auto" style="display: none;">
+            <li class="nav-item">
+              <a href="/" class="nav-link active">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a href="/why-elnido" class="nav-link">為什麼選擇愛尼島</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                投資項目
+                <i class="fas fa-chevron-right"></i>
+              </a>
+              <ul class="dropdown-menu" style="display: none;">
+                <li class="nav-item">
+                  <a href="/projects/piecelio" class="nav-link">Piecelio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/projects/m-hotel" class="nav-link">暱名M海岸旅館</a>
+                </li>
+              </ul>
+              <a class="mean-expand" href="#" style="font-size: 24px">+</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                關於我們
+                <i class="fas fa-chevron-right"></i>
+              </a>
+              <ul class="dropdown-menu" style="display: none;">
+                <li class="nav-item">
+                  <a href="/about/hhotelgroup" class="nav-link">hhotelgroup</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/about/piece-hostel" class="nav-link">Piece Hostel</a>
+                </li>
+              </ul>
+              <a class="mean-expand" href="#" style="font-size: 24px">+</a>
+            </li>
+            <li class="nav-item">
+              <a href="/faq" class="nav-link">常見問題</a>
+            </li>
+            <li class="nav-item mean-last">
+              <a href="/contact" class="nav-link">聯絡我們</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <a href="/" class="logo">
         <img src="/assets/img/elnido_logo_2.webp" alt="Logo" class="logo-img" />
       </a>
