@@ -40,591 +40,817 @@ export default {
 <template>
   <Header />
 
-  <!--===== HERO AREA STARTS =======-->
-  <div class="hero1-section-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="header-main-content heading1">
-            <img
-              src="/assets/img/elements/star1.png"
-              alt=""
-              class="star1 keyframe5"
-            />
-            <img
-              src="/assets/img/elements/star1.png"
-              alt=""
-              class="star2 keyframe5"
-            />
-            <h1 class="text-anim">
-              為什麼投資愛尼島？<br class="d-lg-block d-none" />
-              探索無限潛力的投資天堂
-            </h1>
-          </div>
-        </div>
-        <div class="space74 d-lg-block d-none"></div>
-        <div class="space30 d-lg-none d-block"></div>
-        <div class="col-lg-3">
-          <div class="header-pera heading1">
-            <img
-              src="/assets/img/elements/star2.png"
-              alt=""
-              class="star3 keyframe5"
-            />
-            <p class="text-anim" style="background-color: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 5px;">
-              愛尼島擁有絕美的自然景觀和豐富的生態資源，正在快速發展的旅遊業和不斷完善的基礎設施，
-              為投資者提供了獨特的投資機會。無論您是尋找度假屋投資還是商業發展機會，愛尼島都能滿足您的需求。
-            </p>
-            <div class="video-btn-area">
-              <a
-                href="https://www.youtube.com/watch?v=wWgSuG3QPTo"
-                class="popup-youtube"
-              >
-                <span class="video"><i class="fa-brands fa-line"></i></span>
-                <span class="play">影片導覽</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7"></div>
-        <div class="col-lg-2">
-          <div class="all-counter-area">
-            <div
-              class="counter-area"
-              data-aos="fade-left"
-              data-aos-duration="800"
-            >
-              <h2><span class="counter">4</span></h2>
-              <p>精選旅遊路線</p>
-            </div>
-            <div class="space60"></div>
-            <div
-              class="counter-area"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <h2><span class="counter">50</span>+</h2>
-              <p>自然景點</p>
-            </div>
-            <div class="space60"></div>
-            <div
-              class="counter-area"
-              data-aos="fade-left"
-              data-aos-duration="1100"
-            >
-              <h2><span class="counter">20</span>+</h2>
-              <p>水上活動項目</p>
-            </div>
-            <div class="space60"></div>
-            <div
-              class="counter-area"
-              data-aos="fade-left"
-              data-aos-duration="1200"
-            >
-              <img src="/assets/img/all-images/others-img1.png" alt="" />
-              <div class="space16"></div>
-              <h2><span class="counter">2</span></h2>
-              <p>精品投資項目</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-10 ms-auto">
-          <div class="header-images text-end">
-            <div class="img1 aos-init aos-animate" data-aos="fade-down" data-aos-duration="1200">
-              <img src="@/assets/img/home-feature-image.webp" alt="愛尼島全景" />
-            </div>
-            <p class="aniamtion-key-1">
-              <img src="/assets/img/icons/logo-icon.svg" alt="" />探索愛尼島的無限可能
-            </p>
+        <!-- Banner Area -->
+        <div class="banner-area">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="container-fluid m-0 p-0">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="banner-content">
+                                    <h1>MAKE YOUR DRIVE FOR NEXT LEVEL</h1>
+                                    <p>
+                                        The introduced now, the they expect, animals the desk, and catch temple.
+                                        More seven my couldn't it the character using recommended. Fees, more the them.
+                                        Saw and deep classes create it brief.
+                                    </p>
+                                    <div class="banner-btn">
+                                        <a href="about.html" class="banner-btn1 border-radius">Explore More</a>
+                                        <a href="contact.html" class="banner-btn2 border-radius ml-20">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
 
-            <!-- <div class="circle-area">
-              <a href="#investment">
-                <img
-                  src="/assets/img/elements/circle.png"
-                  alt=""
-                  class="keyframe5 circle" />
-                <img src="/assets/img/icons/arrow2.svg" alt="" class="arrow2"
-              /></a>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!--===== ABOUT AREA STARTS =======-->
-  <div class="about1-section-area sp1">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-7">
-          <div class="about-images-area">
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
-                <div class="space90"></div>
-                <div class="author-images">
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img1.png" alt="愛尼島自然景觀" />
-                  </div>
-                  <div class="city-area">
-                    <div class="icons">
-                      <img src="/assets/img/icons/logo-icon1.svg" alt="" />
+                            <div class="col-lg-6">
+                                <div class="banner-img">
+                                    <img src="/assets/img/banner-img.png" alt="Banner Images">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="content">
-                      <a href="#">自然生態寶地</a>
-                      <p>
-                        位於菲律賓巴拉望省，擁有原始珊瑚礁群及豐富的海洋生態系統。
-                      </p>
+                </div>
+            </div>
+        </div> 
+        <!-- Banner Area End -->
+
+        <!-- About Another -->
+        <div class="about-another pt-100 pb-70">
+            <div class="container-fluid m-0 p-0">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="about-img2">
+                            <img src="/assets/img/about/2.png" alt="About Images">
+                            <div class="icon-shape-5">
+                                <i class="flaticon-waves"></i>
+                            </div>
+                            <div class="icon-shape-6">
+                                <i class="flaticon-waves"></i>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-lg-6 col-md-6">
-                <div class="author-images">
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img2.png" alt="愛尼島水上活動" />
-                  </div>
-                  <div class="space30"></div>
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img3.png" alt="愛尼島文化體驗" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-5">
-          <div class="about-content-header heading2">
-            <h5 class="text-anim">
-              <img src="/assets/img/icons/logo-icon1.svg" alt="" />關於愛尼島
-            </h5>
-            <h2 class="text-anim">
-              探索愛尼島的自然與文化之美
-            </h2>
-            <div class="space24"></div>
-            <p class="text-anim">
-              愛尼島是菲律賓巴拉望省最著名的度假勝地之一，擁有純淨的白沙灘、清澈的海水和豐富的海洋生態。這裡不僅有壯麗的自然景觀，更保存了當地原住民的傳統文化。
-            </p>
-            <div class="space32"></div>
-            <div class="tour-routes text-anim">
-              <h4>精選旅遊路線：</h4>
-              <ul>
-                <li>路線A：大小瀉湖探索之旅</li>
-                <li>路線B：七個群島跳島之旅</li>
-                <li>路線C：浮潛與海底探索之旅</li>
-                <li>路線D：日落沙灘文化體驗</li>
-              </ul>
-            </div>
-            <div class="space32"></div>
-            <div class="btn-area1 text-anim">
-              <a href="/tours" class="header-btn1"
-                >查看更多旅遊資訊 <img src="/assets/img/icons/arrow1.svg" alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== ABOUT AREA ENDS =======-->
-
-  <!--===== ABOUT AREA STARTS =======-->
-  <div class="about1-section-area sp1">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5">
-          <div class="about-content-header heading2">
-            <h5 class="text-anim">
-              <img src="/assets/img/icons/logo-icon1.svg" alt="" />投資愛尼島
-            </h5>
-            <h2 class="text-anim">
-              探索愛尼島的無限投資潛力
-            </h2>
-            <div class="space24"></div>
-            <p class="text-anim">
-              愛尼島擁有得天獨厚的自然資源和發展優勢。這裡不僅有原始的自然生態系統，
-              更有完善的基礎設施規劃。隨著旅遊業的蓬勃發展，愛尼島正逐步成為最具投資
-              價值的度假勝地之一。
-            </p>
-            <div class="space32"></div>
-            <div class="btn-area1 text-anim">
-              <a href="/investment" class="header-btn1"
-                >深入了解投資機會 <img src="/assets/img/icons/arrow1.svg" alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-7">
-          <div class="about-images-area">
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
-                <div class="space90"></div>
-                <div class="author-images">
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img1.png" alt="愛尼島自然景觀" />
-                  </div>
-                  <div class="city-area">
-                    <div class="icons">
-                      <img src="/assets/img/icons/logo-icon1.svg" alt="" />
+                    <div class="col-lg-7">
+                        <div class="about-content">
+                            <span>About Us</span>
+                            <h2>Dobby is a Private Service Since 2009</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis eros id urna 
+                                sollicitudin feugiat. In imperdiet at dui nec vehicula. Aenean nec sapien odio. 
+                                Nunc laoreet auctor mollis. Duis posuere eros in nisi efficitur facilisis. 
+                                Aliquam in magna lacinia, hendrerit elit vel, aliquet metus. Cras quis suscipit est. 
+                                Vivamus fringilla blandit rutrum. Phasellus vitae massa tincidunt, placerat risus ac,
+                                tincidunt tellus. Maecenas eu sem nec urna ultricies auctor. Etiam sodales sapien eget 
+                                est tincidunt volutpat. Integer dapibus nisl nec arcu fermentum ornare. Proin at est non 
+                                ex aliquam imperdiet. Integer id ornare dui. Maecenas dignissim, odio sit amet aliquet accumsan, 
+                                ipsum tortor venenatis turpis, suscipit congue odio turpis a leo.
+                            </p>
+                            <p> 
+                                Maecenas quis ipsum augue. Cras laoreet massa eget neque mattis, quis venenatis erat eleifend. 
+                                Curabitur consectetur odio sit amet diam vehicula, nec rutrum leo aliquet. Quisque quis felis 
+                                tristique, cursus nisi eu, mattis neque. Duis facilisis leo id mauris malesuada, non pulvinar 
+                                leo laoreet. Nam efficitur dolor quis pulvinar porttitor. Nullam mollis vulputate felis eu 
+                                fermentum. Duis id risus erat. Donec laoreet ante nunc, in maximus mauris bibendum sit amet.
+                            </p>
+                            <div class="about-more-btn">
+                                <a href="about.html" class="default-btn4">Read More</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="content">
-                      <a href="#">自然生態系統</a>
-                      <p>
-                        擁有原始珊瑚礁群及豐富的海洋生態，是難得一見的自然寶地。
-                      </p>
+                </div>
+            </div>
+        </div>
+        <!-- About Another End -->
+
+        <!-- Service Area Two -->
+        <section class="service-area-two ptb-100">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Our Services</span>
+                    <h2>Dobby Provides Services</h2>
+                    <p>
+                        The introduced now, the they expect, animals the desk, and catch temple. 
+                        More seven my couldn't it the character using recommended.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-swimming"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Swimming & Diving</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling 
+                                that, win word as have the proceeded lots subject
+                            </p>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-lg-6 col-md-6">
-                <div class="author-images">
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img2.png" alt="愛尼島水上活動" />
-                  </div>
-                  <div class="space30"></div>
-                  <div class="img1 image-anime reveal">
-                    <img src="/assets/img/all-images/about-img3.png" alt="愛尼島基礎設施" />
-                  </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-teacher"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Teaching Swimming & Diving</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling
+                                that, win word as have the proceeded lots subject
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-flipper"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Swimming Equipments</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling 
+                                that, win word as have the proceeded lots subject
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-swimmer"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Monthly Swimming Event</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling that, 
+                                win word as have the proceeded lots subject
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-dive"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Monthly Diving Event</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling that, 
+                                win word as have the proceeded lots subject
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item box-shadow">
+                            <a href="service-details.html" class="service-item-icon">
+                                <i class="flaticon-oxigen"></i>
+                            </a>
+                            <a href="service-details.html" class="service-head">
+                                <h3>Scuba Diving Equipments</h3>
+                            </a>
+                            <p>
+                                As sign what each derided to organizaasd tion. Remodelling that, 
+                                win word as have the proceeded lots subject
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="visit-btn text-center">
+                        Visit More<a href="services.html">Services</a> 
+                    </div> 
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== ABOUT AREA ENDS =======-->
+        </section>
+        <!-- Service Area Two End -->
 
+        <!-- Apply Another -->
+        <div class="apply-another">
+            <div class="container">
+                <div class="apply-text">
+                    <span>Apply for Job</span>
+                    <h2>We Are Hiring Expertise for Three Different Categories</h2>
+                    <p>
+                        It willingly room, drew even in place structure  he its holding to view. Need harder my in how 
+                        there's into receive wanted ambushed that home, his this it position. Room, on by was it heard parks.
+                        Compared one Room. Testimony you mister music.Discipline assets briefs with tone completely
+                    </p>
 
-  <!--===== INVESTMENT AREA STARTS =======-->
-  <div class="properties1-section-area sp1">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 m-auto">
-          <div class="property-header text-center heading2">
-            <h5 class="text-anim">
-              <img src="/assets/img/icons/logo-icon1.svg" alt="" />投資項目
-            </h5>
-            <h2 class="text-anim">愛尼島投資機會</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-8 m-auto">
-          <div class="property-slider-area owl-carousel">
-            <div class="property-boxarea">
-              <div class="img1 image-anime reveal">
-                <img src="/assets/img/all-images/property-img1.png" alt="Piecelio外觀" />
-              </div>
-
-              <div class="content-area">
-                <h2>Piecelio</h2>
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/sqft.svg" alt="" />現代設計</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/bed.svg" alt="" />環保建築</a
-                    >
-                  </li>
-                  <li class="m-0">
-                    <a href="#"
-                      ><img src="/assets/img/icons/bath.svg" alt="" />文化融合</a
-                    >
-                  </li>
-                </ul>
-                <p>結合現代設計與在地文化的精品住宅</p>
-                <div class="space16"></div>
-                <p>採用環保建材，打造與自然共生的生活空間</p>
-                <div class="btn-area1">
-                  <a href="/investment/piecelio" class="header-btn1"
-                    >了解更多 <img src="/assets/img/icons/arrow3.svg" alt=""
-                  /></a>
+                    <div class="apply-btn">
+                        <a href="contact.html" class="default-btn3">Apply Now</a>
+                        <a href="service-details.html" class="default-btn4 ml-20">Our Career</a>
+                    </div>
                 </div>
-              </div>
             </div>
+        </div>
+        <!-- Apply Another End -->
 
-            <div class="property-boxarea">
-              <div class="img1 image-anime reveal">
-                <img src="/assets/img/all-images/property-img2.png" alt="M海岸旅館外觀" />
-              </div>
-
-              <div class="content-area">
-                <h2>M海岸旅館</h2>
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/sqft.svg" alt="" />臨海設計</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="/assets/img/icons/bed.svg" alt="" />水上活動</a
-                    >
-                  </li>
-                  <li class="m-0">
-                    <a href="#"
-                      ><img src="/assets/img/icons/bath.svg" alt="" />度假體驗</a
-                    >
-                  </li>
-                </ul>
-                <p>擁抱海洋的度假旅館</p>
-                <div class="space16"></div>
-                <p>提供豐富水上活動，打造完美度假體驗</p>
-                <div class="btn-area1">
-                  <a href="/investment/m-coast" class="header-btn1"
-                    >了解更多 <img src="/assets/img/icons/arrow3.svg" alt=""
-                  /></a>
+        <!-- Course Area -->
+        <div class="course-other pt-100 pb-70">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Our Courses</span>
+                    <h2>We Are Taking Two Courses</h2>
+                    <p>
+                        The introduced now, the they expect, animals the desk, and catch temple.
+                        More seven my couldn't it the character using recommended.
+                    </p>
                 </div>
-              </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="course-card active">
+                            <img src="/assets/img/course/2.jpg" alt="Course Images">
+                            <div class="couser-delt">
+                                <h3>Diving Course</h3>
+                                <p>
+                                    Being last that. Fresh client back by their and de rived his than withdraw are imitation; He must
+                                    by their project to privilege a overgrown can wait well good volumes and story.
+                                </p>
+
+                                <div class="course-delt-btn">
+                                    <a href="courses.html" class="default-btn3">Take Course</a>
+                                    <a href="service-details.html" class="default-btn4 ml-20">Know Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="course-card">
+                            <img src="/assets/img/course/1.jpg" alt="Course Images">
+                            <div class="couser-delt">
+                                <h3>Swimming Course</h3>
+                                <p>
+                                    Being last that. Fresh client back by their and de rived his than withdraw are imitation; He must
+                                    by their project to privilege a overgrown can wait well good volumes and story.
+                                </p>
+
+                                <div class="course-delt-btn">
+                                    <a href="courses.html" class="default-btn3">Take Course</a>
+                                    <a href="service-details.html" class="default-btn4 ml-20">Know Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+        <!-- Course Area End -->
 
-      <div class="row mt-5">
-        <div class="col-lg-12 text-center">
-          <div class="btn-area1">
-            <a href="/investment" class="header-btn1"
-              >查看所有投資項目 <img src="/assets/img/icons/arrow3.svg" alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== INVESTMENT AREA ENDS =======-->
+        <!-- Product Area -->
+        <section class="product-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Our Products</span>
+                    <h2> Buy the Equipment You Need</h2>
+                    <p>
+                        The introduced now, the they expect, animals the desk, and catch 
+                        temple. More seven my couldn't it the character using recommended.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <a href="shop-details.html">
+                                <img src="/assets/img/product/1.jpg" alt="Product Images">
+                            </a>
+                            <div class="product-cotent">
+                                <div class="product-text">
+                                    <a href="shop-details.html"> 
+                                        <h3>Diving Glass</h3>
+                                    </a>
+                                    <span>$35</span>
+                                </div>
+                                <a href="shop-details.html" class="add-product border-radius">
+                                    <i class="flaticon-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <a href="shop-details.html">
+                                <img src="/assets/img/product/2.jpg" alt="Product Images">
+                            </a>
+                            <div class="product-cotent">
+                                <div class="product-text">
+                                    <a href="shop-details.html"> 
+                                        <h3>Diving Rite</h3>
+                                    </a>
+                                    <span>$30</span>
+                                </div>
+                                <a href="shop-details.html" class="add-product border-radius">
+                                    <i class="flaticon-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-  <!--===== FAQ AREA STARTS =======-->
-  <div class="faq-section-area sp2">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 m-auto">
-          <div class="faq-header heading2 text-center">
-            <h5>
-              <img src="/assets/img/icons/logo-icon1.svg" alt="" />常見問題
-            </h5>
-            <h2 class="text-anim">投資人常見問題</h2>
-          </div>
-        </div>
-      </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <a href="shop-details.html">
+                                <img src="/assets/img/product/3.jpg" alt="Product Images border-radius">
+                            </a>
+                            <div class="product-cotent">
+                                <div class="product-text">
+                                    <a href="shop-details.html"> 
+                                        <h3>Fins Bungee</h3>
+                                    </a>
+                                    <span>$75</span>
+                                </div>
+                                <a href="shop-details.html" class="add-product border-radius">
+                                    <i class="flaticon-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="row">
-        <div class="col-lg-10 m-auto">
-          <div class="accordian-area">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    如何前往愛尼島？
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    從馬尼拉搭乘國內航班至愛尼島機場，航程約1小時。也可從巴拉望省府普林塞薩港搭乘快艇，航程約4小時。我們提供接送機服務，確保您的行程便利舒適。
-                  </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <a href="shop-details.html">
+                                <img src="/assets/img/product/4.jpg" alt="Product Images border-radius">
+                            </a>
+                            <div class="product-cotent">
+                                <div class="product-text">
+                                    <a href="shop-details.html"> 
+                                        <h3>Life Jacket</h3>
+                                    </a>
+                                    <span>$25</span>
+                                </div>
+                                <a href="shop-details.html" class="add-product border-radius">
+                                    <i class="flaticon-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="space16"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    愛尼島有哪些熱門活動？
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    愛尼島提供豐富的水上活動，包括浮潛、潛水、跳島遊覽等。您也可以體驗當地特色文化活動，如傳統市集、手工藝製作。我們的度假設施提供完整的活動規劃服務。
-                  </div>
-                </div>
-              </div>
-              <div class="space16"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    投資愛尼島的優勢？
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    愛尼島擁有快速發展的旅遊業和不斷完善的基礎設施。政府支持觀光發展，提供投資優惠政策。自然資源豐富，具有長期發展潛力。
-                  </div>
-                </div>
-              </div>
-              <div class="space16"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    投資建議與諮詢？
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    我們的專業團隊提供完整的投資諮詢服務，協助您評估投資機會、了解當地法規，並提供全方位的投資建議。
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
+        </section>
+        <!-- Product Area End -->
 
-      <div class="row mt-5">
-        <div class="col-lg-12 text-center">
-          <div class="contact-btn-area">
-            <h4>有更多問題？</h4>
-            <div class="btn-area1">
-              <a href="/contact" class="header-btn1 me-3">
-                立即聯絡我們 <img src="/assets/img/icons/arrow3.svg" alt="" />
-              </a>
-              <a href="#" class="header-btn1">
-                <i class="fa-brands fa-line me-2"></i>加入 Line
-              </a>
+        <!-- Gallery Area -->
+        <section class="gallery-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Our Gallery</span>
+                    <h2>Amazing Photos at Our Daily Dobby</h2>
+                    <p>
+                        The introduced now, the they expect, animals the desk, and catch
+                        temple. More seven my couldn't it the character using recommended.
+                    </p>
+                </div>
+                <div class="gallery-view">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/1.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/1.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>Baby Girl Learn Swimming</h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/2.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/2.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>John at His Swim Event</h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/3.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/3.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>Scuba Diving Instruction</h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/4.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/4.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>Under Water Scuba Diving</h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/5.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/5.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>Mike’s Frist Dive for Dobby</h3>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="gallery-item">
+                                <a href="assets/img/gallery/6.jpg">
+                                    <img class="border-radius-top" src="/assets/img/gallery/6.jpg" alt="Gallery Images">
+                                </a>
+                                <div class="gallery-text">
+                                    <h3>Boy Learning Swimming</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== FAQ AREA ENDS =======-->
+        </section>
+        <!-- Gallery Area End -->
 
-  <!--===== CONTACT AREA STARTS =======-->
-  <div class="contact1-section-area sp1">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="contact-header text-center heading2">
-            <h5 class="text-anim">
-              <img src="/assets/img/icons/logo-icon1.svg" alt="" />Valuation
-            </h5>
-            <h2 class="text-anim">Request Your Property Valuation</h2>
-          </div>
-        </div>
-      </div>
+        <!-- Testimonial Area -->
+        <div class="testimonial-area ptb-100">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Testimonial</span>
+                    <h2 class="color-white">What People Said About Dobby</h2>
+                    <p class="color-white">
+                        The introduced now, the they expect, animals the desk, and catch temple. 
+                        More seven my couldn't it the character using recommended.
+                    </p>
+                </div>
+                <div class="testimonial-slider owl-carousel owl-theme">
+                    <div class="testimonial-slide">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="testimonial-img text-center">
+                                    <img src="/assets/img/testimonial/1.png" alt="Testimonial Images">
+                                    <div class="shape-img">
+                                        <img src="/assets/img/shape/img-shape.png" alt="Images">
+                                    </div>
+                                </div>
+                            </div>
 
-      <div class="row">
-        <div
-          class="col-lg-10 m-auto"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        >
-          <div class="contact-author-boxarea">
-            <h3>Personal Information</h3>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="contact-input-area">
-                  <select name="country" class="nice-select">
-                    <option value="1" data-display="Select">Select</option>
-                    <option value="">Residential Property</option>
-                    <option value="">Commercial Property</option>
-                    <option value="">Industrial Property</option>
-                    <option value="">Land Property</option>
-                    <option value="">Mixed-Use Property</option>
-                  </select>
-                </div>
-              </div>
+                            <div class="col-lg-7">
+                                <div class="testimonial-item">
+                                    <p>
+                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
+                                        usmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Quis ipsum suspendisse ultrices gravida. Risus commodo.”
+                                    </p>
+                                    <h3>Smith Doe</h3>
+                                    <span>Software Engineer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-              <div class="col-lg-4">
-                <div class="contact-input-area">
-                  <input type="text" placeholder="First Name" />
-                </div>
-              </div>
+                    <div class="testimonial-slide">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="testimonial-img text-center">
+                                    <img src="/assets/img/testimonial/2.png" alt="Testimonial Images">
+                                    <div class="shape-img">
+                                        <img src="/assets/img/shape/img-shape.png" alt="Images">
+                                    </div>
+                                </div>
+                            </div>
 
-              <div class="col-lg-4">
-                <div class="contact-input-area">
-                  <input type="text" placeholder="Last Name" />
-                </div>
-              </div>
+                            <div class="col-lg-7">
+                                <div class="testimonial-item">
+                                    <p>
+                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
+                                        usmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Quis ipsum suspendisse ultrices gravida. Risus commodo.”
+                                    </p>
+                                    <h3>Evana Doe</h3>
+                                    <span>Market Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-              <div class="col-lg-8">
-                <div class="contact-input-area">
-                  <input type="email" placeholder="Email Address" />
-                </div>
-              </div>
+                    <div class="testimonial-slide">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-5">
+                                <div class="testimonial-img text-center">
+                                    <img src="/assets/img/testimonial/3.png" alt="Testimonial Images">
+                                    <div class="shape-img">
+                                        <img src="/assets/img/shape/img-shape.png" alt="Images">
+                                    </div>
+                                </div>
+                            </div>
 
-              <div class="col-lg-4">
-                <div class="contact-input-area">
-                  <input type="number" placeholder="Phone Number" />
+                            <div class="col-lg-7">
+                                <div class="testimonial-item">
+                                    <p>
+                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
+                                        usmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Quis ipsum suspendisse ultrices gravida. Risus commodo.”
+                                    </p>
+                                    <h3>John Doe</h3>
+                                    <span>Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="space50"></div>
-              <h3>Property Information</h3>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <select name="country" class="nice-select">
-                      <option value="1" data-display="Type">Type</option>
-                      <option value="">Residential Property</option>
-                      <option value="">Commercial Property</option>
-                      <option value="">Industrial Property</option>
-                      <option value="">Land Property</option>
-                      <option value="">Mixed-Use Property</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <input type="text" placeholder="Zip Code" />
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <select name="country" class="nice-select">
-                      <option value="1" data-display="City">City</option>
-                      <option value="">France City</option>
-                      <option value="">Belgium City</option>
-                      <option value="">Norway City</option>
-                      <option value="">Italy City</option>
-                      <option value="">Denmark City</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <input type="text" placeholder="Number of Bedrooms" />
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <input type="text" placeholder="N. of bathrooms" />
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="contact-input-area">
-                    <input type="text" placeholder="Your Budget" />
-                  </div>
-                </div>
-                <div class="space16"></div>
-                <div class="col-lg-12">
-                  <div class="contact-input-area">
-                    <button type="submit" class="header-btn1">
-                      Submit Now
-                      <img src="/assets/img/icons/arrow1.svg" alt="" />
-                    </button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--===== CONTACT AREA ENDS =======-->
+        <!-- Testimonial Area End -->
+
+       <!-- Trainers Area -->
+       <section class="trainers-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title text-center mb-50">
+                <span>Our Trainers</span>
+                <h2>Our Professional Trainers</h2>
+                <p>
+                    The introduced now, the they expect,animals the desk, and catch temple. 
+                    More seven my couldn't it the character using recommended.
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="trainer-card border-radius-top">
+                        <a href="instructor.html">
+                            <img class="border-radius-top" src="/assets/img/trainers/1.jpg" alt="Trainers Images">
+                        </a>
+                        <div class="trainer-content">
+                            <a href="instructor.html">
+                                <h3>John Doe</h3>
+                            </a>
+                            <span>Professional Diver</span>
+                            <div class="social-icon">
+                                <ul>
+                                    <li class="border-radius">
+                                        <a href="https://www.facebook.com/login/" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://twitter.com/i/flow/login" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="trainer-card">
+                        <a href="instructor.html">
+                            <img class="border-radius-top" src="/assets/img/trainers/2.jpg" alt="Trainers Images">
+                        </a>
+                        <div class="trainer-content">
+                            <a href="instructor.html">
+                                <h3>Evana Doe</h3>
+                            </a>
+                            <span>Professional Trainer</span>
+                            <div class="social-icon">
+                                <ul>
+                                    <li class="border-radius">
+                                        <a href="https://www.facebook.com/login/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://twitter.com/i/flow/login" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="trainer-card">
+                        <a href="instructor.html">
+                            <img class="border-radius-top" src="/assets/img/trainers/3.jpg" alt="Trainers Images">
+                        </a>
+                        <div class="trainer-content active">
+                            <a href="instructor.html">
+                                <h3>Smith Doe</h3>
+                            </a>
+                            <span>Professional Swimmer</span>
+                            <div class="social-icon active">
+                                <ul>
+                                    <li class="border-radius">
+                                        <a href="https://www.facebook.com/login/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://twitter.com/i/flow/login" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="trainer-card">
+                        <a href="instructor.html">
+                            <img class="border-radius-top" src="/assets/img/trainers/4.jpg" alt="Trainers Images">
+                        </a>
+                        <div class="trainer-content">
+                            <a href="instructor.html">
+                                <h3>Marida Doe</h3>
+                            </a>
+                            <span>Professional Instructor</span>
+                            <div class="social-icon">
+                                <ul>
+                                    <li class="border-radius">
+                                        <a href="https://www.facebook.com/login/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://twitter.com/i/flow/login" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                    </li>
+                                    <li class="border-radius">
+                                        <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainers Area End -->
+
+        <!-- News Area -->
+        <section class="news-area pb-70">
+            <div class="container">
+                <div class="section-title text-center mb-50">
+                    <span>Our News</span>
+                    <h2>Daily Updates of Our Dobby</h2>
+                    <p>
+                        The introduced now, the they expect, animals the desk, and catch temple. 
+                        More seven my couldn't it the character using recommended.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-card">
+                            <div class="news-img">
+                                <a href="news-details.html">
+                                    <img class="border-radius-top" src="/assets/img/news/1.jpg" alt="News Images">
+                                </a>
+                                <div class="sub-text">
+                                    <a href="news-details.html">SCUBA DIVING</a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                   <a href="news-details.html">John Doe</a> 
+                                </li>
+                                <li>26 APR 2024</li>
+                            </ul>
+                            <div class="news-content">
+                                <a href="news-details.html">
+                                    <h3>New Scuba Diving Course Sheet Will Update Soon</h3>
+                                </a>
+                                <p>
+                                    Less entirely counter. Parent, curiously, must would frequency,
+                                    would very of wellfeigned legs, doctor back in the business.
+                                </p>
+                                <a href="news-details.html" class="news-icon">
+                                    Read More 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-card border-radius-top">
+                            <div class="news-img">
+                                <a href="news-details.html">
+                                    <img class="border-radius-top" src="/assets/img/news/2.jpg" alt="News Images">
+                                </a>
+                                <div class="sub-text"> 
+                                    <a href="news-details.html">
+                                        SWIMMING EVENT
+                                    </a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="news-details.html">John Doe</a> 
+                                </li>
+                                <li>27 APR 2024</li>
+                            </ul>
+                            <div class="news-content">
+                                <a href="news-details.html">
+                                    <h3>A Diving Event Will Happen at Dobby Center</h3>
+                                </a>
+                                <p>
+                                    Less entirely counter. Parent, curiously, must would frequency,
+                                    would very of wellfeigned legs, doctor back in the business.
+                                </p>
+                                <a href="news-details.html" class="news-icon">
+                                    Read More 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  col-md-6 ">
+                        <div class="news-card border-radius-top">
+                            <div class="news-img">
+                                <a href="news-details.html">
+                                    <img class="border-radius-top" src="/assets/img/news/3.jpg" alt="News Images">
+                                </a>
+                                <div class="sub-text">
+                                    <a href="news.html">EQUIPMENT</a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="news-details.html">John Doe</a> 
+                                </li>
+                                <li>28 APR 2024</li>
+                            </ul>
+                            <div class="news-content">
+                                <a href="news-details.html">
+                                    <h3>A Swimming Event Will Happen at Dobby Center</h3>
+                                </a>
+                                <p>
+                                    Less entirely counter. Parent, curiously, must would frequency,
+                                    would very of wellfeigned legs, doctor back in the business.
+                                </p>
+                                <a href="news-details.html" class="news-icon">
+                                    Read More 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- News Area End -->
+
 
   <Footer />
 </template>

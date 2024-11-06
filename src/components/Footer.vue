@@ -1,97 +1,190 @@
 <template>
-  <!--===== FOOTER AREA STARTS =======-->
-  <div class="footer1-section-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-logo-area">
-            <img src="/assets/img/logo/logo1.png" alt="" />
-            <div class="space32"></div>
-            <h4>愛尼島投資顧問</h4>
-            <div class="space16"></div>
-            <p>
-              專業的菲律賓房地產投資顧問，為您打造最佳海外置產方案
-            </p>
-            <ul>
-              <li>
-                <a href="#"><i class="fa-brands fa-line"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg col-md-6">
-          <div class="footer-header padding-left1">
-            <h3>快速連結</h3>
-            <ul>
-              <li><a href="#">首頁</a></li>
-              <li><a href="#">為什麼選擇愛尼島</a></li>
-              <li><a href="#">投資項目</a></li>
-              <li><a href="#">關於我們</a></li>
-              <li><a href="#">常見問題解答</a></li>
-              <li><a href="#">聯絡我們</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg col-md-6">
-          <div class="footer-header padding-left">
-            <h3>投資資源</h3>
-            <ul>
-              <li><a href="#">投資指南</a></li>
-              <li><a href="#">法律與政策說明</a></li>
-              <li><a href="#">預約諮詢服務</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg col-md-6">
-          <div class="footer-header">
-            <h3>聯絡資訊</h3>
-            <ul>
-              <li>
-                <span><img src="/assets/img/icons/location1.svg" alt="" /></span
-                ><a href="#">愛尼島投資顧問有限公司</a>
-              </li>
-              <li>
-                <span><img src="/assets/img/icons/call1.svg" alt="" /></span
-                ><a href="tel:02-12345678">02-1234-5678</a>
-              </li>
-              <li>
-                <span><img src="/assets/img/icons/mail1.svg" alt="" /></span
-                ><a href="mailto:contact@elnido.com">contact@elnido.com</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="space50 d-lg-block d-none"></div>
-      <div class="space30 d-lg-none d-block"></div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="copyright">
-            <div class="pera">
-              <p>ⓒCopyright 2024 El Nido Investment. All rights reserved</p>
+        <!-- Footer Area -->
+        <footer class="footer-area">
+            <div class="footer-top pt-100 pb-70">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="footer-content">
+                                <div class="footer-conten-title">
+                                    <a href="index.html"><img src="/assets/img/logo.png" alt="Logo"></a> 
+                                    <p>
+                                        Lorem ipsum dolor sit amet, mattetur adipiscing elit, sed do eiusmod.
+                                    </p>
+                                </div>
+                                
+                                <div class="newsleter-area">
+                                    <h3>Join Newsletter</h3>
+                                    <form class="newsletter-form" data-toggle="validator">
+                                        <input type="email" class="form-control" placeholder="Email" name="EMAIL" required autocomplete="off">
+    
+                                        <button class="subscribe-btn" type="submit">
+                                            Subscribe
+                                        </button>
+    
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                </div>
+    
+                                <div class="footer-social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/login/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/i/flow/login" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="footer-list">
+                                <h3>Our Service</h3>
+                                <ul>
+                                    <li>
+                                        <a href="services.html">Swimming Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Diving Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="courses.html">Swimming Course</a>
+                                    </li>
+                                    <li>
+                                        <a href="courses.html">Diving Course</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Swimming Imported</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Equipments</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-list ml-50">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li>
+                                        <a href="faq.html">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-details.html">Career</a>
+                                    </li>
+                                    <li>
+                                        <a href="courses.html">Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">Privacy & Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-condition.html">Terms & Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer-list">
+                                <h3>Contacts</h3>
+                                <ul>
+                                    <li>
+                                        <a href="tel:+1123456789">
+                                            <i class="fas fa-mobile-alt"></i>
+                                            +1 123 456 789
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+1123456359">
+                                            <i class="fas fa-mobile-alt"></i>
+                                            +1 123 456 359
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:email@dobby.com">
+                                            <i class="far fa-envelope"></i>
+                                            email@dobby.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:hello@dobby.com">
+                                            <i class="far fa-envelope"></i>
+                                            hello@dobby.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        28/A street, New York, USA
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul>
-              <li><a href="#">服務條款 |</a></li>
-              <li><a href="#">隱私權政策</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== FOOTER AREA ENDS =======-->
+            
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-7">
+                            <div class="bottom-list">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="news.html">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="bottom-text">
+                                <p>© Dobby is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBootstrp</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Area End -->
 </template>
 
 <script>

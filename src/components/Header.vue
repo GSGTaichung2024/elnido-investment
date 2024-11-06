@@ -1,192 +1,327 @@
 <template>
-<!--===== PRELOADER STARTS =======-->
-<div id="preloader">
-  <div id="ctn-preloader" class="ctn-preloader">
-    <div class="animation-preloader">
-        <div class="txt-loading">
-            <span data-text-preloader="E" class="letters-loading">
-              E
-            </span>
-            <span data-text-preloader="L" class="letters-loading">
-               L
-            </span>
-            <span data-text-preloader="N" class="letters-loading">
-                N
-            </span>
-            <span data-text-preloader="I" class="letters-loading">
-                I
-            </span>
-            <span data-text-preloader="D" class="letters-loading">
-                D
-            </span>
-            <span data-text-preloader="O" class="letters-loading">
-                O
-            </span>
-        </div>
-    </div>
+  <!-- Start Preloader -->
+  <div class="preloader">
+    <div class="preloader-wave"></div>
   </div>
-</div>
-<!--===== PRELOADER ENDS =======-->
+  <!-- End Preloader -->
 
-  <!--===== PAGE PROGRESS START=======-->
-  <div class="paginacontainer">
-    <div class="progress-wrap">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-      </svg>
+  <!-- Start Navbar Area -->
+  <div class="navbar-area">
+    <!-- Menu For Mobile Device -->
+    <div class="mobile-nav">
+      <a href="index.html" class="logo">
+        <img src="/assets/img/logo.png" alt="Logo" />
+      </a>
     </div>
-  </div>
-<!--===== PAGE PROGRESS END=======-->
 
-   <!--=====HEADER START=======-->
-   <header>
-    <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+    <!-- Menu For Desktop Device -->
+    <div class="main-nav nav-top">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="header-elements">
-              <div class="site-logo">
-                <a href="/">
-                  <img src="/assets/img/logo/logo1.png" alt="愛尼島夢想投資">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="/assets/img/logo.png" alt="Logo" />
+          </a>
+          <div
+            class="collapse navbar-collapse mean-menu"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">
+                  Home
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link"> Home One </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="index-two.html" class="nav-link active">
+                      Home Two
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  Pages
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="appointments.html" class="nav-link">
+                      Book Appointments
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="instructor.html" class="nav-link"> Instructor </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="courses.html" class="nav-link"> Courses </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="pricing.html" class="nav-link"> Pricing </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link">
+                      Testimonials
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="terms-condition.html" class="nav-link">
+                      Terms & Conditions
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="privacy-policy.html" class="nav-link">
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="404.html" class="nav-link"> 404 Page </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="faq.html" class="nav-link"> FAQ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="login.html" class="nav-link"> Log In </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="register.html" class="nav-link"> Register </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link"> About </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  Services
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="services.html" class="nav-link"> Services </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="service-details.html" class="nav-link">
+                      Service Details
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="nav-link"> Gallery </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  News
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="news.html" class="nav-link"> News </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="news-details.html" class="nav-link">
+                      News Details
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  Shop
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="shop.html" class="nav-link"> Shop </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="cart.html" class="nav-link"> Cart </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="checkout.html" class="nav-link"> Checkout </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="shop-details.html" class="nav-link">
+                      Shop Details
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link"> Contact </a>
+              </li>
+            </ul>
+
+            <div class="other-side">
+              <div class="search-area">
+                <div class="other-option">
+                  <div class="search-item">
+                    <a href="#" class="search-btn">
+                      <i class="flaticon-magnifying-glass"></i>
+                    </a>
+                    <i class="close-btn fas fa-times"></i>
+                    <div class="search-overlay search-popup">
+                      <div class="search-box">
+                        <form class="search-form">
+                          <input
+                            class="search-input"
+                            name="search"
+                            placeholder="Search"
+                            type="text"
+                          />
+                          <button class="search-button" type="submit">
+                            <i class="flaticon-magnifying-glass"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="search-text">Search</div>
+
+              <div class="cart-area">
+                <a class="cart-icon" href="cart.html">
+                  <i class="flaticon-shopping-cart"></i>
+                  <p>Cart <span>(2)</span></p>
                 </a>
               </div>
-              <div class="main-menu">
-                <ul>
-                  <li><a href="/">首頁</a></li>
-                  <li><a href="/why-elnido">為什麼選擇愛尼島</a></li>
-                  <li><a href="#">投資項目 <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-padding">
-                      <li><a href="/investment/piecelio">Piecelio</a></li>
-                      <li><a href="/investment/m-coast">暱名M海岸旅館</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">關於我們 <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="dropdown-padding">
-                      <li><a href="/about/hhotelgroup">開發商介紹</a></li>
-                      <li><a href="/about/piece-hostel">旅館管理公司</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="/faq">常見問題</a></li>
-                  <li><a href="/contact">聯絡我們</a></li>
-                </ul>
-              </div>
-              <div class="btn-area">
-                <div class="search-icon header__search header-search-btn">
-                  <a href="#"><img src="/assets/img/icons/search1.svg" alt=""></a>
-                </div>
-                <a href="/contact" class="header-btn1">立即諮詢 <img src="/assets/img/icons/arrow1.svg" alt=""></a>
-              </div>
 
-              <div class="header-search-form-wrapper">
-                <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
-                <div class="header-search-container">
-                    <form role="search" class="search-form">
-                    <input type="search"  class="search-field" placeholder="搜尋 …" value="" name="s">
-                    <button type="submit" class="search-submit"><img src="/assets/img/icons/search1.svg" alt=""></button>
-                    </form>
-                </div>
-            </div>
-            <div class="body-overlay"></div>
+              <div class="modal-menu">
+                <a
+                  href="#"
+                  class="burger-menu"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal2"
+                >
+                  <i class="flaticon-menu"></i>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!--=====HEADER END =======-->
-
-  <!--===== MOBILE HEADER STARTS =======-->
- <div class="mobile-header mobile-haeder1 d-block d-lg-none">
-  <div class="container-fluid">
-    <div class="col-12">
-      <div class="mobile-header-elements">
-        <div class="mobile-logo">
-          <a href="/"><img src="/assets/img/logo/logo2.png" alt="愛尼島夢想投資"></a>
-        </div>
-        <div class="mobile-nav-icon dots-menu">
-          <i class="fa-solid fa-bars-staggered"></i>
-        </div>
+        </nav>
       </div>
     </div>
   </div>
-</div>
+  <!-- End Navbar Area -->
 
-<div class="mobile-sidebar mobile-sidebar1">
-  <div class="logosicon-area">
-    <div class="logos">
-      <img src="/assets/img/logo/logo2.png" alt="愛尼島夢想投資">
-    </div>
-    <div class="menu-close">
-      <i class="fa-solid fa-xmark"></i>
-    </div>
-   </div>
-  <div class="mobile-nav mobile-nav1">
-    <ul class="mobile-nav-list nav-list1">
-      <li><a href="/">首頁</a></li>
-      <li><a href="/why-elnido">為什麼選擇愛尼島</a></li>
-      <li><a href="#">投資項目</a>
-        <ul class="sub-menu">
-          <li><a href="/investment/piecelio">Piecelio</a></li>
-          <li><a href="/investment/m-coast">暱名M海岸旅館</a></li>
-        </ul>
-      </li>
-      <li><a href="#">關於我們</a>
-        <ul class="sub-menu">
-          <li><a href="/about/hhotelgroup">開發商介紹</a></li>
-          <li><a href="/about/piece-hostel">旅館管理公司</a></li>
-        </ul>
-      </li>
-      <li><a href="/faq">常見問題</a></li>
-      <li><a href="/contact">聯絡我們</a></li>
-    </ul>
-    <div class="allmobilesection">
-      <a href="/contact" class="header-btn1">立即諮詢 <span><i class="fa-solid fa-arrow-right"></i></span></a>
-      <div class="single-footer">
-        <h3>聯絡資訊</h3>
-        <div class="footer1-contact-info">
-          <div class="contact-info-single">
-            <div class="contact-info-icon">
-              <span><i class="fa-solid fa-phone-volume"></i></span>
-            </div>
-            <div class="contact-info-text">
-              <a href="tel:+886-2-xxxx-xxxx">+886-2-xxxx-xxxx</a>
-            </div>
+  <!-- Start Sidebar Modal -->
+  <div class="sidebar-modal">
+    <div
+      class="modal right fade"
+      id="myModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">
+                <i class="fas fa-times"></i>
+              </span>
+            </button>
+            <h2 class="modal-title" id="myModalLabel2">
+              <a href="index.html">
+                <img src="/assets/img/logo.png" alt="Logo" />
+              </a>
+            </h2>
           </div>
-          <div class="contact-info-single">
-            <div class="contact-info-icon">
-              <span><i class="fa-solid fa-envelope"></i></span>
+
+          <div class="modal-body">
+            <div class="sidebar-modal-widget">
+              <h3 class="title">About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, asperiores doloribus eum laboriosam praesentium
+                delectus unde magni aut perspiciatis cumque deserunt dolore
+                voluptate, autem pariatur.
+              </p>
             </div>
-            <div class="contact-info-text">
-              <a href="mailto:info@elnido.com">info@elnido.com</a>
-            </div>
-          </div>
-          <div class="single-footer">
-            <h3>地址</h3>
-            <div class="contact-info-single">
-              <div class="contact-info-icon">
-                <span><i class="fa-solid fa-location-dot"></i></span>
-              </div>
-              <div class="contact-info-text">
-                <a href="#">台北市信義區信義路五段7號</a>
-              </div>
-            </div>
-          </div>
-          <div class="single-footer">
-            <h3>社群連結</h3> 
-            <div class="social-links-mobile-menu">
+            <div class="sidebar-modal-widget">
+              <h3 class="title">Additional Links</h3>
               <ul>
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-line"></i></a></li>
+                <li>
+                  <a href="log-in.html">Log In</a>
+                </li>
+                <li>
+                  <a href="sign-up.html">Sign Up</a>
+                </li>
+                <li>
+                  <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                  <a href="log-in.html">Logout</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar-modal-widget">
+              <h3 class="title">Contact Info</h3>
+              <ul class="contact-info">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  Address
+                  <span>28/A street, New York, USA</span>
+                </li>
+                <li>
+                  <i class="far fa-envelope"></i>
+                  Email
+                  <span>email@dobby.com</span>
+                </li>
+                <li>
+                  <i class="fas fa-mobile-alt"></i>
+                  Phone
+                  <span>+1 123 456 789, +1 123 454 699</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar-modal-widget">
+              <h3 class="title">Connect With Us</h3>
+              <ul class="social-list">
+                <li>
+                  <a href="https://www.facebook.com/login/" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/i/flow/login" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/accounts/login/?hl=en"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/" target="_blank">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-     </div>
+    </div>
   </div>
-</div>
-<!--===== MOBILE HEADER STARTS =======-->
+  <!-- End Sidebar Modal -->
 </template>
 
 <script>
@@ -288,45 +423,6 @@ export default {
       } else if (!urlLocale && storedLocale) {
         locale.value = storedLocale;
       }
-
-      // Add scroll progress functionality
-      const progressPath = document.querySelector(".progress-wrap path");
-      const pathLength = 1080;
-      progressPath.style.transition = progressPath.style.WebkitTransition = "none";
-      progressPath.style.strokeDasharray = pathLength + " " + pathLength;
-      progressPath.style.strokeDashoffset = pathLength;
-      progressPath.getBoundingClientRect();
-      progressPath.style.transition = progressPath.style.WebkitTransition = "stroke-dashoffset 10ms linear";
-
-      const updateProgress = () => {
-        const scroll = window.scrollY;
-        const height = document.documentElement.scrollHeight - window.innerHeight;
-        const progress = pathLength - (scroll * pathLength) / height;
-        progressPath.style.strokeDashoffset = progress;
-      };
-
-      updateProgress();
-      window.addEventListener('scroll', updateProgress);
-
-      const offset = 50;
-      const duration = 550;
-
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > offset) {
-          document.querySelector(".progress-wrap").classList.add("active-progress");
-        } else {
-          document.querySelector(".progress-wrap").classList.remove("active-progress");
-        }
-      });
-
-      document.querySelector(".progress-wrap").addEventListener('click', (event) => {
-        event.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-          duration: duration
-        });
-      });
     });
 
     return {
