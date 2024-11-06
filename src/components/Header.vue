@@ -108,45 +108,7 @@
               </li>
             </ul>
 
-            <div class="other-side">
-              <div class="search-area">
-                <div class="other-option">
-                  <div class="search-item">
-                    <a href="#" class="search-btn">
-                      <i class="flaticon-magnifying-glass"></i>
-                    </a>
-                    <i class="close-btn fas fa-times"></i>
-                    <div class="search-overlay search-popup">
-                      <div class="search-box">
-                        <form class="search-form">
-                          <input
-                            class="search-input"
-                            name="search"
-                            placeholder="搜尋"
-                            type="text"
-                          />
-                          <button class="search-button" type="submit">
-                            <i class="flaticon-magnifying-glass"></i>
-                          </button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="search-text">搜尋</div>
 
-              <div class="modal-menu">
-                <a
-                  href="#"
-                  class="burger-menu"
-                  data-bs-toggle="modal"
-                  data-bs-target="#myModal2"
-                >
-                  <i class="flaticon-menu"></i>
-                </a>
-              </div>
-            </div>
           </div>
         </nav>
       </div>
