@@ -6,9 +6,13 @@
 .banner-img{
     text-align: right;
     img{
-        object-fit: cover;
+        // object-fit: cover;
         width: 100% !important;
     }
+}
+
+.banner-content{
+    margin-left: auto;
 }
 
 .logo-img{

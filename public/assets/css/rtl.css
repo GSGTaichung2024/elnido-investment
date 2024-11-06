@@ -1,6 +1,5 @@
 body {
-    direction: rtl;
-    text-align: right;
+    direction: ltr;
 }
 .ml-50 {
     margin-right: 50px;
