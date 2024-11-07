@@ -14,9 +14,30 @@ export default {
     const router = useRouter();
     const { t, locale } = useI18n();
 
-
-
     onMounted(() => {
+      // FAQ accordion functionality
+      const accordionItems = document.querySelectorAll('.accordion-item');
+      
+      accordionItems.forEach(item => {
+        const title = item.querySelector('.accordion-title');
+        const content = item.querySelector('.accordion-content');
+        
+        title.addEventListener('click', () => {
+          // Toggle active class on title
+          title.classList.toggle('active');
+          
+          // Toggle show class on content
+          content.classList.toggle('show');
+          
+          // Close other accordion items
+          accordionItems.forEach(otherItem => {
+            if(otherItem !== item) {
+              otherItem.querySelector('.accordion-title').classList.remove('active');
+              otherItem.querySelector('.accordion-content').classList.remove('show');
+            }
+          });
+        });
+      });
     });
 
     return {
@@ -226,14 +247,6 @@ export default {
         <!-- FAQ Area -->
         <div class="faq-area pt-100 pb-70">
             <div class="container">
-                <div class="section-title text-center mb-50">
-                    <span>常見問題</span>
-                    <h2>投資愛尼島常見問題解答</h2>
-                    <p>
-                        為協助您更了解愛尼島的投資環境與機會，我們整理了投資人最常詢問的問題，希望能為您提供有價值的參考資訊。
-                    </p>
-                </div>
-
                 <div class="faq-area">
                     <ul class="accordion">
                         <li class="accordion-item">
