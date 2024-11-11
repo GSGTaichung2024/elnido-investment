@@ -52,11 +52,11 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3 bg-color4">
+  <div class="inner-banner bg-shape3 bg-color4 ">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
-          <div class="inner-title text-center">
+          <div class="inner-title text-center property-banner">
             <h1>Piecelio</h1>
             <h3>愛妮島最具特色的投資標的</h3>
           </div>
