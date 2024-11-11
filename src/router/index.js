@@ -18,6 +18,11 @@ const router = createRouter({
       name: "ProjectsPiecelio", 
       component: () => import("../views/PieceLio.vue"),
     },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/projects/m-hotel",
+      name: "ProjectsMHotel", 
+      component: () => import("../views/MHotel.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

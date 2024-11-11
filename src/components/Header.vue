@@ -200,37 +200,14 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="#"
+                  href="/about/hhotelgroup"
                   :class="[
                     'nav-link',
-                    currentRouteName.includes('about') ? 'active' : '',
+                    currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
                   ]"
                 >
                   關於我們
-                  <i class="fas fa-chevron-right"></i>
                 </a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a
-                      href="/about/hhotelgroup"
-                      :class="[
-                        'nav-link',
-                        currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
-                      ]"
-                      >hhotelgroup</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="/about/piece-hostel"
-                      :class="[
-                        'nav-link',
-                        currentRouteName === 'AboutPieceHostel' ? 'active' : '',
-                      ]"
-                      >Piece Hostel</a
-                    >
-                  </li>
-                </ul>
               </li>
               <li class="nav-item">
                 <a
