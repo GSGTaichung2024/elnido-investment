@@ -1,7 +1,10 @@
 @import "./base.css";
 
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+    font-family: "Noto Serif Display", serif !important;
+}
 
 .banner-img{
     text-align: right;

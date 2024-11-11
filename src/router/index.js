@@ -12,7 +12,12 @@ const router = createRouter({
       path: "/:locale(eng|zh_TW|zh_CN)?/why-elnido",
       name: "WhyElindo",
       component: () => import("../views/WhyElnido.vue"),
-    }
+    },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/projects/piecelio",
+      name: "ProjectsPiecelio", 
+      component: () => import("../views/PieceLio.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

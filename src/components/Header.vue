@@ -4,50 +4,121 @@
     <!-- Menu For Mobile Device -->
     <div class="mobile-nav mean-container">
       <div class="mean-bar">
-        <a href="#nav" class="meanmenu-reveal" style="background:;color:;right:0;left:auto;"><span><span><span></span></span></span></a>
+        <a href="#nav" class="meanmenu-reveal" style="right: 0; left: auto"
+          ><span
+            ><span><span></span></span></span
+        ></a>
         <nav class="mean-nav">
-          <ul class="navbar-nav m-auto" style="display: none;">
+          <ul class="navbar-nav m-auto" style="display: none">
             <li class="nav-item">
-              <a href="/" :class="['nav-link', currentRouteName === 'home' ? 'active' : '']">首頁</a>
+              <a
+                href="/"
+                :class="[
+                  'nav-link',
+                  currentRouteName === 'home' ? 'active' : '',
+                ]"
+                >首頁</a
+              >
             </li>
             <li class="nav-item">
-              <a href="/why-elnido" :class="['nav-link', currentRouteName === 'WhyElindo' ? 'active' : '']">為什麼選擇愛尼島</a>
+              <a
+                href="/why-elnido"
+                :class="[
+                  'nav-link',
+                  currentRouteName === 'WhyElindo' ? 'active' : '',
+                ]"
+                >為什麼選擇愛尼島</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#" :class="['nav-link', currentRouteName.includes('projects') ? 'active' : '']">
+              <a
+                href="#"
+                :class="[
+                  'nav-link',
+                  currentRouteName.includes('projects') ? 'active' : '',
+                ]"
+              >
                 投資項目
                 <i class="fas fa-chevron-right"></i>
               </a>
-              <ul class="dropdown-menu" style="display: none;">
+              <ul class="dropdown-menu" style="display: none">
                 <li class="nav-item">
-                  <a href="/projects/piecelio" :class="['nav-link', currentRouteName === 'ProjectsPiecelio' ? 'active' : '']">Piecelio</a>
+                  <a
+                    href="/projects/piecelio"
+                    :class="[
+                      'nav-link',
+                      currentRouteName === 'ProjectsPiecelio' ? 'active' : '',
+                    ]"
+                    >Piecelio</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="/projects/m-hotel" :class="['nav-link', currentRouteName === 'ProjectsMHotel' ? 'active' : '']">暱名M海岸旅館</a>
+                  <a
+                    href="/projects/m-hotel"
+                    :class="[
+                      'nav-link',
+                      currentRouteName === 'ProjectsMHotel' ? 'active' : '',
+                    ]"
+                    >暱名M海岸旅館</a
+                  >
                 </li>
               </ul>
               <a class="mean-expand" href="#" style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
-              <a href="#" :class="['nav-link', currentRouteName.includes('about') ? 'active' : '']">
+              <a
+                href="#"
+                :class="[
+                  'nav-link',
+                  currentRouteName.includes('about') ? 'active' : '',
+                ]"
+              >
                 關於我們
                 <i class="fas fa-chevron-right"></i>
               </a>
-              <ul class="dropdown-menu" style="display: none;">
+              <ul class="dropdown-menu" style="display: none">
                 <li class="nav-item">
-                  <a href="/about/hhotelgroup" :class="['nav-link', currentRouteName === 'AboutHhotelgroup' ? 'active' : '']">hhotelgroup</a>
+                  <a
+                    href="/about/hhotelgroup"
+                    :class="[
+                      'nav-link',
+                      currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
+                    ]"
+                    >hhotelgroup</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="/about/piece-hostel" :class="['nav-link', currentRouteName === 'AboutPieceHostel' ? 'active' : '']">Piece Hostel</a>
+                  <a
+                    href="/about/piece-hostel"
+                    :class="[
+                      'nav-link',
+                      currentRouteName === 'AboutPieceHostel' ? 'active' : '',
+                    ]"
+                    >Piece Hostel</a
+                  >
                 </li>
               </ul>
               <a class="mean-expand" href="#" style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
-              <a href="/faq" :class="['nav-link', currentRouteName === 'FAQ' ? 'active' : '']">常見問題</a>
+              <a
+                href="/faq"
+                :class="[
+                  'nav-link',
+                  currentRouteName === 'FAQ' ? 'active' : '',
+                ]"
+                >常見問題</a
+              >
             </li>
             <li class="nav-item mean-last">
-              <a href="/contact" :class="['nav-link', currentRouteName === 'Contact' ? 'active' : '']">聯絡我們</a>
+              <a
+                href="/contact"
+                :class="[
+                  'nav-link',
+                  currentRouteName === 'Contact' ? 'active' : '',
+                ]"
+                >聯絡我們</a
+              >
             </li>
           </ul>
         </nav>
@@ -62,53 +133,126 @@
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
           <a class="navbar-brand" href="/">
-            <img src="/assets/img/elnido_logo_2.webp" alt="Logo" class="logo-img" />
+            <img
+              src="/assets/img/elnido_logo_2.webp"
+              alt="Logo"
+              class="logo-img"
+            />
           </a>
-          <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse mean-menu"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav m-auto">
               <li class="nav-item">
-                <a href="/" :class="['nav-link', currentRouteName === 'home' ? 'active' : '']">首頁</a>
+                <a
+                  href="/"
+                  :class="[
+                    'nav-link',
+                    currentRouteName === 'home' ? 'active' : '',
+                  ]"
+                  >首頁</a
+                >
               </li>
               <li class="nav-item">
-                <a href="/why-elnido" :class="['nav-link', currentRouteName === 'WhyElindo' ? 'active' : '']">為什麼選擇愛尼島</a>
+                <a
+                  href="/why-elnido"
+                  :class="[
+                    'nav-link',
+                    currentRouteName === 'WhyElindo' ? 'active' : '',
+                  ]"
+                  >為什麼選擇愛尼島</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#" :class="['nav-link', currentRouteName.includes('projects') ? 'active' : '']">
+                <a
+                  href="#"
+                  :class="[
+                    'nav-link',
+                    currentRouteName.includes('projects') ? 'active' : '',
+                  ]"
+                >
                   投資項目
                   <i class="fas fa-chevron-right"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="/projects/piecelio" :class="['nav-link', currentRouteName === 'ProjectsPiecelio' ? 'active' : '']">Piecelio</a>
+                    <a
+                      href="/projects/piecelio"
+                      :class="[
+                        'nav-link',
+                        currentRouteName === 'ProjectsPiecelio' ? 'active' : '',
+                      ]"
+                      >Piecelio</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a href="/projects/m-hotel" :class="['nav-link', currentRouteName === 'ProjectsMHotel' ? 'active' : '']">暱名M海岸旅館</a>
+                    <a
+                      href="/projects/m-hotel"
+                      :class="[
+                        'nav-link',
+                        currentRouteName === 'ProjectsMHotel' ? 'active' : '',
+                      ]"
+                      >暱名M海岸旅館</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="#" :class="['nav-link', currentRouteName.includes('about') ? 'active' : '']">
+                <a
+                  href="#"
+                  :class="[
+                    'nav-link',
+                    currentRouteName.includes('about') ? 'active' : '',
+                  ]"
+                >
                   關於我們
                   <i class="fas fa-chevron-right"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="/about/hhotelgroup" :class="['nav-link', currentRouteName === 'AboutHhotelgroup' ? 'active' : '']">hhotelgroup</a>
+                    <a
+                      href="/about/hhotelgroup"
+                      :class="[
+                        'nav-link',
+                        currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
+                      ]"
+                      >hhotelgroup</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a href="/about/piece-hostel" :class="['nav-link', currentRouteName === 'AboutPieceHostel' ? 'active' : '']">Piece Hostel</a>
+                    <a
+                      href="/about/piece-hostel"
+                      :class="[
+                        'nav-link',
+                        currentRouteName === 'AboutPieceHostel' ? 'active' : '',
+                      ]"
+                      >Piece Hostel</a
+                    >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="/faq" :class="['nav-link', currentRouteName === 'FAQ' ? 'active' : '']">常見問題</a>
+                <a
+                  href="/faq"
+                  :class="[
+                    'nav-link',
+                    currentRouteName === 'FAQ' ? 'active' : '',
+                  ]"
+                  >常見問題</a
+                >
               </li>
               <li class="nav-item">
-                <a href="/contact" :class="['nav-link', currentRouteName === 'Contact' ? 'active' : '']">聯絡我們</a>
+                <a
+                  href="/contact"
+                  :class="[
+                    'nav-link',
+                    currentRouteName === 'Contact' ? 'active' : '',
+                  ]"
+                  >聯絡我們</a
+                >
               </li>
             </ul>
-
-
           </div>
         </nav>
       </div>
@@ -141,7 +285,11 @@
             </button>
             <h2 class="modal-title" id="myModalLabel2">
               <a href="/">
-                <img src="/assets/img/elnido_logo_2.webp" alt="Logo" class="logo-img" />
+                <img
+                  src="/assets/img/elnido_logo_2.webp"
+                  alt="Logo"
+                  class="logo-img"
+                />
               </a>
             </h2>
           </div>
@@ -190,12 +338,18 @@
               <h3 class="title">社群媒體</h3>
               <ul class="social-list">
                 <li>
-                  <a href="https://www.facebook.com/elnidoinvestment" target="_blank">
+                  <a
+                    href="https://www.facebook.com/elnidoinvestment"
+                    target="_blank"
+                  >
                     <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/elnidoinvestment" target="_blank">
+                  <a
+                    href="https://www.instagram.com/elnidoinvestment"
+                    target="_blank"
+                  >
                     <i class="fab fa-instagram"></i>
                   </a>
                 </li>
@@ -246,7 +400,7 @@ export default {
     });
 
     const currentRouteName = computed(() => {
-      return route.name || '';
+      return route.name || "";
     });
 
     const urlSetLocale = (lang) => {
