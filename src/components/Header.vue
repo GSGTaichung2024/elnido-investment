@@ -8,46 +8,46 @@
         <nav class="mean-nav">
           <ul class="navbar-nav m-auto" style="display: none;">
             <li class="nav-item">
-              <a href="/" class="nav-link active">首頁</a>
+              <a href="/" :class="['nav-link', currentRouteName === 'home' ? 'active' : '']">首頁</a>
             </li>
             <li class="nav-item">
-              <a href="/why-elnido" class="nav-link">為什麼選擇愛尼島</a>
+              <a href="/why-elnido" :class="['nav-link', currentRouteName === 'WhyElindo' ? 'active' : '']">為什麼選擇愛尼島</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" :class="['nav-link', currentRouteName.includes('projects') ? 'active' : '']">
                 投資項目
                 <i class="fas fa-chevron-right"></i>
               </a>
               <ul class="dropdown-menu" style="display: none;">
                 <li class="nav-item">
-                  <a href="/projects/piecelio" class="nav-link">Piecelio</a>
+                  <a href="/projects/piecelio" :class="['nav-link', currentRouteName === 'ProjectsPiecelio' ? 'active' : '']">Piecelio</a>
                 </li>
                 <li class="nav-item">
-                  <a href="/projects/m-hotel" class="nav-link">暱名M海岸旅館</a>
+                  <a href="/projects/m-hotel" :class="['nav-link', currentRouteName === 'ProjectsMHotel' ? 'active' : '']">暱名M海岸旅館</a>
                 </li>
               </ul>
               <a class="mean-expand" href="#" style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" :class="['nav-link', currentRouteName.includes('about') ? 'active' : '']">
                 關於我們
                 <i class="fas fa-chevron-right"></i>
               </a>
               <ul class="dropdown-menu" style="display: none;">
                 <li class="nav-item">
-                  <a href="/about/hhotelgroup" class="nav-link">hhotelgroup</a>
+                  <a href="/about/hhotelgroup" :class="['nav-link', currentRouteName === 'AboutHhotelgroup' ? 'active' : '']">hhotelgroup</a>
                 </li>
                 <li class="nav-item">
-                  <a href="/about/piece-hostel" class="nav-link">Piece Hostel</a>
+                  <a href="/about/piece-hostel" :class="['nav-link', currentRouteName === 'AboutPieceHostel' ? 'active' : '']">Piece Hostel</a>
                 </li>
               </ul>
               <a class="mean-expand" href="#" style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
-              <a href="/faq" class="nav-link">常見問題</a>
+              <a href="/faq" :class="['nav-link', currentRouteName === 'FAQ' ? 'active' : '']">常見問題</a>
             </li>
             <li class="nav-item mean-last">
-              <a href="/contact" class="nav-link">聯絡我們</a>
+              <a href="/contact" :class="['nav-link', currentRouteName === 'Contact' ? 'active' : '']">聯絡我們</a>
             </li>
           </ul>
         </nav>
@@ -67,44 +67,44 @@
           <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
               <li class="nav-item">
-                <a href="/" class="nav-link active">首頁</a>
+                <a href="/" :class="['nav-link', currentRouteName === 'home' ? 'active' : '']">首頁</a>
               </li>
               <li class="nav-item">
-                <a href="/why-elnido" class="nav-link">為什麼選擇愛尼島</a>
+                <a href="/why-elnido" :class="['nav-link', currentRouteName === 'WhyElindo' ? 'active' : '']">為什麼選擇愛尼島</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" :class="['nav-link', currentRouteName.includes('projects') ? 'active' : '']">
                   投資項目
                   <i class="fas fa-chevron-right"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="/projects/piecelio" class="nav-link">Piecelio</a>
+                    <a href="/projects/piecelio" :class="['nav-link', currentRouteName === 'ProjectsPiecelio' ? 'active' : '']">Piecelio</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/projects/m-hotel" class="nav-link">暱名M海岸旅館</a>
+                    <a href="/projects/m-hotel" :class="['nav-link', currentRouteName === 'ProjectsMHotel' ? 'active' : '']">暱名M海岸旅館</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" :class="['nav-link', currentRouteName.includes('about') ? 'active' : '']">
                   關於我們
                   <i class="fas fa-chevron-right"></i>
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a href="/about/hhotelgroup" class="nav-link">hhotelgroup</a>
+                    <a href="/about/hhotelgroup" :class="['nav-link', currentRouteName === 'AboutHhotelgroup' ? 'active' : '']">hhotelgroup</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/about/piece-hostel" class="nav-link">Piece Hostel</a>
+                    <a href="/about/piece-hostel" :class="['nav-link', currentRouteName === 'AboutPieceHostel' ? 'active' : '']">Piece Hostel</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="/faq" class="nav-link">常見問題</a>
+                <a href="/faq" :class="['nav-link', currentRouteName === 'FAQ' ? 'active' : '']">常見問題</a>
               </li>
               <li class="nav-item">
-                <a href="/contact" class="nav-link">聯絡我們</a>
+                <a href="/contact" :class="['nav-link', currentRouteName === 'Contact' ? 'active' : '']">聯絡我們</a>
               </li>
             </ul>
 
@@ -245,6 +245,10 @@ export default {
       return route.name === "home";
     });
 
+    const currentRouteName = computed(() => {
+      return route.name || '';
+    });
+
     const urlSetLocale = (lang) => {
       const currentPath = route.path;
       const currentName = route.name;
@@ -322,6 +326,7 @@ export default {
       urlSetLocale,
       localeOptions,
       isHome,
+      currentRouteName,
     };
   },
 };

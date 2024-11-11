@@ -51,256 +51,349 @@ export default {
 <template>
   <Header />
 
-        <!-- Banner Area -->
-        <div class="banner-area">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container-fluid m-0 p-0">
-                        <div class="row align-items-center justify-content-center">
-
-                            <div class="col-lg-6 text-right float-right">
-                                <div class="banner-content">
-                                    <h2>探索無限潛力的旅遊天堂</h2>
-                                    <p>
-                                        愛尼島是菲律賓最後一片淨土，擁有純淨的海灘、壯麗的石灰岩地形和豐富的海洋生態。
-                                        這裡不僅是度假天堂，更是充滿投資潛力的新興旅遊勝地。讓我們帶您探索愛尼島的無限可能。
-                                    </p>
-                                    <div class="banner-btn">
-                                        <a href="https://www.youtube.com/watch?v=wWgSuG3QPTo" target="_blank" class="banner-btn1 border-radius">探索愛尼島的無限可能</a>
-                                        <a href="contact.html" class="banner-btn2 border-radius mx-2">影片導覽</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="banner-img">
-                                    <img src="/assets/img/banner-image.webp" alt="Banner Images">
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <!-- Banner Area End -->
-
-        <!-- About Another -->
-        <div class="about-another pt-100 pb-70">
-            <div class="container-fluid m-0 p-0">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="about-img2">
-                            <img src="/assets/img/about/2.png" alt="About Images">
-                            <div class="icon-shape-5">
-                                <i class="flaticon-waves"></i>
-                            </div>
-                            <div class="icon-shape-6">
-                                <i class="flaticon-waves"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <div class="about-content">
-                            <span>About Us</span>
-                            <h2>探索愛尼島的自然與文化之美</h2>
-                            <p>
-                                愛尼島是菲律賓巴拉望省最著名的度假勝地之一，擁有純淨的白沙灘、清澈的海水和豐富的海洋生態。這裡不僅有壯麗的自然景觀，更保存了當地原住民的傳統文化。
-                            </p>
-                            <h4>精選旅遊路線</h4>
-                            <ul>
-                                <li>路線A：大小瀉湖探索之旅</li>
-                                <li>路線B：七個群島跳島之旅</li>
-                                <li>路線C：浮潛與海底探索之旅</li>
-                                <li>路線D：日落沙灘文化體驗</li>
-                            </ul>
-                            <div class="about-more-btn">
-                                <a href="about.html" class="default-btn4">查看更多旅遊資訊</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Inner Banner -->
+  <div class="inner-banner bg-shape1 bg-color1">
+    <div class="d-table">
+      <div class="d-table-cell">
+        <div class="conatiner">
+          <div class="inner-title text-center">
+            <h3>愛妮島投資機會</h3>
+            <ul>
+              <li>
+                <a href="index.html">首頁</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+              </li>
+              <li>
+                關於愛妮島
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- About Another End -->
+      </div>
+    </div>
+  </div>
+  <!-- Inner Banner End -->
 
-        <!-- Service Area Two -->
-        <section class="service-area-two ptb-100">
-            <div class="container">
-                <div class="section-title text-center mb-50">
-                    <span>投資愛尼島</span>
-                    <h2>探索愛尼島的無限投資潛力</h2>
-                    <p>
-                        愛尼島擁有得天獨厚的自然資源和發展優勢。這裡不僅有原始的自然生態系統，
-              更有完善的基礎設施規劃。隨著旅遊業的蓬勃發展，愛尼島正逐步成為最具投資
-              價值的度假勝地之一。
-                    </p>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-swimming"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>觀光業蓬勃發展</h3>
-                            </a>
-                            <p>
-                                愛尼島每年吸引超過百萬遊客到訪，旅遊業持續成長，為投資者帶來穩定收益。酒店、餐飲等相關產業具有極大發展潛力。
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-teacher"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>優質自然資源</h3>
-                            </a>
-                            <p>
-                                擁有原始海灘、珊瑚礁和熱帶雨林等豐富自然資源，適合發展生態旅遊、度假村等項目，具有獨特的競爭優勢。
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-flipper"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>完善基礎設施</h3>
-                            </a>
-                            <p>
-                                政府持續投入基礎建設，包括機場擴建、道路優化等，大幅提升島嶼可及性與便利性，有利於各類投資項目的開展。
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-swimmer"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>投資政策優惠</h3>
-                            </a>
-                            <p>
-                                當地政府提供多項投資優惠政策，包括稅收減免、土地使用優惠等，降低投資成本，提高投資回報率。
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-dive"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>人力資源豐富</h3>
-                            </a>
-                            <p>
-                                當地擁有充足的勞動力資源，且工資成本相對較低，有利於勞動密集型產業的發展與經營。
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item box-shadow">
-                            <a href="service-details.html" class="service-item-icon">
-                                <i class="flaticon-oxigen"></i>
-                            </a>
-                            <a href="service-details.html" class="service-head">
-                                <h3>增值潛力大</h3>
-                            </a>
-                            <p>
-                                隨著旅遊業發展和基礎設施完善，島上房地產和土地價值持續上漲，具有極大的資產增值空間。
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="text-center">
-                        <a href="services.html" class="default-btn4">了解更多投資機會</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Service Area Two End -->
-
-        <!-- Apply Another -->
-        <div class="apply-another">
-            <div class="container">
-                <div class="apply-text">
-                    <span>Q&A</span>
-                    <h2>投資人常見問題</h2>
-                </div>
-            </div>
+  <!-- About Details -->
+  <div class="about-detl pt-100 pb-70">
+    <div class="container">
+      <div class="common-dtel-img">
+        <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="common-dtel-text">
+            <h2>愛妮島 - 您的下一個投資新機遇</h2>
+            <p>
+              愛妮島正處於蓬勃發展階段，其旅遊市場展現出巨大的增長潛力。根據觀光數據顯示，近年來到訪遊客持續上升，年增長率保持在30%以上。
+              這樣的成長趨勢預期將持續維持，為投資者提供絕佳的市場切入時機。
+            </p>
+            <p>
+              當地政府正積極推動基礎設施的現代化建設，包括機場擴建工程，提升國際航班容量；道路系統優化，改善島內交通網絡；
+              供水供電系統升級，確保穩定供應。這些基礎建設的完善，將大幅提升愛妮島的投資價值。
+            </p>
+            <p>
+              投資愛妮島不僅是購置一處度假物業，更是參與這座美麗島嶼未來發展的良機。隨著愛妮島旅遊業的蓬勃發展，現在正是投資的最佳時機。
+            </p>
+          </div>
         </div>
-        <!-- Apply Another End -->
 
-        <!-- FAQ Area -->
-        <div class="faq-area pt-100 pb-70">
-            <div class="container">
-                <div class="faq-area">
-                    <ul class="accordion">
-                        <li class="accordion-item">
-                            <a class="accordion-title active" href="javascript:void(0)">
-                                <i class="fas fa-chevron-circle-right"></i> 
-                                在愛尼島投資需要具備哪些條件？
-                            </a>
-                            <p class="accordion-content show">
-                                外國投資者在愛尼島投資需要符合菲律賓相關法規要求。一般而言，您需要：1) 有效的護照和簽證；2) 在當地註冊成立公司或與當地合作夥伴合資；3) 符合外資持股比例限制；4) 取得相關部門的投資許可證。建議您可以諮詢專業的投資顧問，以了解詳細的投資流程。
-                            </p>
-                        </li>                        
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class="fas fa-chevron-circle-right"></i>
-                                愛尼島的土地產權制度是如何運作的？
-                            </a>
-                            <p class="accordion-content">
-                                根據菲律賓法律，外國人不能直接擁有土地，但可以通過以下方式投資：1) 與菲律賓公民成立合資公司，外資持股不超過40%；2) 簽訂長期租賃合約，最長可達50年，並可再延長25年；3) 購買公寓或住宅單位的所有權。我們可以協助您評估最適合的投資方式。
-                            </p>
-                        </li>
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class="fas fa-chevron-circle-right"></i> 
-                                投資愛尼島的旅遊業有哪些優勢？
-                            </a>
-                            <p class="accordion-content">
-                                愛尼島擁有多項投資優勢：1) 觀光資源豐富，自然景觀優美；2) 政府大力支持旅遊業發展，提供稅收優惠；3) 遊客數量逐年增長，市場潛力大；4) 土地和營運成本相對較低；5) 基礎設施持續改善，交通便利性提高。這些因素都使愛尼島成為極具吸引力的旅遊投資目的地。
-                            </p>
-                        </li>
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class="fas fa-chevron-circle-right"></i>
-                                投資回報期大約需要多久？
-                            </a>
-                            <p class="accordion-content">
-                                投資回報期因項目類型而異。一般而言，酒店和度假村項目的回收期約為5-7年，商業地產約為3-5年，住宅項目約為2-4年。但實際回報期會受到多種因素影響，如經營管理能力、市場條件、投資規模等。我們建議投資者進行詳細的可行性研究，以做出更準確的評估。
-                            </p>
-                        </li>
-                        <li class="accordion-item">
-                            <a class="accordion-title" href="javascript:void(0)">
-                                <i class="fas fa-chevron-circle-right"></i>
-                                有哪些投資風險需要注意？
-                            </a>
-                            <p class="accordion-content">
-                                主要風險包括：1) 政策法規變動風險；2) 匯率波動風險；3) 自然災害風險；4) 市場競爭風險；5) 經營管理風險。建議投資者做好風險評估和管理，選擇可靠的合作夥伴，並制定完善的風險應對方案。我們的專業團隊可以為您提供相關諮詢服務。
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+        <div class="col-lg-4">
+          <div class="common-offer">
+            <div class="drive-img">
+              <img src="/assets/img/drive.png" alt="Investment">
             </div>
+            <div class="common-offer-text">
+              <h3>了解投資機會</h3>
+              <a href="#" class="call-btn">立即諮詢</a>
+            </div>
+          </div>
         </div>
-        <!-- FAQ Area End -->
+      </div>
+    </div>
+  </div>
+  <!-- About Details End -->
 
+  <!-- Projects Area -->
+  <section class="product-area pt-100 pb-70">
+    <div class="container">
+      <div class="section-title text-center mb-50">
+        <span>精選建案</span>
+        <h2>頂級投資標的</h2>
+        <p>
+          為您精選愛妮島最具潛力的投資建案，結合優質地段與專業規劃，
+          打造最佳投資組合。
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-sm-6">
+          <div class="product-item">
+            <a href="project-details.html">
+              <!-- <img src="/assets/img/product/piecelio.jpg" alt="Piecelio"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="product-cotent">
+              <div class="product-text">
+                <a href="project-details.html"> 
+                  <h3>Piecelio</h3>
+                </a>
+                <span>精品度假村</span>
+              </div>
+              <a href="project-details.html" class="add-product">
+                <i class="flaticon-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-6 col-sm-6">
+          <div class="product-item">
+            <a href="project-details.html">
+              <!-- <img src="/assets/img/product/m-coast.jpg" alt="M海岸旅館"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="product-cotent">
+              <div class="product-text">
+                <a href="project-details.html"> 
+                  <h3>M海岸旅館</h3>
+                </a>
+                <span>海濱度假村</span>
+              </div>
+              <a href="project-details.html" class="add-product">
+                <i class="flaticon-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Area End -->
+
+  <!-- Team Area -->
+  <section class="trainers-area pt-100 pb-70">
+    <div class="container">
+      <div class="section-title text-center mb-50">
+        <span>開發團隊</span>
+        <h2>專業開發商：hhotelgroup</h2>
+        <p>
+          擁有豐富的度假村開發與管理經驗，在東南亞地區建立良好品牌信譽，
+          專業團隊確保項目品質與進度。
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <a href="team-details.html">
+              <!-- <img src="/assets/img/team/1.jpg" alt="Team Images"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="trainer-content">
+              <a href="team-details.html">
+                <h3>John Chen</h3>
+              </a>
+              <span>執行長</span>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <a href="team-details.html">
+              <!-- <img src="/assets/img/team/2.jpg" alt="Team Images"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="trainer-content">
+              <a href="team-details.html">
+                <h3>Sarah Lin</h3>
+              </a>
+              <span>設計總監</span>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <a href="team-details.html">
+              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="trainer-content">
+              <a href="team-details.html">
+                <h3>Michael Wang</h3>
+              </a>
+              <span>開發總監</span>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <a href="team-details.html">
+              <!-- <img src="/assets/img/team/4.jpg" alt="Team Images"> -->
+              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+            </a>
+            <div class="trainer-content">
+              <a href="team-details.html">
+                <h3>Lisa Zhang</h3>
+              </a>
+              <span>投資顧問</span>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team Area End -->
+
+  <!-- News Area -->
+  <section class="news-area pb-70">
+    <div class="container">
+      <div class="section-title text-center mb-50">
+        <span>最新消息</span>
+        <h2>愛妮島發展動態</h2>
+        <p>
+          掌握愛妮島最新發展資訊，了解投資機會與市場動向。
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card">
+            <div class="news-img">
+              <a href="news-details.html">
+                <!-- <img src="/assets/img/news/airport.jpg" alt="News Images"> -->
+                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              </a>
+              <div class="sub-text">
+                <a href="news-details.html">基礎建設</a>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="news-details.html">基礎建設部</a> 
+              </li>
+              <li>2024年3月</li>
+            </ul>
+            <div class="news-content">
+              <a href="news-details.html">
+                <h3>愛妮島機場擴建工程啟動</h3>
+              </a>
+              <p>
+                為提升國際航班容量，愛妮島機場擴建工程正式展開，
+                預計2025年完工。
+              </p>
+              <a href="news-details.html" class="news-icon">
+                閱讀更多
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card">
+            <div class="news-img">
+              <a href="news-details.html">
+                <!-- <img src="/assets/img/news/tourism.jpg" alt="News Images"> -->
+                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              </a>
+              <div class="sub-text">
+                <a href="news-details.html">旅遊發展</a>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="news-details.html">觀光局</a> 
+              </li>
+              <li>2024年2月</li>
+            </ul>
+            <div class="news-content">
+              <a href="news-details.html">
+                <h3>2023年觀光人數創新高</h3>
+              </a>
+              <p>
+                2023年愛妮島接待遊客突破百萬人次，
+                年增長率達35%。
+              </p>
+              <a href="news-details.html" class="news-icon">
+                閱讀更多
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card">
+            <div class="news-img">
+              <a href="news-details.html">
+                <!-- <img src="/assets/img/news/investment.jpg" alt="News Images"> -->
+                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              </a>
+              <div class="sub-text">
+                <a href="news-details.html">投資機會</a>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="news-details.html">投資部</a> 
+              </li>
+              <li>2024年1月</li>
+            </ul>
+            <div class="news-content">
+              <a href="news-details.html">
+                <h3>新度假村開發計畫公布</h3>
+              </a>
+              <p>
+                hhotelgroup宣布新度假村開發計畫，
+                預計投資規模達5000萬美元。
+              </p>
+              <a href="news-details.html" class="news-icon">
+                閱讀更多
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- News Area End -->
 
   <Footer />
 </template>
