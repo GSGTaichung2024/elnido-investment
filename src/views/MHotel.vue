@@ -57,8 +57,8 @@ export default {
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1>暫名M海岸旅館</h1>
-            <h3>愛妮島頂級海景度假投資標的</h3>
+            <h1 class="text-white">暫名M海岸旅館</h1>
+            <h5 class="text-white">愛妮島頂級海景度假投資標的</h5>
           </div>
         </div>
       </div>

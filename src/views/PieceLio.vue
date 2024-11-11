@@ -57,8 +57,8 @@ export default {
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1>Piecelio</h1>
-            <h3>愛妮島最具特色的投資標的</h3>
+            <h1 class="text-white">Piecelio</h1>
+            <h5 class="text-white">愛妮島最具特色的投資標的</h5>
           </div>
         </div>
       </div>

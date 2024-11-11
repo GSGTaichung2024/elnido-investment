@@ -57,7 +57,7 @@ export default {
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center">
-            <h3>hhotelgroup 開發商介紹</h3>
+            <h3>關於Hhotelgroup</h3>
             <ul>
               <li>
                 <a href="index.html">首頁</a>
@@ -66,7 +66,7 @@ export default {
                 <i class="fas fa-chevron-right"></i>
               </li>
               <li>
-                開發商介紹
+                開於我們
               </li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="section-title text-center mb-50">
-            <h2>hhotelgroup 的商業理念</h2>
+            <h2>Hhotelgroup 經營理念</h2>
             <p>專注於高品質度假項目開發，融合在地文化與國際標準，打造獨特的度假體驗</p>
           </div>
         </div>
@@ -128,6 +128,7 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
+            <img src="https://placehold.co/400" alt="精品度假村">
             <i class="flaticon-hotel"></i>
             <h3>精品度假村</h3>
             <p>打造獨特風格的精品度假體驗</p>
@@ -136,6 +137,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
+            <img src="https://placehold.co/400" alt="豪華海景公寓">
             <i class="flaticon-building"></i>
             <h3>豪華海景公寓</h3>
             <p>擁有絕佳視野的居住空間</p>
@@ -144,6 +146,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
+            <img src="https://placehold.co/400" alt="特色主題酒店">
             <i class="flaticon-resort"></i>
             <h3>特色主題酒店</h3>
             <p>結合在地特色的主題設計</p>
@@ -152,6 +155,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
+            <img src="https://placehold.co/400" alt="綜合型度假區">
             <i class="flaticon-architecture"></i>
             <h3>綜合型度假區</h3>
             <p>一站式的度假生活體驗</p>
@@ -173,44 +177,40 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400x400" alt="CEO">
+            <img src="https://placehold.co/400" alt="El Nido Images">
             <div class="trainer-content">
-              <h3>John Chen</h3>
-              <span>執行長</span>
-              <p>擁有20年國際酒店管理經驗</p>
+              <h3>Manager</h3>
+              <span>主管1</span>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400x400" alt="COO">
+            <img src="https://placehold.co/400" alt="El Nido Images">
             <div class="trainer-content">
-              <h3>Sarah Lin</h3>
-              <span>營運長</span>
-              <p>專精於度假村營運管理</p>
+              <h3>Manager</h3>
+              <span>主管1</span>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400x400" alt="CFO">
+            <img src="https://placehold.co/400" alt="El Nido Images">
             <div class="trainer-content">
-              <h3>Michael Wang</h3>
-              <span>財務長</span>
-              <p>豐富的投資管理經驗</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <img src="https://placehold.co/400x400" alt="CDO">
-            <div class="trainer-content">
-              <h3>Lisa Zhang</h3>
+              <h3>Henry Hsu</h3>
               <span>開發總監</span>
-              <p>領導多個成功開發案例</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <img src="https://placehold.co/400" alt="El Nido Images">
+            <div class="trainer-content">
+              <h3>Manager</h3>
+              <span>主管1</span>
             </div>
           </div>
         </div>
@@ -231,9 +231,12 @@ export default {
         <div class="col-lg-6">
           <div class="faq-accordion">
             <div class="accordion-item">
-              <h3 class="accordion-title">完善的法律保障</h3>
+              <h3 class="accordion-title">
+                <i class="fas fa-balance-scale me-2"></i>
+                完善的法律保障
+              </h3>
               <div class="accordion-content">
-                <ul>
+                <ul style="list-style: none; text-align: center; padding: 0;">
                   <li>嚴格的合約制度</li>
                   <li>透明的交易流程</li>
                   <li>完整的產權保障</li>
@@ -247,9 +250,12 @@ export default {
         <div class="col-lg-6">
           <div class="faq-accordion">
             <div class="accordion-item">
-              <h3 class="accordion-title">穩健的投資回報</h3>
+              <h3 class="accordion-title">
+                <i class="fas fa-chart-line me-2"></i>
+                穩健的投資回報
+              </h3>
               <div class="accordion-content">
-                <ul>
+                <ul style="list-style: none; text-align: center; padding: 0;">
                   <li>多元化收益來源</li>
                   <li>專業資產管理</li>
                   <li>透明的收益分配</li>

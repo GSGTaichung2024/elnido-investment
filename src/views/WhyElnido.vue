@@ -132,7 +132,7 @@ export default {
           <div class="product-item">
             <a href="project-details.html">
               <!-- <img src="/assets/img/product/piecelio.jpg" alt="Piecelio"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              <img src="https://placehold.co/800x600" alt="El Nido Images">
             </a>
             <div class="product-cotent">
               <div class="product-text">
@@ -152,7 +152,7 @@ export default {
           <div class="product-item">
             <a href="project-details.html">
               <!-- <img src="/assets/img/product/m-coast.jpg" alt="M海岸旅館"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              <img src="https://placehold.co/800x600" alt="El Nido Images">
             </a>
             <div class="product-cotent">
               <div class="product-text">
@@ -187,38 +187,14 @@ export default {
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
             <a href="team-details.html">
-              <!-- <img src="/assets/img/team/1.jpg" alt="Team Images"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
+              <img src="https://placehold.co/400" alt="El Nido Images">
             </a>
             <div class="trainer-content">
               <a href="team-details.html">
-                <h3>John Chen</h3>
+                <h3>Manager</h3>
               </a>
-              <span>執行長</span>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <a href="team-details.html">
-              <!-- <img src="/assets/img/team/2.jpg" alt="Team Images"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
-            </a>
-            <div class="trainer-content">
-              <a href="team-details.html">
-                <h3>Sarah Lin</h3>
-              </a>
-              <span>設計總監</span>
+              <span>主管1</span>
               <div class="social-icon">
                 <ul>
                   <li>
@@ -236,11 +212,35 @@ export default {
           <div class="trainer-card">
             <a href="team-details.html">
               <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              <img src="https://placehold.co/400" alt="El Nido Images">
             </a>
             <div class="trainer-content">
               <a href="team-details.html">
-                <h3>Michael Wang</h3>
+                <h3>Manager</h3>
+              </a>
+              <span>主管1</span>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="trainer-card">
+            <a href="team-details.html">
+              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
+              <img src="https://placehold.co/400" alt="El Nido Images">
+            </a>
+            <div class="trainer-content">
+              <a href="team-details.html">
+                <h3>Henry Hsu</h3>
               </a>
               <span>開發總監</span>
               <div class="social-icon">
@@ -259,14 +259,14 @@ export default {
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
             <a href="team-details.html">
-              <!-- <img src="/assets/img/team/4.jpg" alt="Team Images"> -->
-              <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
+              <img src="https://placehold.co/400" alt="El Nido Images">
             </a>
             <div class="trainer-content">
               <a href="team-details.html">
-                <h3>Lisa Zhang</h3>
+                <h3>Manager</h3>
               </a>
-              <span>投資顧問</span>
+              <span>主管1</span>
               <div class="social-icon">
                 <ul>
                   <li>
@@ -279,6 +279,7 @@ export default {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -300,8 +301,8 @@ export default {
             <div class="news-img">
               <a href="news-details.html">
                 <!-- <img src="/assets/img/news/airport.jpg" alt="News Images"> -->
-                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
-              </a>
+                <img src="https://placehold.co/500" alt="El Nido Images">
+            </a>
               <div class="sub-text">
                 <a href="news-details.html">基礎建設</a>
               </div>
@@ -332,7 +333,7 @@ export default {
             <div class="news-img">
               <a href="news-details.html">
                 <!-- <img src="/assets/img/news/tourism.jpg" alt="News Images"> -->
-                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+                <img src="https://placehold.co/500" alt="El Nido Images">
               </a>
               <div class="sub-text">
                 <a href="news-details.html">旅遊發展</a>
@@ -364,7 +365,7 @@ export default {
             <div class="news-img">
               <a href="news-details.html">
                 <!-- <img src="/assets/img/news/investment.jpg" alt="News Images"> -->
-                <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
+                <img src="https://placehold.co/500" alt="El Nido Images">
               </a>
               <div class="sub-text">
                 <a href="news-details.html">投資機會</a>
