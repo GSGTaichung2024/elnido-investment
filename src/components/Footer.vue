@@ -4,7 +4,7 @@
             <div class="footer-top pt-100 pb-70">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-6 col-sm-6">
                             <div class="footer-content">
                                 <div class="footer-conten-title">
                                     <a href="/"><img src="/assets/img/elnido_logo_2_white_text.webp" alt="Logo" class="logo-img"></a>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-2 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="footer-list">
                                 <h3>快速連結</h3>
                                 <ul>
@@ -66,26 +66,7 @@
                                 </ul>
                             </div>
                         </div>
-    
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-list ml-50">
-                                <h3>投資資源</h3>
-                                <ul>
-                                    <li>
-                                        <a href="/investment-guide">投資指南</a>
-                                    </li>
-                                    <li>
-                                        <a href="/legal-policy">法律與政策說明</a>
-                                    </li>
-                                    <li>
-                                        <a href="/consultation">預約諮詢服務</a>
-                                    </li>
-                                    <li>
-                                        <a href="/news">最新消息</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+
     
                         <div class="col-lg-3 col-sm-6">
                             <div class="footer-list">

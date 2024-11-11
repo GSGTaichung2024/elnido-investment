@@ -33,6 +33,11 @@ const router = createRouter({
       name: "Faq", 
       component: () => import("../views/faq.vue"),
     },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/contact",
+      name: "Contact", 
+      component: () => import("../views/Contact.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
