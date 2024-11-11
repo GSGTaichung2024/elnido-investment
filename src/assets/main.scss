@@ -9,9 +9,19 @@ body{
 .banner-img{
     text-align: right;
     img{
-        // object-fit: cover;
+        object-fit: cover;
+        object-position: left bottom;
         width: 100% !important;
     }
+
+    @media(max-width: 768px){
+        margin-bottom: 50px;
+    }
+}
+
+.banner-area{
+    padding-top: 0;
+    background-color: hsl(195, 100%, 86%);
 }
 
 .banner-content{

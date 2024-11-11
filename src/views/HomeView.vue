@@ -52,11 +52,17 @@ export default {
   <Header />
 
         <!-- Banner Area -->
-        <div class="banner-area">
+        <div class="banner-area bg-shape2">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container-fluid m-0 p-0">
                         <div class="row align-items-center justify-content-center">
+
+                            <div class="col-lg-6 d-block d-lg-none">
+                                <div class="banner-img">
+                                    <img src="/assets/img/banner-image.webp" alt="Banner Images">
+                                </div>
+                            </div>
 
                             <div class="col-lg-6 text-right float-right">
                                 <div class="banner-content">
@@ -72,7 +78,7 @@ export default {
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 d-none d-lg-block">
                                 <div class="banner-img">
                                     <img src="/assets/img/banner-image.webp" alt="Banner Images">
                                 </div>
