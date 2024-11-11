@@ -23,6 +23,11 @@ const router = createRouter({
       name: "ProjectsMHotel", 
       component: () => import("../views/MHotel.vue"),
     },
+    {
+      path: "/:locale(eng|zh_TW|zh_CN)?/about",
+      name: "About", 
+      component: () => import("../views/About.vue"),
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

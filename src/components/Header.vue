@@ -200,10 +200,10 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="/about/hhotelgroup"
+                  href="/about"
                   :class="[
                     'nav-link',
-                    currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
+                    currentRouteName === 'About' ? 'active' : '',
                   ]"
                 >
                   關於我們
