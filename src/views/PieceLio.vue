@@ -52,7 +52,7 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3 bg-color4">
+  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp'); background-size: cover; background-position: center;">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
@@ -70,150 +70,118 @@ export default {
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>關於我們</h2>
-        <h2>獨特設計與永續理念</h2>
+        <p>Piece Lio是愛妮島H Hotel Group與日本知名品牌Piece的卓越合作成果。作為愛妮島發展最快的酒店集團，H Hotel Group擁有包括Nacpan Beach Glamping和H Hotel在內的多個知名項目。在H Hospitality Group的專業管理下，我們致力於為每位賓客打造難忘的住宿體驗。</p>
       </div>
+    </div>
+  </div>
 
+
+  <!-- Full Width Image -->
+  <div class="full-width-image">
+    <img
+      src="/assets/img/piecelio/about_bottom.webp"
+      alt="Piece Lio Exterior"
+      class="w-100"
+      style="height: 350px; object-fit: cover; object-position: center center"
+    />
+  </div>
+
+  <!-- Team Section -->
+  <div class="team-area pt-100 pb-70 bg-light">
+    <div class="container">
+      <div class="section-title text-center mb-50">
+        <h2>專業團隊</h2>
+      </div>
       <div class="row">
-        <div class="col-lg-6">
-          <div class="feature-content">
-            <h3>獨創設計風格</h3>
-            <ul>
-              <li>國際知名建築團隊操刀設計</li>
-              <li>建築外觀融入熱帶度假風格</li>
-              <li>室內空間採用現代簡約設計語彙</li>
-              <li>完美結合在地文化元素與現代生活品味</li>
-            </ul>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-card text-center">
+            <img src="/assets/img/piecelio/h-logo.svg" alt="H Hotel Group" class="mb-3" style="width: 100px; height: 100px">
+            <h4>開發商：H Hotel Group</h4>
+            <p>作為愛妮島最大的私營旅遊地產集團，以卓越的酒店願景引領發展</p>
           </div>
         </div>
-
-        <div class="col-lg-6">
-          <div class="feature-content">
-            <h3>環保永續理念</h3>
-            <ul>
-              <li>採用環保建材，減少碳排放</li>
-              <li>設計導入自然採光與通風系統</li>
-              <li>建置雨水回收系統，實踐永續環境</li>
-              <li>符合國際綠建築標準，展現環保價值</li>
-            </ul>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-card text-center">
+            <img src="/assets/img/piecelio/logo-piece.svg" alt="Piece" class="mb-3" style="width: 100px; height: 100px">
+            <h4>設計師/品牌持有者：PIECE</h4>
+            <p>以創意設計和打造獨特本地體驗聞名，為酒店注入獨特風格</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-card text-center">
+            <img src="/assets/img/piecelio/eudo.jpg" alt="EUDO" class="mb-3" style="width: 100px; height: 100px">
+            <h4>建築師：EUDO</h4>
+            <p>專注於環保建築理念，確保酒店既美觀又永續</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-card text-center">
+            <img src="/assets/img/piecelio/about-hhg.webp" alt="H Hospitality Group" class="mb-3" style="width: 100px; height: 100px">
+            <h4>管理公司：H Hospitality Group</h4>
+            <p>愛妮島領先的管理公司，在過去七年旅遊業700%增長中發揮關鍵作用</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Facilities Section -->
-  <div class="facilities-area pt-100 pb-70 bg-white">
+  <!-- Rooms Section -->
+  <div class="rooms-area pt-100 pb-70 bg-white">
     <div class="container">
       <div class="section-title text-center mb-50">
-        <h2>完整配套設施</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="空中花園">
-            <h3>空中花園及休閒區域</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="無邊際泳池">
-            <h3>無邊際泳池</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="健身中心">
-            <h3>健身中心</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="24小時管理服務">
-            <h3>24小時管理服務</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Investment Benefits -->
-  <div class="benefits-area pt-100 pb-70 bg-light">
-    <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>投資優勢分析</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
-            <h3>位置優勢</h3>
-            <ul>
-              <li>位處愛妮島重要發展區域</li>
-              <li>鄰近主要景點及生活機能</li>
-              <li>交通便利，可及性高</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-chart-line fa-2x mb-3"></i>
-            <h3>增值潛力</h3>
-            <ul>
-              <li>區域未來發展規劃完善</li>
-              <li>基礎建設持續優化</li>
-              <li>觀光產業蓬勃發展</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-home fa-2x mb-3"></i>
-            <h3>靈活運營模式</h3>
-            <ul>
-              <li>自住使用</li>
-              <li>投資出租</li>
-              <li>度假會員制</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Gallery Section -->
-  <div class="gallery-area pt-100 pb-70 bg-white">
-    <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>建案實景展示</h2>
+        <h2>客房類型</h2>
+        <p>探索我們為不同需求設計的多樣化房型</p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="外觀示意圖">
-            <div class="gallery-content">
-              <h3>建築外觀</h3>
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100" style="height: 250px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">總統閣樓</h5>
+              <p>體驗極致奢華，配備寬敞客廳、獨立閣樓臥室、現代化浴室，設有步入式淋浴和高級衛浴用品。配備爐灶、冰箱等完整廚房設施。</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="室內空間">
-            <div class="gallery-content">
-              <h3>精緻室內</h3>
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100" style="height: 250px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">行政套房</h5>
+              <p>寬敞舒適的套房空間，提供完善的現代化設施</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="公共設施">
-            <div class="gallery-content">
-              <h3>公共設施</h3>
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/premier-studio/cover.webp" alt="尊貴套房" class="w-100" style="height: 250px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">尊貴套房</h5>
+              <p>精心設計的套房，帶來舒適愜意的住宿體驗</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!-- Official Website Section -->
+  <div class="official-website-area ptb-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="website-card text-center box-shadow p-5">
+            <h3 class="mb-4">訪問 Piecelio 官方網站</h3>
+            <p class="mb-4">探索更多關於我們的建案特色、設施配備等詳細資訊</p>
+            <a href="https://piecelio.com" target="_blank" class="btn btn-primary btn-lg">
+              前往官方網站
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <Footer />
 </template>
