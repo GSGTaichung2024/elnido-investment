@@ -15,12 +15,8 @@ export default {
     const { t, locale } = useI18n();
     const currentSlide = ref(0);
 
-    const nextSlide = () => {
-      currentSlide.value = (currentSlide.value + 1) % 3;
-    };
-
-    const prevSlide = () => {
-      currentSlide.value = (currentSlide.value - 1 + 3) % 3;
+    const setSlide = (index) => {
+      currentSlide.value = index;
     };
 
     onMounted(() => {
@@ -45,15 +41,16 @@ export default {
       });
 
       // Auto advance carousel
-      setInterval(nextSlide, 5000);
+      setInterval(() => {
+        currentSlide.value = (currentSlide.value + 1) % 3;
+      }, 5000);
     });
 
     return {
       t,
       locale,
       currentSlide,
-      nextSlide,
-      prevSlide
+      setSlide
     };
   },
 };
@@ -96,50 +93,60 @@ export default {
   <div class="about-carousel position-relative pt-100 pb-70">
     <div class="container">
       <div class="carousel-container">
-        <div class="carousel-slide" v-show="currentSlide === 0">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <img src="https://placehold.co/800x600?text=Island+Life" alt="Island Life" class="w-100">
-            </div>
-            <div class="col-lg-6">
-              <div class="about-content">
-                <h2>探索愛尼島的自然之美</h2>
-                <p>純淨的白沙灘、清澈的海水和豐富的海洋生態，這裡是您的度假天堂。</p>
+        <div class="carousel-wrapper">
+          <transition-group name="slide" mode="out-in">
+            <div class="carousel-slide" v-show="currentSlide === 0" :key="0">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <img src="https://placehold.co/800x600?text=Island+Life" alt="Island Life" class="w-100 rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                  <div class="about-content">
+                    <h2 class="mb-4">探索愛尼島的自然之美</h2>
+                    <p class="lead">純淨的白沙灘、清澈的海水和豐富的海洋生態，這裡是您的度假天堂。</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="carousel-slide" v-show="currentSlide === 1">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <img src="https://placehold.co/800x600?text=Marine+Life" alt="Marine Life" class="w-100">
-            </div>
-            <div class="col-lg-6">
-              <div class="about-content">
-                <h2>豐富的海洋生態</h2>
-                <p>探索繽紛的珊瑚礁和海洋生物，體驗大自然的奧妙。</p>
+            <div class="carousel-slide" v-show="currentSlide === 1" :key="1">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <img src="https://placehold.co/800x600?text=Marine+Life" alt="Marine Life" class="w-100 rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                  <div class="about-content">
+                    <h2 class="mb-4">豐富的海洋生態</h2>
+                    <p class="lead">探索繽紛的珊瑚礁和海洋生物，體驗大自然的奧妙。</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="carousel-slide" v-show="currentSlide === 2">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <img src="https://placehold.co/800x600?text=Sunset+View" alt="Sunset View" class="w-100">
-            </div>
-            <div class="col-lg-6">
-              <div class="about-content">
-                <h2>令人屏息的日落美景</h2>
-                <p>在這裡，每天都能欣賞到最動人的日落景致。</p>
+            <div class="carousel-slide" v-show="currentSlide === 2" :key="2">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <img src="https://placehold.co/800x600?text=Sunset+View" alt="Sunset View" class="w-100 rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                  <div class="about-content">
+                    <h2 class="mb-4">令人屏息的日落美景</h2>
+                    <p class="lead">在這裡，每天都能欣賞到最動人的日落景致。</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </transition-group>
         </div>
 
-        <button class="carousel-prev" @click="prevSlide">&lt;</button>
-        <button class="carousel-next" @click="nextSlide">&gt;</button>
+        <div class="carousel-dots">
+          <span 
+            v-for="n in 3" 
+            :key="n"
+            :class="['dot', { active: currentSlide === n - 1 }]"
+            @click="setSlide(n - 1)"
+          ></span>
+        </div>
       </div>
     </div>
   </div>
@@ -198,23 +205,34 @@ export default {
       </div>
       
       <div class="row">
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
             <img src="https://placehold.co/600x400?text=Sea+Turtle+Conservation" alt="Sea Turtle Conservation" class="w-100">
             <div class="p-4">
               <h3>海龜保育計畫取得重大進展</h3>
-              <p>愛尼島的海龜保育工作獲得國際認可，成功保護多個瀕危物種...</p>
+              <p>愛尼島的海龜保育工作獲得國際認可，成功保護多個瀕危物種。透過在地居民與保育團隊的共同努力，建立了完整的海龜棲息地保護網...</p>
               <a href="#" class="btn btn-primary">閱讀更多</a>
             </div>
           </div>
         </div>
         
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img src="https://placehold.co/600x400?text=Media+Coverage" alt="Media Coverage" class="w-100">
+            <img src="https://placehold.co/600x400?text=Sustainable+Development" alt="Sustainable Development" class="w-100">
             <div class="p-4">
               <h3>國際媒體聚焦愛尼島永續發展</h3>
-              <p>CNN報導：愛尼島如何平衡旅遊發展與環境保護...</p>
+              <p>CNN報導：愛尼島如何平衡旅遊發展與環境保護，成為菲律賓生態旅遊的典範。透過創新的管理模式，實現經濟發展與環境永續...</p>
+              <a href="#" class="btn btn-primary">閱讀更多</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="news-item box-shadow">
+            <img src="https://placehold.co/600x400?text=Business+Weekly+Interview" alt="Business Weekly Interview" class="w-100">
+            <div class="p-4">
+              <h3>Henry夫婦的愛尼島創業之路</h3>
+              <p>商業周刊專訪：從台灣到愛尼島，Henry夫婦如何在這片淨土上開創事業，並致力於推動當地永續發展與文化保存...</p>
               <a href="#" class="btn btn-primary">閱讀更多</a>
             </div>
           </div>
@@ -225,3 +243,82 @@ export default {
 
   <Footer />
 </template>
+
+<style scoped>
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  min-height: 600px; /* 設定固定高度 */
+}
+
+.carousel-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-enter-from {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.about-content {
+  padding: 2rem;
+}
+
+.about-content h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+.about-content .lead {
+  color: #666;
+  line-height: 1.6;
+}
+
+.carousel-slide img {
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.02);
+}
+</style>
