@@ -188,12 +188,12 @@
                   </li>
                   <li class="nav-item">
                     <a
-                      href="/projects/m-hotel"
+                      href="/projects/mu-hotel"
                       :class="[
                         'nav-link',
-                        currentRouteName === 'ProjectsMHotel' ? 'active' : '',
+                        currentRouteName === 'MuHotel' ? 'active' : '',
                       ]"
-                      >暱名M海岸旅館</a
+                      >MU Hotel</a
                     >
                   </li>
                 </ul>

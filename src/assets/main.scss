@@ -22,10 +22,31 @@ body{
 .banner-area{
     padding-top: 0;
     background-color: hsl(195, 100%, 86%);
+    background: url('/assets/img/banner-image.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .banner-content{
-    margin-left: auto;
+    margin-left: 0;
+    color: #fff;
+
+    p{
+        color: #fff;
+    }
+
+    @media(max-width: 768px){
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
 }
 
 .accordion-title{
@@ -39,4 +60,8 @@ body{
 .inner-title.property-banner{
     padding-top: 300px;
     padding-bottom: 250px;
+}
+
+.muhotel-text{
+    color: #4A3728;
 }

@@ -19,9 +19,9 @@ const router = createRouter({
       component: () => import("../views/PieceLio.vue"),
     },
     {
-      path: "/:locale(eng|zh_TW|zh_CN)?/projects/m-hotel",
-      name: "ProjectsMHotel", 
-      component: () => import("../views/MHotel.vue"),
+      path: "/:locale(eng|zh_TW|zh_CN)?/projects/mu-hotel",
+      name: "MuHotel", 
+      component: () => import("../views/MUHotel.vue"),
     },
     {
       path: "/:locale(eng|zh_TW|zh_CN)?/about",

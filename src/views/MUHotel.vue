@@ -52,13 +52,13 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3 bg-color4">
+  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/muhotel/1.jpg'); background-size: cover; background-position: center;">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1 class="text-white">暫名M海岸旅館</h1>
-            <h5 class="text-white">愛妮島頂級海景度假投資標的</h5>
+            <h1>Mu Hotel</h1>
+            <h5 class="my-2">愛妮島頂級海景度假投資標的</h5>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default {
   </div>
 
   <!-- Project Features -->
-  <div class="features-area pt-100 pb-70 bg-light">
+  <div class="features-area pt-100 pb-70 bg-light muhotel-text">
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>頂級海景規劃設計</h2>
@@ -101,7 +101,7 @@ export default {
   </div>
 
   <!-- Facilities Section -->
-  <div class="facilities-area pt-100 pb-70 bg-white">
+  <div class="facilities-area pt-100 pb-70 bg-white muhotel-text">
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>完整度假設施</h2>
@@ -109,26 +109,26 @@ export default {
       <div class="row">
         <div class="col-lg-3 col-sm-6">
           <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="無邊際泳池">
-            <h3>無邊際泳池</h3>
+            <img src="/assets/img/muhotel/1.jpg" alt="無邊際泳池">
+            <h5 class="my-2">無邊際泳池</h5>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="SPA中心">
-            <h3>SPA中心</h3>
+            <img src="/assets/img/muhotel/2.jpg" alt="SPA中心">
+            <h5 class="my-2">SPA中心</h5>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="特色餐廳">
-            <h3>特色餐廳</h3>
+            <img src="/assets/img/muhotel/3.jpg" alt="特色餐廳">
+            <h5 class="my-2">特色餐廳</h5>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="single-facility">
-            <img src="https://placehold.co/400x300" alt="多功能宴會廳">
-            <h3>多功能宴會廳</h3>
+            <img src="/assets/img/muhotel/4.jpg" alt="多功能宴會廳">
+            <h5 class="my-2">多功能宴會廳</h5>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default {
   </div>
 
   <!-- Investment Benefits -->
-  <div class="benefits-area pt-100 pb-70 bg-light">
+  <div class="benefits-area pt-100 pb-70 bg-light muhotel-text">
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>投資優勢分析</h2>
@@ -180,7 +180,7 @@ export default {
   </div>
 
   <!-- Gallery Section -->
-  <div class="gallery-area pt-100 pb-70 bg-white">
+  <div class="gallery-area pt-100 pb-70 bg-white muhotel-text">
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>建案實景展示</h2>
@@ -188,25 +188,25 @@ export default {
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="海景房示意圖">
+            <img src="/assets/img/muhotel/5.jpg" alt="海景房示意圖">
             <div class="gallery-content">
-              <h3>豪華海景房</h3>
+              <h5 class="my-2">豪華海景房</h5>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="公共設施">
+            <img src="/assets/img/muhotel/6.jpg" alt="公共設施">
             <div class="gallery-content">
-              <h3>度假設施</h3>
+              <h5 class="my-2">度假設施</h5>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="gallery-item">
-            <img src="https://placehold.co/600x400" alt="特色服務">
+            <img src="/assets/img/muhotel/7.jpg" alt="特色服務">
             <div class="gallery-content">
-              <h3>特色服務</h3>
+              <h5 class="my-2">特色服務</h5>
             </div>
           </div>
         </div>
