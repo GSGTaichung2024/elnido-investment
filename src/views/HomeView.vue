@@ -21,20 +21,24 @@ export default {
 
     onMounted(() => {
       // FAQ accordion functionality
-      const accordionItems = document.querySelectorAll('.accordion-item');
-      
-      accordionItems.forEach(item => {
-        const title = item.querySelector('.accordion-title');
-        const content = item.querySelector('.accordion-content');
-        
-        title.addEventListener('click', () => {
-          title.classList.toggle('active');
-          content.classList.toggle('show');
-          
-          accordionItems.forEach(otherItem => {
-            if(otherItem !== item) {
-              otherItem.querySelector('.accordion-title').classList.remove('active');
-              otherItem.querySelector('.accordion-content').classList.remove('show');
+      const accordionItems = document.querySelectorAll(".accordion-item");
+
+      accordionItems.forEach((item) => {
+        const title = item.querySelector(".accordion-title");
+        const content = item.querySelector(".accordion-content");
+
+        title.addEventListener("click", () => {
+          title.classList.toggle("active");
+          content.classList.toggle("show");
+
+          accordionItems.forEach((otherItem) => {
+            if (otherItem !== item) {
+              otherItem
+                .querySelector(".accordion-title")
+                .classList.remove("active");
+              otherItem
+                .querySelector(".accordion-content")
+                .classList.remove("show");
             }
           });
         });
@@ -50,7 +54,7 @@ export default {
       t,
       locale,
       currentSlide,
-      setSlide
+      setSlide,
     };
   },
 };
@@ -73,8 +77,15 @@ export default {
                   這裡不僅是度假天堂，更是充滿投資潛力的新興旅遊勝地。讓我們帶您探索愛尼島的無限可能。
                 </p>
                 <div class="banner-btn">
-                  <a href="https://www.youtube.com/watch?v=wWgSuG3QPTo" target="_blank" class="banner-btn1 border-radius">探索愛尼島的無限可能</a>
-                  <a href="contact.html" class="banner-btn2 border-radius mx-2">影片導覽</a>
+                  <a
+                    href="https://www.youtube.com/watch?v=wWgSuG3QPTo"
+                    target="_blank"
+                    class="banner-btn1 border-radius"
+                    >探索愛尼島的無限可能</a
+                  >
+                  <a href="contact.html" class="banner-btn2 border-radius mx-2"
+                    >影片導覽</a
+                  >
                 </div>
               </div>
             </div>
@@ -83,12 +94,6 @@ export default {
       </div>
     </div>
   </div>
-
-  <!-- Full Width Image -->
-  <div class="full-width-image">
-    <img src="https://placehold.co/1920x600?text=Beautiful+Ocean+View" alt="El Nido Panorama" class="w-100">
-  </div>
-
   <!-- About Carousel -->
   <div class="about-carousel position-relative pt-100 pb-70">
     <div class="container">
@@ -98,12 +103,18 @@ export default {
             <div class="carousel-slide" v-show="currentSlide === 0" :key="0">
               <div class="row align-items-center">
                 <div class="col-lg-6">
-                  <img src="https://placehold.co/800x600?text=Island+Life" alt="Island Life" class="w-100 rounded shadow">
+                  <img
+                    src="https://placehold.co/800x600?text=Island+Life"
+                    alt="Island Life"
+                    class="w-100 rounded shadow"
+                  />
                 </div>
                 <div class="col-lg-6">
                   <div class="about-content">
                     <h2 class="mb-4">探索愛尼島的自然之美</h2>
-                    <p class="lead">純淨的白沙灘、清澈的海水和豐富的海洋生態，這裡是您的度假天堂。</p>
+                    <p class="lead">
+                      純淨的白沙灘、清澈的海水和豐富的海洋生態，這裡是您的度假天堂。
+                    </p>
                   </div>
                 </div>
               </div>
@@ -112,12 +123,18 @@ export default {
             <div class="carousel-slide" v-show="currentSlide === 1" :key="1">
               <div class="row align-items-center">
                 <div class="col-lg-6">
-                  <img src="https://placehold.co/800x600?text=Marine+Life" alt="Marine Life" class="w-100 rounded shadow">
+                  <img
+                    src="https://placehold.co/800x600?text=Marine+Life"
+                    alt="Marine Life"
+                    class="w-100 rounded shadow"
+                  />
                 </div>
                 <div class="col-lg-6">
                   <div class="about-content">
                     <h2 class="mb-4">豐富的海洋生態</h2>
-                    <p class="lead">探索繽紛的珊瑚礁和海洋生物，體驗大自然的奧妙。</p>
+                    <p class="lead">
+                      探索繽紛的珊瑚礁和海洋生物，體驗大自然的奧妙。
+                    </p>
                   </div>
                 </div>
               </div>
@@ -126,7 +143,11 @@ export default {
             <div class="carousel-slide" v-show="currentSlide === 2" :key="2">
               <div class="row align-items-center">
                 <div class="col-lg-6">
-                  <img src="https://placehold.co/800x600?text=Sunset+View" alt="Sunset View" class="w-100 rounded shadow">
+                  <img
+                    src="https://placehold.co/800x600?text=Sunset+View"
+                    alt="Sunset View"
+                    class="w-100 rounded shadow"
+                  />
                 </div>
                 <div class="col-lg-6">
                   <div class="about-content">
@@ -140,8 +161,8 @@ export default {
         </div>
 
         <div class="carousel-dots">
-          <span 
-            v-for="n in 3" 
+          <span
+            v-for="n in 3"
             :key="n"
             :class="['dot', { active: currentSlide === n - 1 }]"
             @click="setSlide(n - 1)"
@@ -153,14 +174,19 @@ export default {
 
   <!-- Full Width Image -->
   <div class="full-width-image">
-    <img src="https://placehold.co/1920x600?text=Tropical+Paradise" alt="Tropical Paradise" class="w-100">
+    <img
+      src="/assets/img/home_full_image2.jpg"
+      alt="Tropical Paradise"
+      class="w-100"
+      style="height: 700px; object-fit: cover; object-position: center center"
+    />
   </div>
 
   <!-- Service Area -->
   <section class="service-area-two ptb-100">
     <div class="container">
       <div class="section-title text-center mb-50">
-        <span>投資愛尼島</span>
+        <span>為什麼選擇愛尼島</span>
         <h2>探索愛尼島的無限投資潛力</h2>
         <p>
           愛尼島擁有得天獨厚的自然資源和發展優勢。這裡不僅有原始的自然生態系統，
@@ -172,30 +198,107 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
-            <img src="https://placehold.co/400x300?text=Tourism" alt="Tourism" class="w-100 mb-4">
+            <img
+              src="https://placehold.co/400x300?text=Tourism"
+              alt="Tourism"
+              class="w-100 mb-4"
+            />
             <h3>觀光業蓬勃發展</h3>
-            <p>愛尼島每年吸引超過百萬遊客到訪，旅遊業持續成長，為投資者帶來穩定收益。</p>
+            <p>
+              愛尼島每年吸引超過百萬遊客到訪，旅遊業持續成長，為投資者帶來穩定收益。
+            </p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
-            <img src="https://placehold.co/400x300?text=Nature" alt="Nature" class="w-100 mb-4">
+            <img
+              src="https://placehold.co/400x300?text=Nature"
+              alt="Nature"
+              class="w-100 mb-4"
+            />
             <h3>優質自然資源</h3>
-            <p>擁有原始海灘、珊瑚礁和熱帶雨林等豐富自然資源，適合發展生態旅遊。</p>
+            <p>
+              擁有原始海灘、珊瑚礁和熱帶雨林等豐富自然資源，適合發展生態旅遊。
+            </p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
-            <img src="https://placehold.co/400x300?text=Infrastructure" alt="Infrastructure" class="w-100 mb-4">
+            <img
+              src="https://placehold.co/400x300?text=Infrastructure"
+              alt="Infrastructure"
+              class="w-100 mb-4"
+            />
             <h3>完善基礎設施</h3>
-            <p>政府持續投入基礎建設，包括機場擴建、道路優化等，大幅提升島嶼可及性。</p>
+            <p>
+              政府持續投入基礎建設，包括機場擴建、道路優化等，大幅提升島嶼可及性。
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+    <!-- Latest Properties -->
+    <section class="latest-properties ptb-100">
+      <div class="container">
+        <div class="section-title text-center mb-50">
+          <h2>最新物業項目</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="property-item box-shadow">
+              <img
+                src="/assets/img/muhotel/1.jpg"
+                alt="Mu Hotel"
+                class="w-100"
+                style="height: 350px; object-fit: cover"
+              />
+              <div class="p-4">
+                <h3 class="muhotel-text">Mu Hotel</h3>
+                <p>
+                  位於愛妮島頂級海景區，Mu Hotel以精心設計面海視野，讓每個單位都能享有壯麗的海景。建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
+                </p>
+                <a href="/projects/m-hotel" class="btn btn-primary">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-4">
+            <div class="property-item box-shadow">
+              <img
+                src="https://placehold.co/800x500?text=Piecelio"
+                alt="Piecelio"
+                class="w-100"
+                style="height: 350px; object-fit: cover"
+              />
+              <div class="p-4">
+                <h3>Piecelio</h3>
+                <p>
+                  愛妮島最具特色的投資標的，由國際知名建築團隊打造，融合熱帶度假風格與現代簡約設計。採用環保建材與永續理念，配備空中花園、無邊際泳池等頂級設施，為您提供絕佳的居住與投資價值。
+                </p>
+                <a href="/projects/piecelio" class="btn btn-primary">了解更多</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Full Width Image -->
+    <div class="full-width-image">
+    <img
+      src="/assets/img/home_full_image3.jpg"
+      alt="Tropical Paradise"
+      class="w-100"
+      style="height: 700px; object-fit: cover; object-position: center center"
+    />
+  </div>
 
   <!-- What's on El Nido -->
   <section class="whats-on ptb-100 bg-light">
@@ -203,25 +306,20 @@ export default {
       <div class="section-title text-center mb-50">
         <h2>What's on El Nido</h2>
       </div>
-      
+
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img src="https://placehold.co/600x400?text=Sea+Turtle+Conservation" alt="Sea Turtle Conservation" class="w-100">
+            <img
+              src="https://placehold.co/600x400?text=Sea+Turtle+Conservation"
+              alt="Sea Turtle Conservation"
+              class="w-100"
+            />
             <div class="p-4">
               <h3>海龜保育計畫取得重大進展</h3>
-              <p>愛尼島的海龜保育工作獲得國際認可，成功保護多個瀕危物種。透過在地居民與保育團隊的共同努力，建立了完整的海龜棲息地保護網...</p>
-              <a href="#" class="btn btn-primary">閱讀更多</a>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 mb-4">
-          <div class="news-item box-shadow">
-            <img src="https://placehold.co/600x400?text=Sustainable+Development" alt="Sustainable Development" class="w-100">
-            <div class="p-4">
-              <h3>國際媒體聚焦愛尼島永續發展</h3>
-              <p>CNN報導：愛尼島如何平衡旅遊發展與環境保護，成為菲律賓生態旅遊的典範。透過創新的管理模式，實現經濟發展與環境永續...</p>
+              <p>
+                愛尼島的海龜保育工作獲得國際認可，成功保護多個瀕危物種。透過在地居民與保育團隊的共同努力，建立了完整的海龜棲息地保護網...
+              </p>
               <a href="#" class="btn btn-primary">閱讀更多</a>
             </div>
           </div>
@@ -229,10 +327,33 @@ export default {
 
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img src="https://placehold.co/600x400?text=Business+Weekly+Interview" alt="Business Weekly Interview" class="w-100">
+            <img
+              src="https://placehold.co/600x400?text=Sustainable+Development"
+              alt="Sustainable Development"
+              class="w-100"
+            />
+            <div class="p-4">
+              <h3>國際媒體聚焦愛尼島永續發展</h3>
+              <p>
+                CNN報導：愛尼島如何平衡旅遊發展與環境保護，成為菲律賓生態旅遊的典範。透過創新的管理模式，實現經濟發展與環境永續...
+              </p>
+              <a href="#" class="btn btn-primary">閱讀更多</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="news-item box-shadow">
+            <img
+              src="https://placehold.co/600x400?text=Business+Weekly+Interview"
+              alt="Business Weekly Interview"
+              class="w-100"
+            />
             <div class="p-4">
               <h3>Henry夫婦的愛尼島創業之路</h3>
-              <p>商業周刊專訪：從台灣到愛尼島，Henry夫婦如何在這片淨土上開創事業，並致力於推動當地永續發展與文化保存...</p>
+              <p>
+                商業周刊專訪：從台灣到愛尼島，Henry夫婦如何在這片淨土上開創事業，並致力於推動當地永續發展與文化保存...
+              </p>
               <a href="#" class="btn btn-primary">閱讀更多</a>
             </div>
           </div>
@@ -240,6 +361,7 @@ export default {
       </div>
     </div>
   </section>
+  
 
   <Footer />
 </template>
