@@ -52,23 +52,24 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3 bg-color4 ">
+  <div class="inner-banner bg-shape3 bg-color4">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1 class="text-white">Piecelio</h1>
-            <h5 class="text-white">愛妮島最具特色的投資標的</h5>
+            <h1 class="text-white">Piece Lio</h1>
+            <h5 class="text-white">天堂與現代奢華的完美結合</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Project Features -->
-  <div class="features-area pt-100 pb-70 bg-light">
+  <!-- Introduction Section -->
+  <div class="intro-area pt-100 pb-70 bg-light">
     <div class="container">
       <div class="section-title text-center mb-50">
+        <h2>關於我們</h2>
         <h2>獨特設計與永續理念</h2>
       </div>
 

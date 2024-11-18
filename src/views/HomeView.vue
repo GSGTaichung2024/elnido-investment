@@ -252,37 +252,37 @@ export default {
         <div class="row">
           <div class="col-lg-6 mb-4">
             <div class="property-item box-shadow">
-              <img
-                src="/assets/img/muhotel/1.jpg"
-                alt="Mu Hotel"
-                class="w-100"
-                style="height: 350px; object-fit: cover"
-              />
-              <div class="p-4">
-                <h3 class="muhotel-text">Mu Hotel</h3>
-                <p>
-                  位於愛妮島頂級海景區，Mu Hotel以精心設計面海視野，讓每個單位都能享有壯麗的海景。建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
-                </p>
-                <a href="/projects/m-hotel" class="btn btn-primary">了解更多</a>
-              </div>
+              <a href="/projects/m-hotel">
+                <img
+                  src="/assets/img/muhotel/1.jpg"
+                  alt="Mu Hotel"
+                  class="w-100"
+                />
+                <div class="p-4">
+                  <h3 class="muhotel-text">Mu Hotel</h3>
+                  <p>
+                    位於愛妮島頂級海景區，Mu Hotel以精心設計面海視野，讓每個單位都能享有壯麗的海景。建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
 
           <div class="col-lg-6 mb-4">
             <div class="property-item box-shadow">
-              <img
-                src="https://placehold.co/800x500?text=Piecelio"
-                alt="Piecelio"
-                class="w-100"
-                style="height: 350px; object-fit: cover"
-              />
-              <div class="p-4">
-                <h3>Piecelio</h3>
-                <p>
-                  愛妮島最具特色的投資標的，由國際知名建築團隊打造，融合熱帶度假風格與現代簡約設計。採用環保建材與永續理念，配備空中花園、無邊際泳池等頂級設施，為您提供絕佳的居住與投資價值。
-                </p>
-                <a href="/projects/piecelio" class="btn btn-primary">了解更多</a>
-              </div>
+              <a href="/projects/piecelio">
+                <img
+                    src="/assets/img/home_piecelio.webp"
+                    alt="Piecelio"
+                    class="w-100"
+                />
+                <div class="p-4">
+                  <h3>Piecelio</h3>
+                  <p>
+                    愛妮島最具特色的投資標的，由國際知名建築團隊打造，融合熱帶度假風格與現代簡約設計。採用環保建材與永續理念，配備空中花園、無邊際泳池等頂級設施，為您提供絕佳的居住與投資價值。
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -310,52 +310,55 @@ export default {
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img
-              src="https://placehold.co/600x400?text=Sea+Turtle+Conservation"
-              alt="Sea Turtle Conservation"
-              class="w-100"
-            />
-            <div class="p-4">
-              <h3>海龜保育計畫取得重大進展</h3>
-              <p>
-                愛尼島的海龜保育工作獲得國際認可，成功保護多個瀕危物種。透過在地居民與保育團隊的共同努力，建立了完整的海龜棲息地保護網...
-              </p>
-              <a href="#" class="btn btn-primary">閱讀更多</a>
-            </div>
+            <a href="https://www.marieclaire.com.tw/lifestyle/issue/82539" target="_blank">
+              <img
+                src="/assets/img/home_news1.jpg"
+                alt="Sea Turtle Conservation"
+                class="w-100"
+              />
+              <div class="p-4">
+                <h3>專訪｜菲律賓愛妮島──海龜媽媽 Sylvia，築巢10米回家路是我的使命</h3>
+                <p>
+                  「菲律賓巴拉望最大海龜保育中心創辦人」Sylvia 與 H Hotel Group 創辦人與總裁 Henry 以對大自然的愛和熱情，一點一滴建立海龜寶寶園區，拯救瀕臨絕種危機的海龜。
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img
-              src="https://placehold.co/600x400?text=Sustainable+Development"
-              alt="Sustainable Development"
-              class="w-100"
-            />
-            <div class="p-4">
-              <h3>國際媒體聚焦愛尼島永續發展</h3>
-              <p>
-                CNN報導：愛尼島如何平衡旅遊發展與環境保護，成為菲律賓生態旅遊的典範。透過創新的管理模式，實現經濟發展與環境永續...
-              </p>
-              <a href="#" class="btn btn-primary">閱讀更多</a>
-            </div>
+            <a href="https://www.businessweekly.com.tw/Archive/Article?StrId=7011263" target="_blank">
+              <img
+                src="/assets/img/home_news2.jpg"
+                alt="El Nido Activities" 
+                class="w-100"
+              />
+              <div class="p-4">
+                <h3>划獨木舟訪大潟湖、秘境浮潛，直擊愛妮島上的台灣幫</h3>
+                <p>
+                  菲律賓愛妮島從未開發的原始島嶼變觀光勝地，背後推手竟是一群台灣人。許明順租土地、修繕道路，攜手日本PIECE集團蓋飯店，引進多元商業設施，打造全新旅遊體驗...
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <img
-              src="https://placehold.co/600x400?text=Business+Weekly+Interview"
-              alt="Business Weekly Interview"
-              class="w-100"
-            />
-            <div class="p-4">
-              <h3>Henry夫婦的愛尼島創業之路</h3>
-              <p>
-                商業周刊專訪：從台灣到愛尼島，Henry夫婦如何在這片淨土上開創事業，並致力於推動當地永續發展與文化保存...
-              </p>
-              <a href="#" class="btn btn-primary">閱讀更多</a>
-            </div>
+            <a href="https://www.businessweekly.com.tw/Archive/Article?StrId=7010827" target="_blank">
+              <img
+                src="/assets/img/home_news3.jpg"
+                alt="Business Weekly Interview"
+                class="w-100"
+              />
+              <div class="p-4">
+                <h3>14歲創業、31歲退休當背包客，台灣夫妻變愛妮島生態旅遊推手</h3>
+                <p>
+                  被譽為菲律賓最美仙境的愛妮島，旅遊業崛起的重要推手竟是一對來自台灣的夫妻。從26歲投資失利到31歲背包客生活，他們在無數次海島旅遊中感受海洋生機，最終決定落腳世界最美沙灘...
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -365,82 +368,3 @@ export default {
 
   <Footer />
 </template>
-
-<style scoped>
-.carousel-container {
-  position: relative;
-  overflow: hidden;
-  min-height: 600px; /* 設定固定高度 */
-}
-
-.carousel-wrapper {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-dots {
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.dot.active {
-  background-color: #333;
-}
-
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.5s ease;
-}
-
-.slide-enter-from {
-  opacity: 0;
-  transform: translateX(100%);
-}
-
-.slide-leave-to {
-  opacity: 0;
-  transform: translateX(-100%);
-}
-
-.about-content {
-  padding: 2rem;
-}
-
-.about-content h2 {
-  color: #333;
-  font-weight: bold;
-}
-
-.about-content .lead {
-  color: #666;
-  line-height: 1.6;
-}
-
-.carousel-slide img {
-  transition: transform 0.3s ease;
-}
-
-.carousel-slide img:hover {
-  transform: scale(1.02);
-}
-</style>
