@@ -14,32 +14,6 @@ export default {
     const router = useRouter();
     const { t, locale } = useI18n();
 
-    onMounted(() => {
-      // FAQ accordion functionality
-      const accordionItems = document.querySelectorAll('.accordion-item');
-      
-      accordionItems.forEach(item => {
-        const title = item.querySelector('.accordion-title');
-        const content = item.querySelector('.accordion-content');
-        
-        title.addEventListener('click', () => {
-          // Toggle active class on title
-          title.classList.toggle('active');
-          
-          // Toggle show class on content
-          content.classList.toggle('show');
-          
-          // Close other accordion items
-          accordionItems.forEach(otherItem => {
-            if(otherItem !== item) {
-              otherItem.querySelector('.accordion-title').classList.remove('active');
-              otherItem.querySelector('.accordion-content').classList.remove('show');
-            }
-          });
-        });
-      });
-    });
-
     return {
       t,
       locale,
@@ -52,349 +26,188 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape1 bg-color1">
+  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp'); background-size: cover; background-position: center;">
     <div class="d-table">
       <div class="d-table-cell">
-        <div class="conatiner">
-          <div class="inner-title text-center">
-            <h3>愛妮島投資機會</h3>
-            <ul>
-              <li>
-                <a href="index.html">首頁</a>
-              </li>
-              <li>
-                <i class="fas fa-chevron-right"></i>
-              </li>
-              <li>
-                關於愛妮島
-              </li>
-            </ul>
+        <div class="container">
+          <div class="inner-title text-center property-banner">
+            <h1 class="text-white">為什麼選擇愛妮島？</h1>
+            <h5 class="text-white">亞洲新興度假天堂的投資機會</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Inner Banner End -->
 
-  <!-- About Details -->
+  <!-- Introduction Section -->
   <div class="about-detl pt-100 pb-70">
     <div class="container">
-      <div class="common-dtel-img">
-        <img src="/assets/img/about/about-detl.jpg" alt="El Nido Images">
-      </div>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
+          <div class="common-offer">
+            <div class="drive-img">
+              <img src="/assets/img/tourist-grow-up.png" alt="Investment" class="w-100 rounded shadow">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="common-dtel-text pl-3">
+            <h2> 爆發性觀光成長</h2>
+            <p>自2014年以來，愛妮島的遊客人數一直穩步增長，增長率在2019年範圍從16%到93%。2023年1月和2月的遊客預計人數為92,934人，超過2019年的總遊客人數，這表明愛妮島旅遊業有著巨大的增長潛力。2024年第一季的入境遊客數達到了200,000人，顯示了旅遊業的顯著增長。根據最近的趨勢和分析，我們預計這一數字將迅速上升到600,000人。這一預測突顯了旅遊市場的強勁恢復，並突顯了我們的目的地對國際旅行者的持續吸引力。</p>
+            <ul>
+              <li>觀光人數7年成長700%，從2014年6.39萬人躍升至2024年預計60萬人</li>
+              <li>2024年第一季入境旅客已達20萬人，顯示強勁增長趨勢</li>
+              <li>微信搜尋關鍵字成長率達2294%，展現巨大市場潛力</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Introduction Section -->
+  <div class="team-area pt-100 pb-70 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-6">
           <div class="common-dtel-text">
-            <h2>愛妮島 - 您的下一個投資新機遇</h2>
-            <p>
-              愛妮島正處於蓬勃發展階段，其旅遊市場展現出巨大的增長潛力。根據觀光數據顯示，近年來到訪遊客持續上升，年增長率保持在30%以上。
-              這樣的成長趨勢預期將持續維持，為投資者提供絕佳的市場切入時機。
-            </p>
-            <p>
-              當地政府正積極推動基礎設施的現代化建設，包括機場擴建工程，提升國際航班容量；道路系統優化，改善島內交通網絡；
-              供水供電系統升級，確保穩定供應。這些基礎建設的完善，將大幅提升愛妮島的投資價值。
-            </p>
-            <p>
-              投資愛妮島不僅是購置一處度假物業，更是參與這座美麗島嶼未來發展的良機。隨著愛妮島旅遊業的蓬勃發展，現在正是投資的最佳時機。
-            </p>
+            <h2>市場潛力無限</h2>
+            <p>4小時飛行範圍內擁有6億潛在旅客市場，目前僅有207家酒店、3100間房間，相較普吉島(3000+酒店)和峇里島(13000+酒店)發展空間巨大。每位旅客平均停留2-4天，消費達17,000披索。</p>
+            <ul>
+              <li>愛妮島酒店房間與遊客之間的比例為1:146，表明該地區需要更多的住宿設施以滿足日益增多的遊客需求。</li>
+              <li>儘管愛妮島的酒店和酒店房間數量較普吉島和峇里島少，但仍能吸引每年440,000名國際直接遊客，表明愛妮島旅遊業投資回報的潛力很高。</li>
+            </ul>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="common-offer">
             <div class="drive-img">
-              <img src="/assets/img/drive.png" alt="Investment">
-            </div>
-            <div class="common-offer-text">
-              <h3>了解投資機會</h3>
-              <a href="#" class="call-btn">立即諮詢</a>
+              <img src="/assets/img/tourist-destination.png" alt="Investment" class="w-100 rounded shadow">
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- About Details End -->
 
-  <!-- Projects Area -->
-  <section class="product-area pt-100 pb-70">
+
+  <div class="team-area pb-70 pt-100">
     <div class="container">
-      <div class="section-title text-center mb-50">
-        <span>精選建案</span>
-        <h2>頂級投資標的</h2>
-        <p>
-          為您精選愛妮島最具潛力的投資建案，結合優質地段與專業規劃，
-          打造最佳投資組合。
-        </p>
-      </div>
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-sm-6">
-          <div class="product-item">
-            <a href="project-details.html">
-              <!-- <img src="/assets/img/product/piecelio.jpg" alt="Piecelio"> -->
-              <img src="https://placehold.co/800x600" alt="El Nido Images">
-            </a>
-            <div class="product-cotent">
-              <div class="product-text">
-                <a href="project-details.html"> 
-                  <h3>Piecelio</h3>
-                </a>
-                <span>精品度假村</span>
-              </div>
-              <a href="project-details.html" class="add-product">
-                <i class="flaticon-plus"></i>
-              </a>
+        <div class="col-lg-6">
+          <div class="common-offer">
+            <div class="drive-img">
+              <img src="/assets/img/international-destination.png" alt="Investment" class="w-100 rounded shadow">
             </div>
           </div>
         </div>
-
-        <div class="col-lg-6 col-sm-6">
-          <div class="product-item">
-            <a href="project-details.html">
-              <!-- <img src="/assets/img/product/m-coast.jpg" alt="M海岸旅館"> -->
-              <img src="https://placehold.co/800x600" alt="El Nido Images">
-            </a>
-            <div class="product-cotent">
-              <div class="product-text">
-                <a href="project-details.html"> 
-                  <h3>M海岸旅館</h3>
-                </a>
-                <span>海濱度假村</span>
-              </div>
-              <a href="project-details.html" class="add-product">
-                <i class="flaticon-plus"></i>
-              </a>
-            </div>
+        <div class="col-lg-6">
+          <div class="common-dtel-text">
+            <h2>國際級旅遊目的地</h2>
+            <p>根據統計，愛妮島以294,065名遊客到訪量排名第一，緊隨其後的是普林塞薩市（269,090名）、科隆（75,756名）、聖文森特（52,057名）和林納帕坎（16,654名）。其他遊客到訪量最多的鎮包括布魯克點（13,709名）、納拉（10,704名）、布蘇安加（8,121名）、庫利昂（6,768名）和泰泰（5,399名）。</p>
+            <ul>
+              <li>獲選「全球最美島嶼」</li>
+              <li>恩塔盧拉海灘(Entalula Beach)榮獲2024年全球第四美海灘</li>
+              <li>納克潘海灘躋身全球20大最美海灘之列</li>
+              <li>被譽為「亞洲馬爾地夫」，媲美世界級度假勝地</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Projects Area End -->
+  </div>
 
-  <!-- Team Area -->
-  <section class="trainers-area pt-100 pb-70">
+  <!-- Full Width Image -->
+  <div class="full-width-image">
+    <img
+      src="/assets/img/piecelio/about_bottom.webp"
+      alt="Piece Lio Exterior"
+      class="w-100"
+      style="height: 350px; object-fit: cover; object-position: center center"
+    />
+  </div>
+
+
+  <div class="rooms-area pt-100 pb-70 bg-white">
     <div class="container">
-      <div class="section-title text-center mb-50">
-        <span>開發團隊</span>
-        <h2>專業開發商：hhotelgroup</h2>
-        <p>
-          擁有豐富的度假村開發與管理經驗，在東南亞地區建立良好品牌信譽，
-          專業團隊確保項目品質與進度。
-        </p>
+      <div class="section-title text-left mb-30">
+        <h2>集團的蓬勃發展</h2>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <a href="team-details.html">
-              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
-              <img src="https://placehold.co/400" alt="El Nido Images">
-            </a>
-            <div class="trainer-content">
-              <a href="team-details.html">
-                <h3>Manager</h3>
-              </a>
-              <span>主管1</span>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">多元化商業版圖</h5>
+              <p>擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <a href="team-details.html">
-              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
-              <img src="https://placehold.co/400" alt="El Nido Images">
-            </a>
-            <div class="trainer-content">
-              <a href="team-details.html">
-                <h3>Manager</h3>
-              </a>
-              <span>主管1</span>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <a href="team-details.html">
-              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
-              <img src="https://placehold.co/400" alt="El Nido Images">
-            </a>
-            <div class="trainer-content">
-              <a href="team-details.html">
-                <h3>Henry Hsu</h3>
-              </a>
-              <span>開發總監</span>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="trainer-card">
-            <a href="team-details.html">
-              <!-- <img src="/assets/img/team/3.jpg" alt="Team Images"> -->
-              <img src="https://placehold.co/400" alt="El Nido Images">
-            </a>
-            <div class="trainer-content">
-              <a href="team-details.html">
-                <h3>Manager</h3>
-              </a>
-              <span>主管1</span>
-              <div class="social-icon">
-                <ul>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div class="col-md-6">
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">永續發展理念</h5>
+              <p>經營區域最大海龜保育中心，已成功放生超過35,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
             </div>
           </div>
         </div>
 
       </div>
     </div>
-  </section>
-  <!-- Team Area End -->
+  </div>
 
-  <!-- News Area -->
-  <section class="news-area pb-70">
+  <div class="rooms-area pt-100 pb-70 bg-light">
     <div class="container">
-      <div class="section-title text-center mb-50">
-        <span>最新消息</span>
-        <h2>愛妮島發展動態</h2>
-        <p>
-          掌握愛妮島最新發展資訊，了解投資機會與市場動向。
-        </p>
+      <div class="section-title text-left mb-30">
+        <h2>投資優勢</h2>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">市場定位精準</h5>
+              <p>房間供需比為1:193，遠高於普吉島(1:114)和峇里島(1:42)，顯示住宿需求強勁。酒店平均入住率維持高檔，具備穩定獲利能力，且為區域內唯一擁有合法開發商銷售執照的開發集團。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="room-card">
+            <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <div class="room-content">
+              <h5 class="my-2">增值潛力巨大</h5>
+              <p>觀光產業正處於快速成長期，土地取得成本相對低廉。政府支持觀光發展，法規環境友善。</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Official Website Section -->
+  <div class="official-website-area ptb-100">
+    <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="news-card">
-            <div class="news-img">
-              <a href="news-details.html">
-                <!-- <img src="/assets/img/news/airport.jpg" alt="News Images"> -->
-                <img src="https://placehold.co/500" alt="El Nido Images">
+        <div class="col-lg-8">
+          <div class="website-card text-center box-shadow p-5">
+            <h3 class="mb-4">聯繫專人</h3>
+            <p class="mb-4">把握愛妮島觀光產業起飛的黃金時機，與我們一同開創亞洲新興度假勝地的美好未來。</p>
+            <a href="https://www.facebook.com/iloveelnido" target="_blank" class="btn btn-primary btn-lg">
+              前往Facebook粉絲專頁
             </a>
-              <div class="sub-text">
-                <a href="news-details.html">基礎建設</a>
-              </div>
-            </div>
-            <ul>
-              <li>
-                <a href="news-details.html">基礎建設部</a> 
-              </li>
-              <li>2024年3月</li>
-            </ul>
-            <div class="news-content">
-              <a href="news-details.html">
-                <h3>愛妮島機場擴建工程啟動</h3>
-              </a>
-              <p>
-                為提升國際航班容量，愛妮島機場擴建工程正式展開，
-                預計2025年完工。
-              </p>
-              <a href="news-details.html" class="news-icon">
-                閱讀更多
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="news-card">
-            <div class="news-img">
-              <a href="news-details.html">
-                <!-- <img src="/assets/img/news/tourism.jpg" alt="News Images"> -->
-                <img src="https://placehold.co/500" alt="El Nido Images">
-              </a>
-              <div class="sub-text">
-                <a href="news-details.html">旅遊發展</a>
-              </div>
-            </div>
-            <ul>
-              <li>
-                <a href="news-details.html">觀光局</a> 
-              </li>
-              <li>2024年2月</li>
-            </ul>
-            <div class="news-content">
-              <a href="news-details.html">
-                <h3>2023年觀光人數創新高</h3>
-              </a>
-              <p>
-                2023年愛妮島接待遊客突破百萬人次，
-                年增長率達35%。
-              </p>
-              <a href="news-details.html" class="news-icon">
-                閱讀更多
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="news-card">
-            <div class="news-img">
-              <a href="news-details.html">
-                <!-- <img src="/assets/img/news/investment.jpg" alt="News Images"> -->
-                <img src="https://placehold.co/500" alt="El Nido Images">
-              </a>
-              <div class="sub-text">
-                <a href="news-details.html">投資機會</a>
-              </div>
-            </div>
-            <ul>
-              <li>
-                <a href="news-details.html">投資部</a> 
-              </li>
-              <li>2024年1月</li>
-            </ul>
-            <div class="news-content">
-              <a href="news-details.html">
-                <h3>新度假村開發計畫公布</h3>
-              </a>
-              <p>
-                hhotelgroup宣布新度假村開發計畫，
-                預計投資規模達5000萬美元。
-              </p>
-              <a href="news-details.html" class="news-icon">
-                閱讀更多
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- News Area End -->
+  </div>
+
 
   <Footer />
 </template>
