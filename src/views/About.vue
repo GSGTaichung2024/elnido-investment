@@ -14,31 +14,7 @@ export default {
     const router = useRouter();
     const { t, locale } = useI18n();
 
-    onMounted(() => {
-      // FAQ accordion functionality
-      const accordionItems = document.querySelectorAll('.accordion-item');
-      
-      accordionItems.forEach(item => {
-        const title = item.querySelector('.accordion-title');
-        const content = item.querySelector('.accordion-content');
-        
-        title.addEventListener('click', () => {
-          // Toggle active class on title
-          title.classList.toggle('active');
-          
-          // Toggle show class on content
-          content.classList.toggle('show');
-          
-          // Close other accordion items
-          accordionItems.forEach(otherItem => {
-            if(otherItem !== item) {
-              otherItem.querySelector('.accordion-title').classList.remove('active');
-              otherItem.querySelector('.accordion-content').classList.remove('show');
-            }
-          });
-        });
-      });
-    });
+    onMounted(() => {});
 
     return {
       t,
@@ -52,23 +28,20 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3 bg-color3">
+  <div
+    class="inner-banner bg-shape3"
+    style="
+      background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp');
+      background-size: cover;
+      background-position: center;
+    "
+  >
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
-          <div class="inner-title text-center">
-            <h3>關於Hhotelgroup</h3>
-            <ul>
-              <li>
-                <a href="index.html">首頁</a>
-              </li>
-              <li>
-                <i class="fas fa-chevron-right"></i>
-              </li>
-              <li>
-                開於我們
-              </li>
-            </ul>
+          <div class="inner-title text-center property-banner">
+            <h1 class="text-white">關於Hhotelgroup</h1>
+            <h5 class="text-white">Hospitality Group的創立故事</h5>
           </div>
         </div>
       </div>
@@ -77,39 +50,54 @@ export default {
   <!-- Inner Banner End -->
 
   <!-- About Details -->
-  <div class="about-detl pt-100 pb-70">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="section-title text-center mb-50">
-            <h2>Hhotelgroup 經營理念</h2>
-            <p>專注於高品質度假項目開發，融合在地文化與國際標準，打造獨特的度假體驗</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="single-features">
-            <img src="https://placehold.co/600x400" alt="專注開發">
-            <h3>專注於高品質度假項目開發</h3>
-            <p>深耕東南亞度假市場多年，專注於高端度假物業開發，強調永續發展理念，重視在地文化融合。</p>
+  <div class="about-another pt-100 pb-70">
+    <div class="container-fluid m-0 p-0">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5">
+          <div class="about-img2">
+            <img src="/assets/img/henry.webp" alt="About Images" />
+            <div class="icon-shape-5">
+              <i class="flaticon-waves"></i>
+            </div>
+            <div class="icon-shape-6">
+              <i class="flaticon-waves"></i>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="single-features">
-            <img src="https://placehold.co/600x400" alt="文化溝通">
-            <h3>獨特的文化溝通能力</h3>
-            <p>擅長融合當地特色與國際標準，深入理解在地文化內涵，創造具有文化深度的度假體驗。</p>
-          </div>
-        </div>
+        <div class="col-lg-7">
+          <div class="about-content">
+            <span>About Henry</span>
+            <h2>創業經驗與初心</h2>
+            <p>
+              我是一位來自台灣的創業家。過去創立了多家成功企業，包括知名潮牌
+              Puff Nation 和 P4P
+              Developments。我對探索未知的渴望，最終將我帶到了這片令人著迷的菲律賓天堂——愛妮島。
+            </p>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="single-features">
-            <img src="https://placehold.co/600x400" alt="品牌影響力">
-            <h3>強大的品牌影響力</h3>
-            <p>擁有多個成功案例，獲得國際獎項認可，建立優質的品牌口碑，深受投資者信任。</p>
+            <p>
+              愛妮島並非我們預先計劃的終點，而是在背包旅行中不斷吸引我們回來的地方。每一次返回，我們都深深被這片土地的魅力所征服。
+            </p>
+
+            <p>
+              最初，我們購買了 Lio
+              富人區的第一塊土地，建造了一間小木屋。這不僅是一個住所，更是我們對可持續生活的實踐：太陽能板提供電力，寬敞的庭院讓我們可以自給自足地種植蔬菜，並免費讓當地朋友居住。
+            </p>
+
+            <p>
+              在 Nacpan
+              海灘，我們購買的第一塊土地純粹源於一個單純的願望：保護海龜。那時的我們，只想幫助這些脆弱的生命順利孵育。
+            </p>
+
+            <p>
+              <strong>改變生活，拯救生命</strong><br />
+              住在海邊的生活，讓我們發現自己其實有能力影響身邊的環境。不再只是旁觀，我們可以主動去改變他人的生活，甚至拯救瀕臨危機的生命，讓生活更有意義！
+            </p>
+
+            <p>
+              <strong>創業的契機：發現市場的缺口</strong><br />
+              搬到愛妮島後，我們注意到一個超明顯的市場機會。這裡的旅館幾乎全年都客滿，朋友來玩的時候常常訂不到房間，這代表當地的接待能力完全供不應求。對於我這種一直熱愛創業的人來說，這根本就是老天爺送來的好機會！
+            </p>
           </div>
         </div>
       </div>
@@ -128,7 +116,7 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
-            <img src="https://placehold.co/400" alt="精品度假村">
+            <img src="https://placehold.co/400" alt="精品度假村" />
             <i class="flaticon-hotel"></i>
             <h3>精品度假村</h3>
             <p>打造獨特風格的精品度假體驗</p>
@@ -137,7 +125,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
-            <img src="https://placehold.co/400" alt="豪華海景公寓">
+            <img src="https://placehold.co/400" alt="豪華海景公寓" />
             <i class="flaticon-building"></i>
             <h3>豪華海景公寓</h3>
             <p>擁有絕佳視野的居住空間</p>
@@ -146,7 +134,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
-            <img src="https://placehold.co/400" alt="特色主題酒店">
+            <img src="https://placehold.co/400" alt="特色主題酒店" />
             <i class="flaticon-resort"></i>
             <h3>特色主題酒店</h3>
             <p>結合在地特色的主題設計</p>
@@ -155,7 +143,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="choose-card">
-            <img src="https://placehold.co/400" alt="綜合型度假區">
+            <img src="https://placehold.co/400" alt="綜合型度假區" />
             <i class="flaticon-architecture"></i>
             <h3>綜合型度假區</h3>
             <p>一站式的度假生活體驗</p>
@@ -177,7 +165,7 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400" alt="El Nido Images">
+            <img src="https://placehold.co/400" alt="El Nido Images" />
             <div class="trainer-content">
               <h3>Manager</h3>
               <span>主管1</span>
@@ -187,7 +175,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400" alt="El Nido Images">
+            <img src="https://placehold.co/400" alt="El Nido Images" />
             <div class="trainer-content">
               <h3>Manager</h3>
               <span>主管1</span>
@@ -197,7 +185,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400" alt="El Nido Images">
+            <img src="https://placehold.co/400" alt="El Nido Images" />
             <div class="trainer-content">
               <h3>Henry Hsu</h3>
               <span>開發總監</span>
@@ -207,7 +195,7 @@ export default {
 
         <div class="col-lg-3 col-sm-6">
           <div class="trainer-card">
-            <img src="https://placehold.co/400" alt="El Nido Images">
+            <img src="https://placehold.co/400" alt="El Nido Images" />
             <div class="trainer-content">
               <h3>Manager</h3>
               <span>主管1</span>
@@ -236,7 +224,7 @@ export default {
                 完善的法律保障
               </h3>
               <div class="accordion-content">
-                <ul style="list-style: none; text-align: center; padding: 0;">
+                <ul style="list-style: none; text-align: center; padding: 0">
                   <li>嚴格的合約制度</li>
                   <li>透明的交易流程</li>
                   <li>完整的產權保障</li>
@@ -255,7 +243,7 @@ export default {
                 穩健的投資回報
               </h3>
               <div class="accordion-content">
-                <ul style="list-style: none; text-align: center; padding: 0;">
+                <ul style="list-style: none; text-align: center; padding: 0">
                   <li>多元化收益來源</li>
                   <li>專業資產管理</li>
                   <li>透明的收益分配</li>

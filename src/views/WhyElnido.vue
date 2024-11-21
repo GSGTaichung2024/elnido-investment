@@ -120,18 +120,9 @@ export default {
     </div>
   </div>
 
-  <!-- Full Width Image -->
-  <div class="full-width-image">
-    <img
-      src="/assets/img/piecelio/about_bottom.webp"
-      alt="Piece Lio Exterior"
-      class="w-100"
-      style="height: 350px; object-fit: cover; object-position: center center"
-    />
-  </div>
 
 
-  <div class="rooms-area pt-100 pb-70 bg-white">
+  <div class="testimonial-area pt-100 pb-70 text-white">
     <div class="container">
       <div class="section-title text-left mb-30">
         <h2>集團的蓬勃發展</h2>
@@ -142,7 +133,7 @@ export default {
             <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">多元化商業版圖</h5>
-              <p>擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
+              <p class="text-light">擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
             </div>
           </div>
         </div>
@@ -151,7 +142,7 @@ export default {
             <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">永續發展理念</h5>
-              <p>經營區域最大海龜保育中心，已成功放生超過35,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
+              <p class="text-light">經營區域最大海龜保育中心，已成功放生超過35,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
             </div>
           </div>
         </div>
