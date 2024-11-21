@@ -3,12 +3,14 @@ import { useRouter, useRoute } from "vue-router";
 import { onMounted, ref } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import WhatOnElNido from "@/components/WhatOnElNido.vue";
 import { useI18n } from "vue-i18n";
 
 export default {
   components: {
     Header,
     Footer,
+    WhatOnElNido
   },
   setup() {
     const router = useRouter();

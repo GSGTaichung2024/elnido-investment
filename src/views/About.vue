@@ -3,12 +3,14 @@ import { useRouter, useRoute } from "vue-router";
 import { onMounted, ref } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import WhatOnElNido from "@/components/WhatOnElNido.vue";
 import { useI18n } from "vue-i18n";
 
 export default {
   components: {
     Header,
     Footer,
+    WhatOnElNido
   },
   setup() {
     const router = useRouter();
@@ -94,65 +96,74 @@ export default {
               住在海邊的生活，讓我們發現自己其實有能力影響身邊的環境。不再只是旁觀，我們可以主動去改變他人的生活，甚至拯救瀕臨危機的生命，讓生活更有意義！
             </p>
 
-            <p>
-              <strong>創業的契機：發現市場的缺口</strong><br />
-              搬到愛妮島後，我們注意到一個超明顯的市場機會。這裡的旅館幾乎全年都客滿，朋友來玩的時候常常訂不到房間，這代表當地的接待能力完全供不應求。對於我這種一直熱愛創業的人來說，這根本就是老天爺送來的好機會！
-            </p>
+
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- About Details End -->
-
-  <!-- Business Development -->
-  <section class="choose-area pt-100 pb-70 bg-color">
+  <div class="about-area pt-100 pb-70">
     <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>商業發展策略</h2>
-        <p>多元化的項目開發與創新的營運模式</p>
-      </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6">
+          <div class="about-text">
+            <div class="section-title">
+              <span>Why Choose El Nido?</span>
+              <h2>為什麼選擇愛妮島</h2>
+              <section>
+                <p>
+                  愛妮島，不僅是世界上最美麗的島嶼之一，更是一個充滿無限可能的天堂。它以其驚人的自然美景和獨特的魅力，被《Culture
+                  Trip》評選為<strong>「亞洲最酷的目的地」</strong>，並獲得多項國際殊榮：
+                </p>
+                <ul>
+                  <li><strong>被評選為世界最美島嶼之一</strong></li>
+                  <li><strong>入選全球20大最美海灘</strong></li>
+                  <li><strong>被譽為「亞洲的馬爾地夫」</strong></li>
+                </ul>
+                <p>
+                  這片美麗的土地不僅吸引了來自世界各地的遊客，也擁有巨大的潛在市場：每年周邊600萬的潛在遊客，讓這裡充滿無限商機。然而，定居後我發現了一個明顯的問題——<strong>旅館供不應求</strong>。朋友想來拜訪，卻常常訂不到房間，這顯示出當地住宿市場的供需嚴重失衡。
+                </p>
+                <br>
+                <p>
+                  作為一個熱愛創業、對挑戰充滿熱情的人，我不僅看到了這個機會，也決定將它變成我的實踐目標。<strong
+                    >既然訂不到房，那我們就自己來蓋！</strong
+                  >
+                </p>
+                <p>
+                  因此我打造了愛妮島Nacpan海灘上的第一棟獨棟Airbnb民宿，以「好玩的心態」去嘗試，卻用經營旅館的專業態度來管理。在2019年，我的努力得到了肯定，這棟民宿被《Culture
+                  Trip》評選為<strong>「愛妮島最酷的Airbnb」</strong>。
+                </p>
+                <br>
+                <p>
+                  選擇留在愛妮島，不僅是因為它的自然之美，更是因為它的無限潛力。這裡是一個讓人可以實現夢想的地方，一個能讓熱情與創意閃耀的舞台。在這片天堂，我找到了一個屬於自己的方向，並用實際行動為它注入更多可能性。
+                </p>
+                <p>
+                  愛妮島的美麗是無需多言的，而它的未來，才是最吸引我的地方。
+                </p>
+              </section>
+            </div>
 
-      <div class="row justify-content-center">
-        <div class="col-lg-3 col-sm-6">
-          <div class="choose-card">
-            <img src="https://placehold.co/400" alt="精品度假村" />
-            <i class="flaticon-hotel"></i>
-            <h3>精品度假村</h3>
-            <p>打造獨特風格的精品度假體驗</p>
           </div>
         </div>
 
-        <div class="col-lg-3 col-sm-6">
-          <div class="choose-card">
-            <img src="https://placehold.co/400" alt="豪華海景公寓" />
-            <i class="flaticon-building"></i>
-            <h3>豪華海景公寓</h3>
-            <p>擁有絕佳視野的居住空間</p>
-          </div>
-        </div>
+        <div class="col-lg-6">
+          <div class="about-right">
+            <div class="play-area p-0">
+              <img src="/assets/img/first-airbnb.jpeg">
+            </div>
 
-        <div class="col-lg-3 col-sm-6">
-          <div class="choose-card">
-            <img src="https://placehold.co/400" alt="特色主題酒店" />
-            <i class="flaticon-resort"></i>
-            <h3>特色主題酒店</h3>
-            <p>結合在地特色的主題設計</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="choose-card">
-            <img src="https://placehold.co/400" alt="綜合型度假區" />
-            <i class="flaticon-architecture"></i>
-            <h3>綜合型度假區</h3>
-            <p>一站式的度假生活體驗</p>
+            <div class="icon-shape-1">
+              <i class="flaticon-waves"></i>
+            </div>
+            <div class="icon-shape-2">
+              <i class="flaticon-waves"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Business Development End -->
+  </div>
 
   <!-- Management Team -->
   <section class="trainers-area pt-100 pb-70">
@@ -207,56 +218,7 @@ export default {
   </section>
   <!-- Management Team End -->
 
-  <!-- Investment Protection -->
-  <section class="faq-area pt-100 pb-70">
-    <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>投資者權益保障</h2>
-        <p>完善的法律保障與穩健的投資回報</p>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-lg-6">
-          <div class="faq-accordion">
-            <div class="accordion-item">
-              <h3 class="accordion-title">
-                <i class="fas fa-balance-scale me-2"></i>
-                完善的法律保障
-              </h3>
-              <div class="accordion-content">
-                <ul style="list-style: none; text-align: center; padding: 0">
-                  <li>嚴格的合約制度</li>
-                  <li>透明的交易流程</li>
-                  <li>完整的產權保障</li>
-                  <li>專業的法律諮詢</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="faq-accordion">
-            <div class="accordion-item">
-              <h3 class="accordion-title">
-                <i class="fas fa-chart-line me-2"></i>
-                穩健的投資回報
-              </h3>
-              <div class="accordion-content">
-                <ul style="list-style: none; text-align: center; padding: 0">
-                  <li>多元化收益來源</li>
-                  <li>專業資產管理</li>
-                  <li>透明的收益分配</li>
-                  <li>長期增值潛力</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Investment Protection End -->
+  <WhatOnElNido/>
 
   <Footer />
 </template>
