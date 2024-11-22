@@ -10,7 +10,7 @@ export default {
   components: {
     Header,
     Footer,
-    WhatOnElNido
+    WhatOnElNido,
   },
   setup() {
     const router = useRouter();
@@ -20,8 +20,6 @@ export default {
     const setSlide = (index) => {
       currentSlide.value = index;
     };
-
-
 
     return {
       t,
@@ -56,9 +54,6 @@ export default {
                     class="banner-btn1 border-radius"
                     >探索愛尼島的無限可能</a
                   >
-                  <a href="contact.html" class="banner-btn2 border-radius mx-2"
-                    >影片導覽</a
-                  >
                 </div>
               </div>
             </div>
@@ -77,9 +72,10 @@ export default {
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <img
-                    src="https://placehold.co/800x600?text=Island+Life"
+                    src="/assets/img/home_island.webp"
                     alt="Island Life"
                     class="w-100 rounded shadow"
+                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
@@ -97,9 +93,10 @@ export default {
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <img
-                    src="https://placehold.co/800x600?text=Marine+Life"
+                    src="/assets/img/home_environment.webp"
                     alt="Marine Life"
                     class="w-100 rounded shadow"
+                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
@@ -117,9 +114,10 @@ export default {
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <img
-                    src="https://placehold.co/800x600?text=Sunset+View"
+                    src="/assets/img/home_sunset.webp"
                     alt="Sunset View"
                     class="w-100 rounded shadow"
+                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
@@ -214,57 +212,56 @@ export default {
     </div>
   </section>
 
+  <!-- Latest Properties -->
+  <section class="latest-properties ptb-100">
+    <div class="container">
+      <div class="section-title text-center mb-50">
+        <h2>最新物業項目</h2>
+      </div>
 
-    <!-- Latest Properties -->
-    <section class="latest-properties ptb-100">
-      <div class="container">
-        <div class="section-title text-center mb-50">
-          <h2>最新物業項目</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="property-item box-shadow">
+            <a href="/projects/m-hotel">
+              <img
+                src="/assets/img/muhotel/1.jpg"
+                alt="Mu Hotel"
+                class="w-100"
+              />
+              <div class="p-4">
+                <h3 class="muhotel-text">Mu Hotel</h3>
+                <p>
+                  位於愛妮島頂級海景區，Mu
+                  Hotel以精心設計面海視野，讓每個單位都能享有壯麗的海景。建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="property-item box-shadow">
-              <a href="/projects/m-hotel">
-                <img
-                  src="/assets/img/muhotel/1.jpg"
-                  alt="Mu Hotel"
-                  class="w-100"
-                />
-                <div class="p-4">
-                  <h3 class="muhotel-text">Mu Hotel</h3>
-                  <p>
-                    位於愛妮島頂級海景區，Mu Hotel以精心設計面海視野，讓每個單位都能享有壯麗的海景。建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="property-item box-shadow">
-              <a href="/projects/piecelio">
-                <img
-                    src="/assets/img/home_piecelio.webp"
-                    alt="Piecelio"
-                    class="w-100"
-                />
-                <div class="p-4">
-                  <h3>Piecelio</h3>
-                  <p>
-                    愛妮島最具特色的投資標的，由國際知名建築團隊打造，融合熱帶度假風格與現代簡約設計。採用環保建材與永續理念，配備空中花園、無邊際泳池等頂級設施，為您提供絕佳的居住與投資價值。
-                  </p>
-                </div>
-              </a>
-            </div>
+        <div class="col-lg-6 mb-4">
+          <div class="property-item box-shadow">
+            <a href="/projects/piecelio">
+              <img
+                src="/assets/img/home_piecelio.webp"
+                alt="Piecelio"
+                class="w-100"
+              />
+              <div class="p-4">
+                <h3>Piecelio</h3>
+                <p>
+                  愛妮島最具特色的投資標的，由國際知名建築團隊打造，融合熱帶度假風格與現代簡約設計。採用環保建材與永續理念，配備空中花園、無邊際泳池等頂級設施，為您提供絕佳的居住與投資價值。
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-    <!-- Full Width Image -->
-    <div class="full-width-image">
+  <!-- Full Width Image -->
+  <div class="full-width-image">
     <img
       src="/assets/img/home_full_image3.jpg"
       alt="Tropical Paradise"
@@ -273,7 +270,7 @@ export default {
     />
   </div>
 
-  <WhatOnElNido/>
+  <WhatOnElNido />
 
   <Footer />
 </template>
