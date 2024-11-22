@@ -166,7 +166,7 @@ export default {
       <div class="row justify-content-center">
         <div class="col-lg-5 col-xxl-6">
           <div class="course-img-1">
-            <img src="/assets/img/course/2.jpg" alt="Course Images" />
+            <img src="/assets/img/about_turtle_1.webp" alt="Course Images" />
           </div>
           <div class="course-dots-2">
             <img src="/assets/img/shape/dots-pink.png" alt="Dots Images" />
@@ -218,7 +218,7 @@ export default {
 
           <div class="col-lg-5 col-xxl-6">
             <div class="course-img-2">
-              <img src="/assets/img/course/2.jpg" alt="Course Images" />
+              <img src="/assets/img/about_turtle_2.webp" alt="Course Images" />
             </div>
             <div class="course-dots-2">
               <img src="/assets/img/shape/dots-pink.png" alt="Dots Images" />
