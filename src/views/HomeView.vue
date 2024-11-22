@@ -170,9 +170,10 @@ export default {
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
             <img
-              src="https://placehold.co/400x300?text=Tourism"
+              src="/assets/img/home-tourism.png"
               alt="Tourism"
               class="w-100 mb-4"
+              style="height: 250px; object-fit: cover"
             />
             <h3>觀光業蓬勃發展</h3>
             <p>
@@ -184,9 +185,10 @@ export default {
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
             <img
-              src="https://placehold.co/400x300?text=Nature"
+              src="/assets/img/home-nature.jpeg"
               alt="Nature"
               class="w-100 mb-4"
+              style="height: 250px; object-fit: cover"
             />
             <h3>優質自然資源</h3>
             <p>
@@ -198,9 +200,10 @@ export default {
         <div class="col-lg-4 col-md-6">
           <div class="service-item box-shadow">
             <img
-              src="https://placehold.co/400x300?text=Infrastructure"
+              src="/assets/img/home-infra.jpeg"
               alt="Infrastructure"
               class="w-100 mb-4"
+              style="height: 250px; object-fit: cover"
             />
             <h3>完善基礎設施</h3>
             <p>
