@@ -33,7 +33,7 @@ export default {
   <div
     class="inner-banner bg-shape3"
     style="
-      background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp');
+      background-image: url('/assets/img/about_banner.webp');
       background-size: cover;
       background-position: center;
     "
@@ -42,8 +42,8 @@ export default {
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1 class="text-white">關於Hhotelgroup</h1>
-            <h5 class="text-white">Hospitality Group的創立故事</h5>
+            <h1 class="text-white" style="text-shadow: 1px 1px 5px #333;">關於Hhotelgroup</h1>
+            <h5 class="text-white" style="text-shadow: 1px 1px 5px #333;">Hospitality Group的創立故事</h5>
           </div>
         </div>
       </div>

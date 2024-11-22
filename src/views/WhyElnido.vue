@@ -28,7 +28,7 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp'); background-size: cover; background-position: center;">
+  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/whyelnido_banner.webp'); background-size: cover; background-position: center;">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
@@ -132,7 +132,7 @@ export default {
       <div class="row">
         <div class="col-md-6">
           <div class="room-card">
-            <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <img src="/assets/img/about_timeline.jpeg" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">多元化商業版圖</h5>
               <p class="text-light">擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
@@ -141,7 +141,7 @@ export default {
         </div>
         <div class="col-md-6">
           <div class="room-card">
-            <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
+            <img src="/assets/img/about_turtle_csr.jpeg" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">永續發展理念</h5>
               <p class="text-light">經營區域最大海龜保育中心，已成功放生超過35,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
