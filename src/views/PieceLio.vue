@@ -70,7 +70,7 @@ export default {
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>關於我們</h2>
-        <p>Piece Lio是愛妮島H Hotel Group與日本知名品牌Piece的卓越合作成果。作為愛妮島發展最快的酒店集團，H Hotel Group擁有包括Nacpan Beach Glamping和H Hotel在內的多個知名項目。在H Hospitality Group的專業管理下，我們致力於為每位賓客打造難忘的住宿體驗。</p>
+        <p>Piece Lio是愛妮島H Hotel Group與日本知名品牌Piece的卓越合作成果。作為愛妮島發展最快的酒店集團，H Hotel Group擁有包括納克潘Nacpan Beach Glamping和H Hotel在內的多個知名項目。在H Hospitality Group的專業管理下，我們致力於為每位賓客打造難忘的住宿體驗。</p>
       </div>
     </div>
   </div>

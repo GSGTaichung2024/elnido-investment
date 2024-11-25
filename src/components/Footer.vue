@@ -9,7 +9,7 @@
                                 <div class="footer-conten-title">
                                     <a href="/"><img src="/assets/img/elnido_logo_2_white_text.webp" alt="Logo" class="logo-img"></a>
                                     <p>
-                                        我們致力於在愛尼島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
+                                        我們致力於在愛妮島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
                                     </p>
                                 </div>
     
@@ -49,7 +49,7 @@
                                         <a href="/">首頁</a>
                                     </li>
                                     <li>
-                                        <a href="/why-elnido">為什麼選擇愛尼島</a>
+                                        <a href="/why-elnido">為什麼選擇愛妮島</a>
                                     </li>
                                     <li>
                                         <a href="/projects">投資項目</a>
@@ -74,7 +74,7 @@
                                 <ul>
                                     <li>
                                         <i class="fas fa-map-marker-alt"></i>
-                                        菲律賓愛尼島
+                                        菲律賓愛妮島
                                     </li>
                                     <li>
                                         <a href="mailto:contact@elnido-investment.com">

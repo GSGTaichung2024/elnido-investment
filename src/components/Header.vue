@@ -27,7 +27,7 @@
                   'nav-link',
                   currentRouteName === 'WhyElindo' ? 'active' : '',
                 ]"
-                >為什麼選擇愛尼島</a
+                >為什麼選擇愛妮島</a
               >
             </li>
             <li class="nav-item">
@@ -49,7 +49,7 @@
                       'nav-link',
                       currentRouteName === 'ProjectsPiecelio' ? 'active' : '',
                     ]"
-                    >Piecelio</a
+                    >Piece Lio</a
                   >
                 </li>
                 <li class="nav-item">
@@ -161,7 +161,7 @@
                     'nav-link',
                     currentRouteName === 'WhyElindo' ? 'active' : '',
                   ]"
-                  >為什麼選擇愛尼島</a
+                  >為什麼選擇愛妮島</a
                 >
               </li>
               <li class="nav-item">
@@ -183,7 +183,7 @@
                         'nav-link',
                         currentRouteName === 'ProjectsPiecelio' ? 'active' : '',
                       ]"
-                      >Piecelio</a
+                      >Piece Lio</a
                     >
                   </li>
                   <li class="nav-item">
@@ -275,7 +275,7 @@
             <div class="sidebar-modal-widget">
               <h3 class="title">關於我們</h3>
               <p>
-                我們致力於在愛尼島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
+                我們致力於在愛妮島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
               </p>
             </div>
             <div class="sidebar-modal-widget">
@@ -296,7 +296,7 @@
                 <li>
                   <i class="fas fa-map-marker-alt"></i>
                   地址
-                  <span>菲律賓愛尼島</span>
+                  <span>菲律賓愛妮島</span>
                 </li>
                 <li>
                   <i class="far fa-envelope"></i>

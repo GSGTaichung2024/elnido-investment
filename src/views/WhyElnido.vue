@@ -78,7 +78,7 @@ export default {
             <h2>市場潛力無限</h2>
             <p>4小時飛行範圍內擁有6億潛在旅客市場，目前僅有207家酒店、3100間房間，相較普吉島(3000+酒店)和峇里島(13000+酒店)發展空間巨大。每位旅客平均停留2-4天，消費達17,000披索。</p>
             <ul>
-              <li>愛妮島酒店房間與遊客之間的比例為1:146，表明該地區需要更多的住宿設施以滿足日益增多的遊客需求。</li>
+              <li>愛妮島酒店房間與遊客之間的比例為1:193，表明該地區需要更多的住宿設施以滿足日益增多的遊客需求。</li>
               <li>儘管愛妮島的酒店和酒店房間數量較普吉島和峇里島少，但仍能吸引每年440,000名國際直接遊客，表明愛妮島旅遊業投資回報的潛力很高。</li>
             </ul>
           </div>
@@ -113,7 +113,7 @@ export default {
             <ul>
               <li>獲選「全球最美島嶼」</li>
               <li>恩塔盧拉海灘(Entalula Beach)榮獲2024年全球第四美海灘</li>
-              <li>納克潘海灘躋身全球20大最美海灘之列</li>
+              <li>納克潘Nacpan海灘躋身全球20大最美海灘之列</li>
               <li>被譽為「亞洲馬爾地夫」，媲美世界級度假勝地</li>
             </ul>
           </div>
@@ -135,7 +135,7 @@ export default {
             <img src="/assets/img/about_timeline.jpeg" alt="總統閣樓" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">多元化商業版圖</h5>
-              <p class="text-light">擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
+              <p class="text-light">擁有多家高評分酒店：H Hotel（Agoda 9.3分）、S Resort（8.8分）等，經營範疇橫跨住宿、餐飲、旅遊、交通等全方位服務，納克潘Nacpan海灘接駁車服務占市場25%份額，掌握台灣赴愛妮島旅遊市場65%份額</p>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default {
             <img src="/assets/img/about_turtle_csr.jpeg" alt="行政套房" class="w-100 rounded shadow" style="height: 350px; object-fit: cover;">
             <div class="room-content">
               <h5 class="my-2">永續發展理念</h5>
-              <p class="text-light">經營區域最大海龜保育中心，已成功放生超過35,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
+              <p class="text-light">經營區域最大海龜保育中心，已成功放生超過48,000隻海龜<br>發展環保旅宿與素食餐廳，符合國際旅遊趨勢</p>
             </div>
           </div>
         </div>
