@@ -108,6 +108,13 @@
             </div>
         </footer>
         <!-- Footer Area End -->
+        <!-- Floating Button -->
+        <div class="floating-button">
+            <a href="https://line.me/R/ti/p/@elnido888" target="_blank">
+                <i class="fab fa-line"></i>
+            </a>
+        </div>
+        <!-- Floating Button End -->
 </template>
 
 <script>

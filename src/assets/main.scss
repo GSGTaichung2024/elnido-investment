@@ -2,184 +2,212 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-body{
-    font-family: "Noto Serif Display", serif !important;
+body {
+  font-family: "Noto Serif Display", serif !important;
 }
 
-.banner-img{
-    text-align: right;
-    img{
-        object-fit: cover;
-        object-position: left bottom;
-        width: 100% !important;
-    }
+.banner-img {
+  text-align: right;
 
-    @media(max-width: 768px){
-        margin-bottom: 50px;
-    }
+  img {
+    object-fit: cover;
+    object-position: left bottom;
+    width: 100% !important;
+  }
+
+  @media(max-width: 768px) {
+    margin-bottom: 50px;
+  }
 }
 
-.banner-area{
-    padding-top: 0;
-    background-color: hsl(195, 100%, 86%);
-    background: url('/assets/img/home_banner.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+.banner-area {
+  padding-top: 0;
+  background-color: hsl(195, 100%, 86%);
+  background: url('/assets/img/home_banner.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-.banner-content{
-    margin-left: 0;
+.banner-content {
+  margin-left: 0;
+  color: #fff;
+
+  p {
     color: #fff;
+  }
 
-    p{
-        color: #fff;
-    }
-
-    @media(max-width: 768px){
-        text-align: center;
-        margin: 0 auto;
-        padding: 0 15px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-    }
+  @media(max-width: 768px) {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
 }
 
-.accordion-title{
-    padding: 15px 20px 15px 50px !important;
+.accordion-title {
+  padding: 15px 20px 15px 50px !important;
 }
 
-.logo-img{
-    width: 150px;
+.logo-img {
+  width: 150px;
 }
 
-.inner-title.property-banner{
-    padding-top: 300px;
-    padding-bottom: 250px;
+.inner-title.property-banner {
+  padding-top: 300px;
+  padding-bottom: 250px;
 }
 
-.muhotel-text{
-    color: #4A3728;
+.muhotel-text {
+  color: #4A3728;
 }
 
-.news-item{
-    a {
-        text-decoration: none;
-    }
+.news-item {
+  a {
+    text-decoration: none;
+  }
 
-    img{
-        height: 250px; 
-        object-fit: cover;
-    }
+  img {
+    height: 250px;
+    object-fit: cover;
+  }
 
-    h3{
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        min-height: 100px;
-        color: #000;
-    }
+  h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 100px;
+    color: #000;
+  }
 }
 
-.latest-properties{
-    a {
-        text-decoration: none;
-    }
+.latest-properties {
+  a {
+    text-decoration: none;
+  }
 
-    img{
-        height: 350px; 
-        object-fit: cover;
-    }
+  img {
+    height: 350px;
+    object-fit: cover;
+  }
 
-    h3{
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        min-height: 30px;
-        color: #000;
-    }
+  h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 30px;
+    color: #000;
+  }
 }
 
 
 .carousel-container {
-    position: relative;
-    overflow: hidden;
-    min-height: 600px; /* 設定固定高度 */
+  position: relative;
+  overflow: hidden;
+  min-height: 600px;
+  /* 設定固定高度 */
+}
+
+.carousel-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-enter-from {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.about-content {
+  padding: 2rem;
+}
+
+.about-content h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+.about-content .lead {
+  color: #666;
+  line-height: 1.6;
+}
+
+.carousel-slide img {
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.02);
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 99;
+
+  a {
+    color: #fff;
   }
-  
-  .carousel-wrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .carousel-slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .carousel-dots {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-  }
-  
-  .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ddd;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .dot.active {
-    background-color: #333;
-  }
-  
-  .slide-enter-active,
-  .slide-leave-active {
-    transition: all 0.5s ease;
-  }
-  
-  .slide-enter-from {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  
-  .slide-leave-to {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  
-  .about-content {
-    padding: 2rem;
-  }
-  
-  .about-content h2 {
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .about-content .lead {
-    color: #666;
-    line-height: 1.6;
-  }
-  
-  .carousel-slide img {
-    transition: transform 0.3s ease;
-  }
-  
-  .carousel-slide img:hover {
-    transform: scale(1.02);
-  }
+}
+
+.floating-button:hover {
+  background: #45a049;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
