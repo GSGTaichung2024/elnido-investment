@@ -5,6 +5,7 @@ import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import WhatOnElNido from "@/components/WhatOnElNido.vue";
 import { useI18n } from "vue-i18n";
+import { useTouch } from "@/composables/useTouch"; // Create this composable
 
 export default {
   components: {
@@ -16,16 +17,38 @@ export default {
     const router = useRouter();
     const { t, locale } = useI18n();
     const currentSlide = ref(0);
+    const totalSlides = 3;
 
     const setSlide = (index) => {
-      currentSlide.value = index;
+      if(index < 0){
+        currentSlide.value = 0
+      }else if(index >= totalSlides){
+        currentSlide.value = totalSlides - 1
+      }else{
+        currentSlide.value = Number(index)
+      }
     };
+
+    const { touchStart, touchMove, touchEnd } = useTouch((direction) => {
+      // Swipe left moves to next slide
+      if (direction === "left") {
+        currentSlide.value = (currentSlide.value + 1) % totalSlides;
+      }
+      // Swipe right moves to previous slide
+      else if (direction === "right") {
+        currentSlide.value =
+          (currentSlide.value - 1 + totalSlides) % totalSlides;
+      }
+    });
 
     return {
       t,
       locale,
       currentSlide,
       setSlide,
+      touchStart,
+      touchMove,
+      touchEnd,
     };
   },
 };
@@ -63,7 +86,12 @@ export default {
     </div>
   </div>
   <!-- About Carousel -->
-  <div class="about-carousel position-relative pt-100 pb-70">
+  <div
+    class="about-carousel position-relative pt-100 pb-70"
+    @touchstart.prevent="touchStart"
+    @touchmove.prevent="touchMove"
+    @touchend.prevent="touchEnd"
+  >
     <div class="container">
       <div class="carousel-container">
         <div class="carousel-wrapper">
@@ -135,6 +163,15 @@ export default {
             :class="['dot', { active: currentSlide === n - 1 }]"
             @click="setSlide(n - 1)"
           ></span>
+        </div>
+
+        <div class="carousel-controls">
+          <button @click="setSlide(currentSlide - 1)">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button @click="setSlide(currentSlide + 1)">
+            <i class="fas fa-arrow-right"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -231,7 +268,8 @@ export default {
               <div class="p-4">
                 <h3 class="muhotel-text">Mu Hotel</h3>
                 <p>
-                  位於愛妮島頂級海景區，Mu Hotel以精心設計面海視野，建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
+                  位於愛妮島頂級海景區，Mu
+                  Hotel以精心設計面海視野，建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。
                 </p>
               </div>
             </a>
