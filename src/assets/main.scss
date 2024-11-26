@@ -211,3 +211,12 @@ body {
   background: #45a049;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+.about-carousel img{
+  height: 500px; 
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+    height: 350px; 
+  }
+}

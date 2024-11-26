@@ -75,7 +75,6 @@ export default {
                     src="/assets/img/home_island.webp"
                     alt="Island Life"
                     class="w-100 rounded shadow"
-                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
@@ -96,7 +95,6 @@ export default {
                     src="/assets/img/home_environment.webp"
                     alt="Marine Life"
                     class="w-100 rounded shadow"
-                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
@@ -117,7 +115,6 @@ export default {
                     src="/assets/img/home_sunset.webp"
                     alt="Sunset View"
                     class="w-100 rounded shadow"
-                    style="height: 500px; object-fit: cover"
                   />
                 </div>
                 <div class="col-lg-6">
