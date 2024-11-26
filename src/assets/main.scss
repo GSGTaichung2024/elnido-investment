@@ -255,3 +255,16 @@ body {
   
 }
 
+.navbar-nav{
+  @media(max-width: 768px){
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease;
+    position: fixed;
+    background-color: #fff;
+    &.active{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

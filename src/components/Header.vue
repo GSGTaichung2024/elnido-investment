@@ -4,12 +4,12 @@
     <!-- Menu For Mobile Device -->
     <div class="mobile-nav mean-container">
       <div class="mean-bar">
-        <a href="#nav" class="meanmenu-reveal" style="right: 0; left: auto"
+        <a @click="toggleDropdown()" class="meanmenu-reveal" style="right: 0; left: auto"
           ><span
             ><span><span></span></span></span
         ></a>
         <nav class="mean-nav">
-          <ul class="navbar-nav m-auto" style="display: none">
+          <ul class="navbar-nav m-auto" :class="isToggle ? `active` : ``">
             <li class="nav-item">
               <a
                 href="/"
@@ -67,38 +67,13 @@
             </li>
             <li class="nav-item">
               <a
-                href="#"
+                href="/about"
                 :class="[
                   'nav-link',
                   currentRouteName.includes('about') ? 'active' : '',
                 ]"
+                >關於我們</a
               >
-                關於我們
-                <i class="fas fa-chevron-right"></i>
-              </a>
-              <ul class="dropdown-menu" style="display: none">
-                <li class="nav-item">
-                  <a
-                    href="/about/hhotelgroup"
-                    :class="[
-                      'nav-link',
-                      currentRouteName === 'AboutHhotelgroup' ? 'active' : '',
-                    ]"
-                    >hhotelgroup</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="/about/piece-hostel"
-                    :class="[
-                      'nav-link',
-                      currentRouteName === 'AboutPieceHostel' ? 'active' : '',
-                    ]"
-                    >Piece Hostel</a
-                  >
-                </li>
-              </ul>
-              <a class="mean-expand" href="#" style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
               <a
@@ -356,7 +331,7 @@ export default {
     const { t, locale } = useI18n();
     const route = useRoute();
     const router = useRouter();
-
+    const isToggle = ref(false)
     const localeOptions = ref([
       {
         lang: "eng",
@@ -371,6 +346,10 @@ export default {
         name: "簡中",
       },
     ]);
+
+    const toggleDropdown = () => {
+      isToggle.value = !isToggle.value
+    };
 
     const isHome = computed(() => {
       return route.name === "home";
@@ -458,6 +437,8 @@ export default {
       localeOptions,
       isHome,
       currentRouteName,
+      isToggle,
+      toggleDropdown
     };
   },
 };
