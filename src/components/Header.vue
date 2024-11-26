@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <a
-                href="#"
+                @click="subMenuOpen('projects')"
                 :class="[
                   'nav-link',
                   currentRouteName.includes('projects') ? 'active' : '',
@@ -41,7 +41,7 @@
                 投資項目
                 <i class="fas fa-chevron-right"></i>
               </a>
-              <ul class="dropdown-menu" style="display: none">
+              <ul class="dropdown-menu" :class="isSubMenuOpen == 'projects' ? 'active' : ''">
                 <li class="nav-item">
                   <a
                     href="/projects/piecelio"
@@ -54,16 +54,17 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    href="/projects/m-hotel"
-                    :class="[
-                      'nav-link',
-                      currentRouteName === 'ProjectsMHotel' ? 'active' : '',
-                    ]"
-                    >暱名M海岸旅館</a
-                  >
+                      href="/projects/mu-hotel"
+                      :class="[
+                        'nav-link',
+                        currentRouteName === 'MuHotel' ? 'active' : '',
+                      ]"
+                      >MU Hotel</a
+                    >
                 </li>
               </ul>
-              <a class="mean-expand" href="#" style="font-size: 24px">+</a>
+              <a class="mean-expand" @click="subMenuOpen('projects')"
+              style="font-size: 24px">+</a>
             </li>
             <li class="nav-item">
               <a
@@ -346,10 +347,19 @@ export default {
         name: "簡中",
       },
     ]);
+    const isSubMenuOpen = ref('')
 
     const toggleDropdown = () => {
       isToggle.value = !isToggle.value
     };
+
+    const subMenuOpen = (menuName) => {
+      if(menuName == isSubMenuOpen.value){
+        isSubMenuOpen.value = ''
+      }else{
+        isSubMenuOpen.value = menuName
+      }
+    }
 
     const isHome = computed(() => {
       return route.name === "home";
@@ -438,7 +448,9 @@ export default {
       isHome,
       currentRouteName,
       isToggle,
-      toggleDropdown
+      toggleDropdown,
+      subMenuOpen,
+      isSubMenuOpen
     };
   },
 };

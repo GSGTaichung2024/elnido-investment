@@ -267,4 +267,16 @@ body {
       visibility: visible;
     }
   }
+
+  .nav-item{
+    .dropdown-menu{
+      display: hidden;
+
+      &.active{
+        display: block;
+
+      }
+      
+    }
+  }
 }
