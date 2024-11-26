@@ -95,7 +95,7 @@ export default {
     <div class="container">
       <div class="carousel-container">
         <div class="carousel-wrapper">
-          <transition-group name="slide" mode="out-in">
+          <transition-group name="slide"  mode="out-in">
             <div class="carousel-slide" v-show="currentSlide === 0" :key="0">
               <div class="row align-items-center">
                 <div class="col-lg-6">
