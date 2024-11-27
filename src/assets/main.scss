@@ -278,3 +278,11 @@ body {
     }
   }
 }
+
+.mobile-nav{
+  .logo{
+    @media(max-width: 768px){
+      top: 12px;
+    }
+  }
+}
