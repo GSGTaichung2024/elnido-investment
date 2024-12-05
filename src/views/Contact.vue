@@ -96,8 +96,8 @@ export default {
                         <div class="contact-item">
                             <div class="icon-contact text-center"><i class="fab fa-facebook-f"></i></div>
                             <h3>
-                                <a href="https://www.facebook.com/elnidogroup" target="_blank">
-                                    elnidogroup
+                                <a href="https://www.facebook.com/iloveelnido" target="_blank">
+                                    Facebook粉絲專頁
                                 </a>
                             </h3>
                         </div>
@@ -105,7 +105,11 @@ export default {
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-item">
                             <div class="icon-contact text-center"><i class="fab fa-line"></i></div>
-                            <h3>Line ID: @elnidogroup</h3>
+                            <h3>
+                                <a href="https://line.me/R/ti/p/@elnido888" target="_blank">
+                                    Line ID: @elnido888
+                                </a>
+                            </h3>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">

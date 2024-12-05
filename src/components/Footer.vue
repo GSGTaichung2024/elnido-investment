@@ -16,22 +16,17 @@
                                 <div class="footer-social">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/elnidoinvestment" target="_blank">
+                                            <a href="https://www.facebook.com/iloveelnido" target="_blank">
                                                 <i class="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/elnidoinvestment" target="_blank">
+                                            <a href="https://www.instagram.com/elnidogo520/" target="_blank">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/elnidoinvestment" target="_blank">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://line.me/elnidoinvestment" target="_blank">
+                                            <a href="https://line.me/R/ti/p/@elnido888" target="_blank">
                                                 <i class="fab fa-line"></i>
                                             </a>
                                         </li>
@@ -83,9 +78,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://line.me/elnidoinvestment" target="_blank">
+                                        <a href="https://line.me/R/ti/p/@elnido888" target="_blank">
                                             <i class="fab fa-line"></i>
-                                            @elnido-investment
+                                            @elnido888
                                         </a>
                                     </li>
                                 </ul>
