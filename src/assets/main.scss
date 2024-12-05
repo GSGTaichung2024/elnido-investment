@@ -286,3 +286,13 @@ body {
     }
   }
 }
+
+.csr-area{
+  .csr-content{
+    img{
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
