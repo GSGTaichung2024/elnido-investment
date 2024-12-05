@@ -1,6 +1,6 @@
 <script>
 import { useRouter, useRoute } from "vue-router";
-import { onMounted, ref } from "vue";
+import { onMounted, ref, onBeforeUnmount } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import WhatOnElNido from "@/components/WhatOnElNido.vue";
@@ -18,16 +18,33 @@ export default {
     const { t, locale } = useI18n();
     const currentSlide = ref(0);
     const totalSlides = 3;
+    let slideInterval;
 
     const setSlide = (index) => {
       if(index < 0){
-        currentSlide.value = 0
+        currentSlide.value = totalSlides - 1;
       }else if(index >= totalSlides){
-        currentSlide.value = totalSlides - 1
+        currentSlide.value = 0;
       }else{
-        currentSlide.value = Number(index)
+        currentSlide.value = Number(index);
       }
     };
+
+    const startSlideShow = () => {
+      slideInterval = setInterval(() => {
+        currentSlide.value = (currentSlide.value + 1) % totalSlides;
+      }, 5000);
+    };
+
+    onMounted(() => {
+      startSlideShow();
+    });
+
+    onBeforeUnmount(() => {
+      if(slideInterval) {
+        clearInterval(slideInterval);
+      }
+    });
 
     const { touchStart, touchMove, touchEnd } = useTouch((direction) => {
       // Swipe left moves to next slide
@@ -39,6 +56,9 @@ export default {
         currentSlide.value =
           (currentSlide.value - 1 + totalSlides) % totalSlides;
       }
+      // Reset interval after manual navigation
+      clearInterval(slideInterval);
+      startSlideShow();
     });
 
     return {
