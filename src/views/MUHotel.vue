@@ -57,7 +57,7 @@ export default {
       <div class="d-table-cell">
         <div class="container">
           <div class="inner-title text-center property-banner">
-            <h1>Mu Hotel</h1>
+            <h1>Mu Nacpan Beach</h1>
             <h5 class="my-2">愛妮島頂級海景度假投資標的</h5>
           </div>
         </div>

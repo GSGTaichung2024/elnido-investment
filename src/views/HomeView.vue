@@ -262,11 +262,11 @@ export default {
             <a href="/projects/m-hotel">
               <img
                 src="/assets/img/muhotel/1.jpg"
-                alt="Mu Hotel"
+                alt="Mu Nacpan Beach"
                 class="w-100"
               />
               <div class="p-4">
-                <h3 class="muhotel-text">Mu Hotel</h3>
+                <h3 class="muhotel-text">Mu Nacpan Beach</h3>
                 <p>
                   位於愛妮島頂級海景區，Mu
                   Hotel以精心設計面海視野，建築量體以水平展開方式規劃，並融入當地地形特色，創造獨特的建築美學。配備無邊際泳池、SPA中心等完整度假設施，由專業酒店管理團隊進駐營運。

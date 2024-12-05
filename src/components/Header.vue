@@ -59,7 +59,7 @@
                         'nav-link',
                         currentRouteName === 'MuHotel' ? 'active' : '',
                       ]"
-                      >MU Hotel</a
+                      >Mu Nacpan Beach</a
                     >
                 </li>
               </ul>
@@ -169,7 +169,7 @@
                         'nav-link',
                         currentRouteName === 'MuHotel' ? 'active' : '',
                       ]"
-                      >MU Hotel</a
+                      >Mu Nacpan Beach</a
                     >
                   </li>
                 </ul>
