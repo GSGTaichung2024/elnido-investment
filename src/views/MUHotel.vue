@@ -101,122 +101,45 @@ export default {
   </div>
 
   <!-- Facilities Section -->
-  <div class="facilities-area pt-100 pb-70 bg-white muhotel-text">
+  <div class="facilities-area pt-100 bg-white muhotel-text">
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>完整度假設施</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
           <div class="single-facility">
             <img src="/assets/img/muhotel/1.jpg" alt="無邊際泳池">
             <h5 class="my-2">無邊際泳池</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
           <div class="single-facility">
             <img src="/assets/img/muhotel/2.jpg" alt="SPA中心">
             <h5 class="my-2">SPA中心</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-4 col-sm-6">
           <div class="single-facility">
             <img src="/assets/img/muhotel/3.jpg" alt="特色餐廳">
             <h5 class="my-2">特色餐廳</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-facility">
-            <img src="/assets/img/muhotel/4.jpg" alt="多功能宴會廳">
-            <h5 class="my-2">多功能宴會廳</h5>
-          </div>
+
+        <div class="col-12 mt-5">
+          <p class="text-center">
+            本文件中所提供的內容及圖片僅供參考用途，所有信息及數據均基於當前掌握的資料進行整理和解釋，不具有法律約束力。最終內容以實際簽署的合約或官方文件為準，且開發商保留對內容進行修改、更新或調整的權利，恕不另行通知。我們不對因使用本文件內容而引起的任何直接或間接損失承擔責任。
+          </p>
         </div>
+
       </div>
     </div>
   </div>
 
-  <!-- Investment Benefits -->
-  <div class="benefits-area pt-100 pb-70 bg-light muhotel-text">
-    <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>投資優勢分析</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
-            <h3>區位優勢</h3>
-            <ul>
-              <li>位於愛妮島重要發展區域</li>
-              <li>鄰近主要景點及碼頭</li>
-              <li>便捷的交通網絡</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-chart-line fa-2x mb-3"></i>
-            <h3>專業管理</h3>
-            <ul>
-              <li>專業酒店管理團隊進駐</li>
-              <li>24小時禮賓服務</li>
-              <li>租賃管理一條龍服務</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="benefit-card">
-            <i class="fas fa-home fa-2x mb-3"></i>
-            <h3>市場前景</h3>
-            <ul>
-              <li>愛妮島旅遊業持續成長</li>
-              <li>國際旅客需求增加</li>
-              <li>資產增值空間可期</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Gallery Section -->
-  <div class="gallery-area pt-100 bg-white muhotel-text">
-    <div class="container">
-      <div class="section-title text-center mb-50">
-        <h2>建案實景展示</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="/assets/img/muhotel/5.jpg" alt="海景房示意圖">
-            <div class="gallery-content">
-              <h5 class="my-2">豪華海景房</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="/assets/img/muhotel/6.jpg" alt="公共設施">
-            <div class="gallery-content">
-              <h5 class="my-2">度假設施</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="gallery-item">
-            <img src="/assets/img/muhotel/7.jpg" alt="特色服務">
-            <div class="gallery-content">
-              <h5 class="my-2">特色服務</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
   <!-- Official Website Section -->
-  <div class="official-website-area ptb-100">
+  <div class="official-website-area py-5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-12">
