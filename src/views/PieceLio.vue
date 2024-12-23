@@ -16,24 +16,28 @@ export default {
 
     onMounted(() => {
       // FAQ accordion functionality
-      const accordionItems = document.querySelectorAll('.accordion-item');
-      
-      accordionItems.forEach(item => {
-        const title = item.querySelector('.accordion-title');
-        const content = item.querySelector('.accordion-content');
-        
-        title.addEventListener('click', () => {
+      const accordionItems = document.querySelectorAll(".accordion-item");
+
+      accordionItems.forEach((item) => {
+        const title = item.querySelector(".accordion-title");
+        const content = item.querySelector(".accordion-content");
+
+        title.addEventListener("click", () => {
           // Toggle active class on title
-          title.classList.toggle('active');
-          
+          title.classList.toggle("active");
+
           // Toggle show class on content
-          content.classList.toggle('show');
-          
+          content.classList.toggle("show");
+
           // Close other accordion items
-          accordionItems.forEach(otherItem => {
-            if(otherItem !== item) {
-              otherItem.querySelector('.accordion-title').classList.remove('active');
-              otherItem.querySelector('.accordion-content').classList.remove('show');
+          accordionItems.forEach((otherItem) => {
+            if (otherItem !== item) {
+              otherItem
+                .querySelector(".accordion-title")
+                .classList.remove("active");
+              otherItem
+                .querySelector(".accordion-content")
+                .classList.remove("show");
             }
           });
         });
@@ -52,7 +56,14 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp'); background-size: cover; background-position: center;">
+  <div
+    class="inner-banner bg-shape3"
+    style="
+      background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp');
+      background-size: cover;
+      background-position: center;
+    "
+  >
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
@@ -70,11 +81,16 @@ export default {
     <div class="container">
       <div class="section-title text-center mb-50">
         <h2>關於我們</h2>
-        <p>Piece Lio是愛妮島H Hotel Group與日本知名品牌Piece的卓越合作成果。作為愛妮島發展最快的酒店集團，H Hotel Group擁有包括納克潘Nacpan Beach Glamping和H Hotel在內的多個知名項目。在H Hospitality Group的專業管理下，我們致力於為每位賓客打造難忘的住宿體驗。</p>
+        <p>
+          Piece Lio是愛妮島H Hotel
+          Group與日本知名品牌Piece的卓越合作成果。作為愛妮島發展最快的酒店集團，H
+          Hotel Group擁有包括納克潘Nacpan Beach Glamping和H
+          Hotel在內的多個知名項目。在H Hospitality
+          Group的專業管理下，我們致力於為每位賓客打造難忘的住宿體驗。
+        </p>
       </div>
     </div>
   </div>
-
 
   <!-- Full Width Image -->
   <div class="full-width-image">
@@ -95,28 +111,48 @@ export default {
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="team-card text-center">
-            <img src="/assets/img/piecelio/h-logo.svg" alt="H Hotel Group" class="mb-3" style="width: 100px; height: 100px">
+            <img
+              src="/assets/img/piecelio/h-logo.svg"
+              alt="H Hotel Group"
+              class="mb-3"
+              style="width: 100px; height: 100px"
+            />
             <h4>開發商：H Hotel Group</h4>
             <p>作為愛妮島最大的私營旅遊地產集團，以卓越的酒店願景引領發展</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="team-card text-center">
-            <img src="/assets/img/piecelio/logo-piece.svg" alt="Piece" class="mb-3" style="width: 100px; height: 100px">
+            <img
+              src="/assets/img/piecelio/logo-piece.svg"
+              alt="Piece"
+              class="mb-3"
+              style="width: 100px; height: 100px"
+            />
             <h4>設計師/品牌持有者：PIECE</h4>
             <p>以創意設計和打造獨特本地體驗聞名，為酒店注入獨特風格</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="team-card text-center">
-            <img src="/assets/img/piecelio/eudo.jpg" alt="EUDO" class="mb-3" style="width: 100px; height: 100px">
+            <img
+              src="/assets/img/piecelio/eudo.jpg"
+              alt="EUDO"
+              class="mb-3"
+              style="width: 100px; height: 100px"
+            />
             <h4>建築師：EUDO</h4>
             <p>專注於環保建築理念，確保酒店既美觀又永續</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="team-card text-center">
-            <img src="/assets/img/piecelio/about-hhg.webp" alt="H Hospitality Group" class="mb-3" style="width: 100px; height: 100px">
+            <img
+              src="/assets/img/piecelio/about-hhg.webp"
+              alt="H Hospitality Group"
+              class="mb-3"
+              style="width: 100px; height: 100px"
+            />
             <h4>管理公司：H Hospitality Group</h4>
             <p>愛妮島領先的管理公司，在過去七年旅遊業700%增長中發揮關鍵作用</p>
           </div>
@@ -135,16 +171,28 @@ export default {
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="room-card">
-            <img src="/assets/img/piecelio/room/presidential-loft/01.webp" alt="總統閣樓" class="w-100" style="height: 250px; object-fit: cover;">
+            <img
+              src="/assets/img/piecelio/room/presidential-loft/01.webp"
+              alt="總統閣樓"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
             <div class="room-content">
               <h5 class="my-2">總統閣樓</h5>
-              <p>體驗極致奢華，配備寬敞客廳、獨立閣樓臥室、現代化浴室，設有步入式淋浴和高級衛浴用品。配備爐灶、冰箱等完整廚房設施。</p>
+              <p>
+                體驗極致奢華，配備寬敞客廳、獨立閣樓臥室、現代化浴室，設有步入式淋浴和高級衛浴用品。配備爐灶、冰箱等完整廚房設施。
+              </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="room-card">
-            <img src="/assets/img/piecelio/room/executive-studio/cover.webp" alt="行政套房" class="w-100" style="height: 250px; object-fit: cover;">
+            <img
+              src="/assets/img/piecelio/room/executive-studio/cover.webp"
+              alt="行政套房"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
             <div class="room-content">
               <h5 class="my-2">行政套房</h5>
               <p>寬敞舒適的套房空間，提供完善的現代化設施</p>
@@ -153,7 +201,12 @@ export default {
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="room-card">
-            <img src="/assets/img/piecelio/room/premier-studio/cover.webp" alt="尊貴套房" class="w-100" style="height: 250px; object-fit: cover;">
+            <img
+              src="/assets/img/piecelio/room/premier-studio/cover.webp"
+              alt="尊貴套房"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
             <div class="room-content">
               <h5 class="my-2">尊貴套房</h5>
               <p>精心設計的套房，帶來舒適愜意的住宿體驗</p>
@@ -164,6 +217,34 @@ export default {
     </div>
   </div>
 
+  <!-- ROI Section -->
+  <div class="rooms-area pt-100 bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="room-card">
+            <img
+              src="/assets/img/roi_formula.webp"
+              alt="ROI_formula"
+              class="w-100"
+              style="height: 300px; object-fit: cover"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="room-card">
+            <div class="room-content">
+              <h5 style="margin-top: 100px;">報酬率計算</h5>
+              <p style="color: gray; margin-top: 20px">
+                專為高資產客戶打造，現已成屋，投資回報率達8-12%，立即入主尊享海景奢華生活。<br />
+                NT$12,000,000台幣起
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Official Website Section -->
   <div class="official-website-area ptb-100">
@@ -173,7 +254,11 @@ export default {
           <div class="website-card text-center box-shadow p-5 my-2">
             <h3 class="mb-4">訪問 Piecelio 官方網站</h3>
             <p class="mb-4">探索更多關於我們的建案特色、設施配備等詳細資訊</p>
-            <a href="https://piecelio.com" target="_blank" class="btn btn-primary btn-lg">
+            <a
+              href="https://piecelio.com"
+              target="_blank"
+              class="btn btn-primary btn-lg"
+            >
               前往官方網站
             </a>
           </div>
@@ -183,7 +268,12 @@ export default {
           <div class="website-card text-center box-shadow p-5 my-2">
             <h3 class="mb-4">詢問專人</h3>
             <p class="mb-4">了解更多物件、法規、投報率等詳細資訊</p>
-            <a href="https://line.me/R/ti/p/@elnido888" target="_blank" class="btn btn-primary btn-lg"  style="background-color: #4cc764; border: none;" >
+            <a
+              href="https://line.me/R/ti/p/@elnido888"
+              target="_blank"
+              class="btn btn-primary btn-lg"
+              style="background-color: #4cc764; border: none"
+            >
               Line專人詢問
             </a>
           </div>
@@ -191,7 +281,6 @@ export default {
       </div>
     </div>
   </div>
-
 
   <Footer />
 </template>
