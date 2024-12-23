@@ -97,6 +97,14 @@ export default {
                     class="banner-btn1 border-radius"
                     >探索愛妮島的無限可能</a
                   >
+
+                  <a
+                    href="https://line.me/R/ti/p/@elnido888"
+                    target="_blank"
+                    class="banner-btn1 border-radius"
+                    style="background-color: #4cc764; margin: 0 10px;"
+                    >Line專人詢問</a
+                  >
                 </div>
               </div>
             </div>
