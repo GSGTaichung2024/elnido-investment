@@ -257,13 +257,42 @@ export default {
             />
             <h3>觀光業蓬勃發展</h3>
             <p>
-              愛妮島每年吸引超過百萬遊客到訪，旅遊業持續成長，為投資者帶來穩定收益。
+              愛妮島的遊客人數一直穩步增長，觀光人數7年成長700%，從2014年6.39萬人躍升至2024年預計60萬人
             </p>
           </div>
         </div>
 
 
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item box-shadow">
+            <img
+              src="/assets/img/tourist-destination.png"
+              alt="Tourism"
+              class="w-100 mb-4"
+              style="height: 250px; object-fit: cover"
+            />
+            <h3>市場潛力無限</h3>
+            <p>
+              在4小時飛行距離內，約有6億潛在旅客，目前僅有207家酒店、3100間房間，發展淺力巨大。
+            </p>
+          </div>
+        </div>
 
+
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item box-shadow">
+            <img
+              src="/assets/img/international-destination.png"
+              alt="Tourism"
+              class="w-100 mb-4"
+              style="height: 250px; object-fit: cover"
+            />
+            <h3>國際級旅遊目的地</h3>
+            <p>
+              愛妮島以294,065名遊客到訪量排名第一，Nacpan海灘躋身全球20大最美海灘之列，被譽為「亞洲馬爾地夫」。
+            </p>
+          </div>
+        </div>
 
       </div>
     </div>
