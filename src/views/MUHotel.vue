@@ -146,14 +146,14 @@ export default {
               src="/assets/img/roi_formula.webp"
               alt="ROI_formula"
               class="w-100"
-              style="height: 300px; object-fit: cover"
+              style="height: 150px; object-fit: contain;"
             />
           </div>
         </div>
         <div class="col-12 col-md-6">
           <div class="room-card">
             <div class="room-content">
-              <h5 style="margin-top: 100px;">報酬率計算</h5>
+              <h5 style="margin-top: 30px;">報酬率計算</h5>
               <p style="color: gray; margin-top: 10px;">
                   預售中，僅需85萬台幣頭期款即可入主，預計回報7-9%，適合想擁有海景第一排地產的你。<br/>
                   NT$8,500,000起

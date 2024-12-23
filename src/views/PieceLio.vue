@@ -227,14 +227,14 @@ export default {
               src="/assets/img/roi_formula.webp"
               alt="ROI_formula"
               class="w-100"
-              style="height: 300px; object-fit: cover"
+              style="height: 150px; object-fit: contain;"
             />
           </div>
         </div>
         <div class="col-12 col-md-6">
           <div class="room-card">
             <div class="room-content">
-              <h5 style="margin-top: 100px;">報酬率計算</h5>
+              <h5 style="margin-top: 30px;">報酬率計算</h5>
               <p style="color: gray; margin-top: 20px">
                 專為高資產客戶打造，現已成屋，投資回報率達8-12%，立即入主尊享海景奢華生活。<br />
                 NT$12,000,000台幣起
