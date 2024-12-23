@@ -33,7 +33,8 @@ export default {
     style="
       background-image: url('/assets/img/whyelnido_banner.webp');
       background-size: cover;
-      background-position: center;
+      background-repeat: no-repeat;
+      background-position: center center;
     "
   >
     <div class="d-table">
@@ -42,6 +43,18 @@ export default {
           <div class="inner-title text-center property-banner">
             <h1 class="text-white">為什麼選擇愛妮島？</h1>
             <h5 class="text-white">亞洲新興度假天堂的投資機會</h5>
+            <small
+              class="text-white"
+              style="
+                opacity: 0.9;
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                text-align: center;
+                width: 100%;
+              "
+              >H Hotel 集團旗下 H Hotel 實景拍攝</small
+            >
           </div>
         </div>
       </div>
@@ -90,7 +103,8 @@ export default {
           <div class="common-dtel-text">
             <h2>市場潛力無限</h2>
             <p>
-              Palawan = Maldives of Asia，在4小時飛行距離內，約有6億潛在旅客，目前僅有207家酒店、3100間房間，相較普吉島(3000+酒店)和峇里島(13000+酒店)發展空間巨大。每位旅客平均停留2-4天，消費達17,000披索。
+              Palawan = Maldives of
+              Asia，在4小時飛行距離內，約有6億潛在旅客，目前僅有207家酒店、3100間房間，相較普吉島(3000+酒店)和峇里島(13000+酒店)發展空間巨大。每位旅客平均停留2-4天，消費達17,000披索。
             </p>
             <ul>
               <li>
