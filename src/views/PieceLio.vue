@@ -169,12 +169,22 @@ export default {
   <div class="official-website-area ptb-100">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="website-card text-center box-shadow p-5">
+        <div class="col-lg-6 col-12">
+          <div class="website-card text-center box-shadow p-5 my-2">
             <h3 class="mb-4">訪問 Piecelio 官方網站</h3>
             <p class="mb-4">探索更多關於我們的建案特色、設施配備等詳細資訊</p>
             <a href="https://piecelio.com" target="_blank" class="btn btn-primary btn-lg">
               前往官方網站
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <div class="website-card text-center box-shadow p-5 my-2">
+            <h3 class="mb-4">詢問專人</h3>
+            <p class="mb-4">了解更多物件、法規、投報率等詳細資訊</p>
+            <a href="https://line.me/R/ti/p/@elnido888" target="_blank" class="btn btn-primary btn-lg"  style="background-color: #4cc764; border: none;" >
+              Line專人詢問
             </a>
           </div>
         </div>
