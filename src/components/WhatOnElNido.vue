@@ -139,6 +139,12 @@
                 src="/assets/img/bussiness-weekly-1920/6.webp"
                 />
               </figure>
+              <figure class="image">
+                <img
+                class="w-100"
+                src="/assets/img/bussiness-weekly-1920/7.webp"
+                />
+              </figure>
             </div>
           </div>
         </div>
