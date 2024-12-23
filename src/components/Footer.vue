@@ -12,26 +12,7 @@
                                         我們致力於在愛妮島打造永續發展的優質住宿體驗，結合自然環境與現代設計，為您提供最佳的投資與度假選擇。
                                     </p>
                                 </div>
-    
-                                <div class="footer-social">
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/iloveelnido" target="_blank">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/elnidogo520/" target="_blank">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://line.me/R/ti/p/@elnido888" target="_blank">
-                                                <i class="fab fa-line"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+
     
                             </div>
                         </div>
@@ -70,12 +51,6 @@
                                     <li>
                                         <i class="fas fa-map-marker-alt"></i>
                                         菲律賓愛妮島
-                                    </li>
-                                    <li>
-                                        <a href="mailto:contact@elnido-investment.com">
-                                            <i class="far fa-envelope"></i>
-                                            contact@elnido-investment.com
-                                        </a>
                                     </li>
                                     <li>
                                         <a href="https://line.me/R/ti/p/@elnido888" target="_blank">

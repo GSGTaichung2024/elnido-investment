@@ -17,7 +17,7 @@ export default {
     const router = useRouter();
     const { t, locale } = useI18n();
     const currentSlide = ref(0);
-    const totalSlides = 3;
+    const totalSlides = 4;
     let slideInterval;
 
     const setSlide = (index) => {
@@ -155,7 +155,7 @@ export default {
                 </div>
                 <div class="col-lg-6">
                   <div class="about-content">
-                    <h2 class="mb-4">豐富的海洋生態</h2>
+                    <h2 class="mb-4">優質自然資源</h2>
                     <p class="lead">
                       探索繽紛的珊瑚礁和海洋生物，體驗大自然的奧妙。
                     </p>
@@ -181,12 +181,30 @@ export default {
                 </div>
               </div>
             </div>
+
+            <div class="carousel-slide" v-show="currentSlide === 3" :key="3">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <img
+                    src="/assets/img/home-infra.jpeg"
+                    alt="Sunset View"
+                    class="w-100 rounded shadow"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="about-content">
+                    <h2 class="mb-4">完善基礎設施</h2>
+                    <p class="lead">政府持續投入基礎建設，包括機場擴建、道路優化等，大幅提升島嶼可及性。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </transition-group>
         </div>
 
         <div class="carousel-dots">
           <span
-            v-for="n in 3"
+            v-for="n in 4"
             :key="n"
             :class="['dot', { active: currentSlide === n - 1 }]"
             @click="setSlide(n - 1)"
@@ -244,35 +262,9 @@ export default {
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item box-shadow">
-            <img
-              src="/assets/img/home-nature.jpeg"
-              alt="Nature"
-              class="w-100 mb-4"
-              style="height: 250px; object-fit: cover"
-            />
-            <h3>優質自然資源</h3>
-            <p>
-              擁有原始海灘、珊瑚礁和熱帶雨林等豐富自然資源，適合發展生態旅遊。
-            </p>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item box-shadow">
-            <img
-              src="/assets/img/home-infra.jpeg"
-              alt="Infrastructure"
-              class="w-100 mb-4"
-              style="height: 250px; object-fit: cover"
-            />
-            <h3>完善基礎設施</h3>
-            <p>
-              政府持續投入基礎建設，包括機場擴建、道路優化等，大幅提升島嶼可及性。
-            </p>
-          </div>
-        </div>
+
+
       </div>
     </div>
   </section>

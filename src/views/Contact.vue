@@ -92,16 +92,7 @@ export default {
                             <h3>Palawan, El Nido, Philippines</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="contact-item">
-                            <div class="icon-contact text-center"><i class="fab fa-facebook-f"></i></div>
-                            <h3>
-                                <a href="https://www.facebook.com/iloveelnido" target="_blank">
-                                    Facebook粉絲專頁
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
+
                     <div class="col-lg-4 col-md-6">
                         <div class="contact-item">
                             <div class="icon-contact text-center"><i class="fab fa-line"></i></div>
@@ -112,16 +103,7 @@ export default {
                             </h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="contact-item text-center">
-                            <div class="icon-contact"><i class="flaticon-telephone"></i></div>
-                            <h3>
-                                <a href="tel:+886912345678">
-                                    +886 912-345-678
-                                </a>
-                            </h3>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
