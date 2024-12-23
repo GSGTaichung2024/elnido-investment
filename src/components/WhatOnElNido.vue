@@ -35,9 +35,10 @@
 
         <div class="col-lg-4 mb-4">
           <div class="news-item box-shadow">
-            <a
-              href="https://www.businessweekly.com.tw/Archive/Article?StrId=7011263"
-              target="_blank"
+            <div
+              style="cursor: pointer"
+              data-bs-toggle="modal"
+              data-bs-target="#businessWeekly1930Modal"
             >
               <img
                 src="/assets/img/home_news2.jpg"
@@ -50,7 +51,7 @@
                   菲律賓愛妮島從未開發的原始島嶼變觀光勝地，背後推手竟是一群台灣人。許明順租土地、修繕道路，攜手日本PIECE集團蓋飯店，引進多元商業設施，打造全新旅遊體驗...
                 </p>
               </div>
-            </a>
+            </div>
           </div>
         </div>
 
@@ -143,6 +144,52 @@
                 <img
                 class="w-100"
                 src="/assets/img/bussiness-weekly-1920/7.webp"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade whaton-modal"
+      id="businessWeekly1930Modal"
+      tabindex="-1"
+      aria-labelledby="businessWeekly1930ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="businessWeekly1930ModalLabel">
+              划獨木舟訪大潟湖、秘境浮潛 直擊愛妮島上的台灣幫
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <figure class="image">
+                <img
+                  class="w-100"
+                  src="/assets/img/bussiness-weekly-1930/1.webp"
+                />
+              </figure>
+              <figure class="image">
+                <img
+                class="w-100"
+                src="/assets/img/bussiness-weekly-1930/2.webp"
+                />
+              </figure>
+              <figure class="image">
+                <img
+                class="w-100"
+                src="/assets/img/bussiness-weekly-1930/3.webp"
                 />
               </figure>
             </div>
