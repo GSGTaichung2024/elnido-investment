@@ -297,7 +297,11 @@ export default {
         newPath = currentPath.replace(/^\/[^\/]+/, `/${lang}`);
       }
 
-      window.location.href = newPath;
+      if (window.location.hostname === "localhost") {
+        window.location.href = newPath;
+      } else {
+        window.location.href = `https://elnido888.com${newPath}`;
+      }
     };
 
     const setLocale = (lang) => {
@@ -327,7 +331,11 @@ export default {
         newPath = currentPath.replace(/^\/[^\/]+/, `/${lang}`);
       }
 
-      window.location.href = newPath;
+      if (window.location.hostname === "localhost") {
+        window.location.href = newPath;
+      } else {
+        window.location.href = `https://elnido888.com${newPath}`;
+      }
     };
 
     onMounted(() => {
