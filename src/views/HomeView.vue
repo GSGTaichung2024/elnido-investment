@@ -308,7 +308,7 @@ export default {
       <div class="row">
         <div class="col-lg-6 mb-4">
           <div class="property-item box-shadow">
-            <a href="/projects/m-hotel">
+            <a href="/projects/mu-hotel">
               <img
                 src="/assets/img/muhotel/1.jpg"
                 alt="Mu Nacpan Beach"
