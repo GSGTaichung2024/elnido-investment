@@ -59,7 +59,7 @@ export default {
   <div
     class="inner-banner bg-shape3"
     style="
-      background-image: url('/assets/img/piecelio/piece_lio_exterior/04.webp');
+      background-image: url('/assets/img/piecelio/banner.webp');
       background-size: cover;
       background-position: center;
     "

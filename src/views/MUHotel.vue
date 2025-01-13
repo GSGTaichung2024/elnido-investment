@@ -52,7 +52,7 @@ export default {
   <Header />
 
   <!-- Inner Banner -->
-  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/muhotel/1.jpg'); background-size: cover; background-position: center;">
+  <div class="inner-banner bg-shape3" style="background-image: url('/assets/img/muhotel/banner.jpg'); background-size: cover; background-position: center;">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
