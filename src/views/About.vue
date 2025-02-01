@@ -80,8 +80,7 @@ export default {
             </p>
 
             <p>
-              作為H Group
-              Properties的創辦人兼CEO，Henry深知可持續發展的重要性。他不僅關注商業發展，更致力於環境保護和社區發展。在納克潘Nacpan海灘，集團建立了海龜保育計劃，為瀕危物種提供安全的棲息地。
+              作為H Group Properties 和 H Hospitality Group 的創辦人兼CEO，Henry深知可持續發展的重要性。他不僅關注商業發展，更致力於環境保護和社區發展。在納克潘Nacpan海灘，集團建立了海龜保育計劃，為瀕危物種提供安全的棲息地。
             </p>
 
             <p>
